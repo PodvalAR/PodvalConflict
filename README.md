@@ -9,6 +9,7 @@
 
 ------------------------------
 LICENSE AGREEMENT
+
 This project and all associated materials (including source code, models, textures, and configuration files) are developed and distributed as part of the PODVAL Arma project.
 
    1. Ownership: All intellectual property rights related to this software (mod) belong exclusively to the PODVAL Arma project as a collective entity, and not to any specific individuals involved in its development.
