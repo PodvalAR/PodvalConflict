@@ -9,11 +9,12 @@ Vehicle : "{863A65C2E3330F2F}Prefabs/Vehicles/Wheeled/K4386/K4386_Base.et" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#RHS-Vehicle_K4386_Name"
     m_Image "{44B730D4F1D844E3}UI/Textures/EditorPreviews/Vehicles/K4386/K4386_Armed.edds"
+    m_sFaction "USSR"
     m_aAuthoredLabels {
      ENTITYTYPE_VEHICLE TRAIT_ARMOR TRAIT_ARMED TRAIT_PASSENGERS_SMALL TRAIT_SUPPLYSTORAGE_SMALL VEHICLE_APC
     }
-    m_aAutoLabels + {
-     VEHICLE_CAR
+    m_aAutoLabels {
+     FACTION_USSR SIZE_M VEHICLE_CAR
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {

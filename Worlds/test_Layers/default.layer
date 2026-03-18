@@ -2126,6 +2126,9 @@ $grp GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSma
   }
  }
 }
+Vehicle M1083_Transport_Armed_ZU1 : "{098E0FE6D1B3F120}Prefabs/Vehicles/Wheeled/M1083/Armed/M1083_Transport_Armed_ZU23.et" {
+ coords 4777.076 27.845 11266.54
+}
 GenericEntity : "{0A36F69A7D518F10}Prefabs/Compositions/Locations/Eden/Base_MilitaryHospital_FIA_01.et" {
  coords 3901.866 15.249 8450.659
  {
