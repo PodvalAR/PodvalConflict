@@ -1,0 +1,29 @@
+BasePreloadManager {
+ ID "68E33847E6FBF938"
+ PrefabsToPreload {
+  PreloadEntry "{68E33847E6FBF935}" {
+   Prefab "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Player.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E33847E6FBF903}" {
+   Prefab "{CE1279E1DDBD38D5}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_AFRF_Player.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E33847E6FBF901}" {
+   Prefab "{BE7CA93E188A5B58}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Base.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E33847E6FBF900}" {
+   Prefab "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E33847E6FBF907}" {
+   Prefab "{07B92B5E1A781635}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Player_Variant_1.et"
+   FullyPreload 1
+  }
+  PreloadEntry "{68E33847E6E46054}" {
+   Prefab "{4CD2733BB988FB9C}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_AFRF_Player_1.et"
+   FullyPreload 1
+  }
+ }
+}

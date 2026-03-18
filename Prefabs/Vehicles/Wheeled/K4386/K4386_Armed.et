@@ -1,0 +1,100 @@
+Vehicle : "{863A65C2E3330F2F}Prefabs/Vehicles/Wheeled/K4386/K4386_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 15500
+   CenterOfMass 0 1.4 0.15
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#RHS-Vehicle_K4386_Name"
+    m_Image "{44B730D4F1D844E3}UI/Textures/EditorPreviews/Vehicles/K4386/K4386_Armed.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE TRAIT_ARMOR TRAIT_ARMED TRAIT_PASSENGERS_SMALL TRAIT_SUPPLYSTORAGE_SMALL VEHICLE_APC
+    }
+    m_aAutoLabels + {
+     VEHICLE_CAR
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2500
+     }
+     SCR_EntityBudgetValue "{650E8E062E777269}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+   }
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584C42C773FDFBF}" {
+      m_sWreckModel "{A7A718F87352EAE0}Assets/Vehicles/Wheeled/K4386/wreck_turret.xob"
+     }
+    }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Axles {
+     Axle "{4D8B26DF957A8E1C}" {
+      Suspension Suspension "{4D8B26DFF8859A7B}" {
+       SpringRate 215
+      }
+     }
+     Axle "{4D8B26DF8CF2F3D8}" {
+      Suspension Suspension "{4D8B26DF2B10AE05}" {
+       SpringRate 215
+      }
+     }
+    }
+    InertiaOverride 50000 61000 39000
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Enabled 1
+     Prefab "{C92225DD023B0878}Prefabs/Vehicles/Wheeled/K4386/VehParts/Turret_K4386.et"
+    }
+    RegisteringComponentSlotInfo Seats {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_03 {
+     Offset 0.2087 1.3123 0.0491
+    }
+    EntitySlotInfo SupplyStorage_04 {
+     Offset 0.1995 1.5102 0.0679
+     Angles 0 172.65363 0
+    }
+    EntitySlotInfo SupplyStorage_07 {
+     Offset 0.231 1.7099 0.0767
+    }
+    RHS_ScreenEntitySlotInfo GunnerScreen {
+     Offset -0.3258 1.9683 -0.2407
+     Angles -8.5097 70.87953 2.9367
+     Prefab "{7BECA369830CF8BD}Prefabs/Vehicles/Wheeled/K4386/VehParts/RHS_GunnerDisplay_K4386.et"
+     RegisterActions 1
+     RegisterControllers 1
+     RegisterCompartments 1
+     m_iCustomCameraId -1
+    }
+    EntitySlotInfo SupplyStorage_16 {
+     PivotID "v_root"
+     Offset 0.5239 1.1507 -0.5203
+     Angles 0 0 -45.5703
+     MergePhysics 1
+     Prefab "{5BFC630B262321ED}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/AmmoCrate_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_17 {
+     PivotID "v_root"
+     Offset 0.2953 1.166 -0.5225
+     Angles 4.3032 4.2302 -38.9458
+     MergePhysics 1
+     Prefab "{5BFC630B262321ED}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/AmmoCrate_Vehicle.et"
+    }
+   }
+  }
+ }
+}

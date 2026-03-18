@@ -15,19 +15,965 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
  }
  coords 4772.179 26.323 10658.781
 }
-RadioManagerEntity {
- coords 2884.968 91.924 6293.253
-}
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 4926.701 34.279 10717.344
 }
+SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
+ coords 8119.114 222.238 4141.895
+ Factions {
+  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{2AB920A35862BBB7}Configs/Factions/US_Campaign_Original.conf" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{6116BA741CF3C099}" {
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{68E33847F7DEF8D3}" {
+         m_fSpawnSupplyCost 20
+        }
+       }
+      }
+      SCR_EntityCatalogEntry "{5C54C23BDBF9A97E}" {
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{68E33847F7DEF8CD}" {
+        }
+       }
+      }
+      SCR_EntityCatalogEntry "{62BEF704856C6514}" {
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{68E33847F7DEF8CF}" {
+        }
+       }
+      }
+      SCR_EntityCatalogEntry "{5C54C23BDB8243F5}" {
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{62FAF96F9F0F81BD}" {
+        }
+       }
+      }
+     }
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{6056BD5F6A436153}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5DF69575F4160EE2}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{608AAACB83789355}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{6126B736D8B9B3DA}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{6126B736DD4A77DF}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{6126B502B0D5DAAC}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{6126B736DC04AF30}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogLoadoutData "{6126B502A1DAABD4}" {
+           m_fSpawnSupplyCost 20
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{5C9E82F29B327997}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{60569780DE4EE17A}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5D23482664F150D9}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10DE50FA41}" {
+           m_eValidEditorModes EDIT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{68E33847F7DEF8BE}" {
+         m_sEntityPrefab "{9CB496688A3BCC3E}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyWest.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{68E33847F7DEF8BF}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{68E33847F7DEF8B9}" {
+           m_eSlotTypes VEHICLE_MEDIUM
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AA6FA1B8}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D8EBC8251B}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D848E8A152}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8E8E0BB47}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D8715AC76A}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D816ADEECB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D87BE255BC}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D813556BD9}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D8641686D9}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615C8771AF5329F3}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{615C87719BA90BE5}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615C877191E9B5F0}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{615C8771FC1C6053}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615C8771926ED950}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{615C8771E9B1CE4F}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F15317B6FD3C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F15350F0068E}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F1530A6419E6}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F150BBDC5D4F}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F1530C9356E4}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F150AD980E9F}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F1530D8D9237}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F15088AC49EB}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F1530EC09F1C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F150F8E3D90E}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB8994A0996F564}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB8994A7347CD36}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81EA1A633}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DF96C89A81}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81D0E5581}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DF94CA2FF2}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB899478684136C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB899468928129D}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB89946F93DA322}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89946D3E242B5}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB89946C0314ED7}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89946CC23827A}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61A481A39AC9DB21}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61A481A3F000EB14}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5CA0A9E60B892D2A}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5CA0A9E6C9E91F72}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CA0A9E6C9E91F70}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{658A8B1DB31EA629}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{658A8B1DB31EBEE4}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CB540804A3CAB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CBA01E6EA6FBB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CBA01F3FE2E11}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CBA01F48CDB31}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59F0753ABE}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D8CABBF612}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D804202944}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{61B2A3760BDE41B0}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{61B2A3760ED65DBC}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61B2A3763291B06B}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61B4AA57E8494190}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61B2A3763291B06B}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61B4AA57ECD4520A}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61B2A3763291B06B}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61E4E8132A458548}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61E4EA2385634B26}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61E4E813294F6C60}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61E4EA238B1F4658}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62E49625AC9D0374}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62E49625BA68F5B5}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62E49626B37E44CB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62E49625BA68F5B5}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{6556A2FE10697152}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{6556A2FFC2BC7500}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61ECC6DC8DB987BC}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6556A2FFDA3E53E5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6556A2FFDA3E5050}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6556A2FFC51E2722}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6556A2FFC51E27EA}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6556A2FFC438824C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6556A2FFC43882D0}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6556A2FFD34470D2}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6556A2FFD34470B0}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6556B93806ADFA5D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6556B93806ADFA2E}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+   m_sFactionBackground "{F8AC305446D5D480}UI/Textures/DeployMenu/Loadout-BG/Loadout_US_BG.imageset"
+  }
+  SCR_CampaignFaction "{68E338463D7DD9C8}" {
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" : "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf" {
+   m_bIsPlayable 1
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EABE8B7B2A}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{5C54C23B813AAF3E}" {
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{68E33847F7DEF8A0}" {
+         m_fSpawnSupplyCost 22
+        }
+       }
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{5C68C44CB0CFC935}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{68E33847F7DEF88C}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{68E33847F7DEF88D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{68E33847F7DEF88E}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{68E33847F7DEF88F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{68E33847F7DEF888}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{68E33847F7DEF88A}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{68E33847F7DE94DD}" {
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+   m_sFactionBackground "{81BF3B1DCC106577}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_FIA.imageset"
+  }
+  SCR_Faction "{60DCF47AEF40BD72}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
+  }
+ }
+}
 SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  components {
+  SCR_AdditionalGameModeSettingsComponent "{6170E11C3C452ACC}" {
+   m_bAdditionalArtilleryOrderDistancePenalty 1
+  }
+  SCR_AnalyticsDataCollectionComponent "{64E885ED3C18A3B9}" {
+   m_aModules {
+    SCR_AnalyticsDataCollectionAiGroupCostModule "{64E885ED446CA22B}" {
+    }
+    SCR_AnalyticsDataCollectionCompositionCostModule "{64E885ED430CD9C7}" {
+    }
+    SCR_AnalyticsDataCollectionLoadoutCostModule "{64E885ED41F44D3B}" {
+    }
+    SCR_AnalyticsDataCollectionVehicleCostModule "{64E885ED40337702}" {
+    }
+    SCR_AnalyticsDataCollectionMilitaryBaseEventsModule "{64E885ED5AFAFE23}" {
+    }
+    SCR_AnalyticsDataCollectionPlayerGroupsModule "{64E885ED595ABD01}" {
+    }
+    SCR_AnalyticsDataCollectionPlayerKicksModule "{64E885ED57657A5F}" {
+    }
+    SCR_AnalyticsDataCollectionVoNDataModule "{64E885ED5091BD42}" {
+    }
+    SCR_AnalyticsDataCollectionXPEventsModule "{64E885ED6F476030}" {
+    }
+    SCR_AnalyticsDataCollectionPlayerFactionModule "{652EAC95B873EBD2}" {
+    }
+    SCR_AnalyticsDataCollectionTimeAndWeatherModule "{654C5C43E14BEC32}" {
+    }
+    SCR_AnalyticsDataCollectionTransferSuppliesModule "{664B107531E4D574}" {
+    }
+   }
+  }
+  SCR_ArsenalManagerComponent "{6120A34EB1E9BBEF}" {
+   m_sLoadoutSaveBlackListHolder "{32921D218FA8D5E7}Configs/Arsenal/ArsenalLoadoutSaveBlacklistsOGConflict.conf"
+   m_fLoadoutSpawnSupplyCostMultiplier 1
+   m_eArsenalGameModeType CAMPAIGN
+   m_bRankLockedItems 1
+   m_sMilitarySupplyAllocationConfigHolder "{BA6B6E7E2ED427D6}Configs/Campaign/CampaignMilitarySupplyAllocationConfig.conf"
+   m_fRefundDifferentFactionItemMultiplier 0.4
+  }
+  SCR_CampaignBuildingManagerComponent "{5C6878C4C62529D2}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_iXpRewardTreshold 5
+   m_iInitialRewardInterval 5
+   m_fRewardCurveIncrement 0.2
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5D7A73031D9A11E1}" : "{96A8B496A076F1C0}scripts/Game/Building/CampaignBuildingCompositionOutline.conf" {
+    m_aCompositionLayouts {
+     SCR_CampaignBuildingCompositionOutline "{5D34D094366A7550}" {
+      m_sEditableEntity "{18BEFC9A7FA72CD8}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_BarbedTapeKnifeRest_S_US_01.et"
+      m_sCompositionLayout "{9721D32C8E5CDE9C}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_BarbedTapeKnifeRest.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72F0270133FB37}" {
+      m_sEditableEntity "{54523DB76981D7E0}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CzechHedgehog_S_01_painted.et"
+      m_sCompositionLayout "{8E0A17590AA58A72}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CzechHedgehog.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E5F0CB45E2A23A7}" {
+      m_sEditableEntity "{F3208517509E0B9B}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_Dragonsteeth_S_US_01.et"
+      m_sCompositionLayout "{8E0A17590AA58A72}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CzechHedgehog.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72F02746156600}" {
+      m_sEditableEntity "{DA1772BDB575BB5A}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagRoundBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{A407FE596AB356EE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_01_Round.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D34D092A3936AEF}" {
+      m_sEditableEntity "{9E4FAFB289C2EA68}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagRoundHighBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{A407FE596AB356EE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_01_Round.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D62992D16358CB8}" {
+      m_sEditableEntity "{977FF11A13375BEB}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagLongBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{1EC6725681D75742}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Long.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D66BBDB8EC3B5AB}" {
+      m_sEditableEntity "{93C99155F356A38A}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagLongHighBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{1EC6725681D75742}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Long.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D6C8153F1E8DE35}" {
+      m_sEditableEntity "{BBA9E7B2D06B7E3E}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallSolidBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{F470194B53F2A4F2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Solid.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D6C90E24B82ACDA}" {
+      m_sEditableEntity "{AACF7C732B82F6B2}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{F470194B53F2A4F2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Solid.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70BA35862CBAFA}" {
+      m_sEditableEntity "{1C551075D2A439D8}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetSmall_S_USSR_01.et"
+      m_sCompositionLayout "{81CCDB622DCA0182}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNet_Small_USSR.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70E0D34990A444}" {
+      m_sEditableEntity "{E0E71FDE7F9F7555}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetMedium_S_USSR_01.et"
+      m_sCompositionLayout "{D26E030AD2BF514F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNetMedium_USSR.et"
+      m_iBuildingValue 40
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70E6DFBDA31CD7}" {
+      m_sEditableEntity "{A8FD282C1C15E427}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetLarge_M_USSR_01.et"
+      m_sCompositionLayout "{DC1B385EDB26DB5E}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNet_Large_USSR.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70E6DFBD43B548}" {
+      m_sEditableEntity "{7419CCE202790CBB}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagRoundPlastic_S_US_01.et"
+      m_sCompositionLayout "{A407FE596AB356EE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_01_Round.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D7279EF17063959}" {
+      m_sEditableEntity "{C90548D80CB6F09A}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagRoundHighPlastic_S_US_01.et"
+      m_sCompositionLayout "{A407FE596AB356EE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_01_Round.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D7279EF1720B169}" {
+      m_sEditableEntity "{2C8BC8352CE10EE2}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagLongPlastic_S_US_01.et"
+      m_sCompositionLayout "{1EC6725681D75742}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Long.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D7279EF08F63D30}" {
+      m_sEditableEntity "{1CFE263700517700}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagLongHighPlastic_S_US_01.et"
+      m_sCompositionLayout "{1EC6725681D75742}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Long.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72CCC764A2F661}" {
+      m_sEditableEntity "{FD726FB018BC4169}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallSolidPlastic_S_US_01.et"
+      m_sCompositionLayout "{F470194B53F2A4F2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Solid.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72D426E04FAF9C}" {
+      m_sEditableEntity "{CC778DF86D8A69F5}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallPlastic_S_US_01.et"
+      m_sCompositionLayout "{F470194B53F2A4F2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Solid.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72D426E39D1C18}" {
+      m_sEditableEntity "{C1641825486E3697}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetSmall_S_US_01.et"
+      m_sCompositionLayout "{347608996C687A02}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNet_Small_US.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72D426E3AD6268}" {
+      m_sEditableEntity "{EA8CDB3A64FC1181}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetMedium_S_US_01.et"
+      m_sCompositionLayout "{A90C5CF19DF184B9}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNet_Medium_US.et"
+      m_iBuildingValue 40
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72F0241E59B4E6}" {
+      m_sEditableEntity "{7C7C67CD404E794D}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetLarge_M_US_01.et"
+      m_sCompositionLayout "{DC1B385EDB26DB5E}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNet_Large_USSR.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E64B54CA767DC45}" {
+      m_sEditableEntity "{AB1E83746BDF76D1}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_BarbedTapeTriple_S_USSR_01.et"
+      m_sCompositionLayout "{9721D32C8E5CDE9C}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_BarbedTapeKnifeRest.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E64CB149EC493F2}" {
+      m_sEditableEntity "{AEC16F21B733AD5E}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_FloodlightGenerator_S_US_01.et"
+      m_sCompositionLayout "{C96F58B66745C08B}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FloodLight.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E64CB1491E75290}" {
+      m_sEditableEntity "{76EE6AC7AB210D1F}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_FloodlightGenerator_S_USSR_01.et"
+      m_sCompositionLayout "{C96F58B66745C08B}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FloodLight.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E76DD003E31C9B9}" {
+      m_sEditableEntity "{B8138FFE79F61D33}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_01.et"
+      m_sCompositionLayout "{4CB404D199F6C2E7}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84B741B345270B}" {
+      m_sEditableEntity "{9BC88E502B836DBF}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_01.et"
+      m_sCompositionLayout "{4CB404D199F6C2E7}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84B741F2EDD817}" {
+      m_sEditableEntity "{D447BB1EC532921D}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_02.et"
+      m_sCompositionLayout "{8EB9FE4B4A24F0D8}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_US_S_02.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84B928D2DC9B20}" {
+      m_sEditableEntity "{F79CBAB09747E291}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_02.et"
+      m_sCompositionLayout "{F33B37DFDC5CDF75}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_USSR_S_02.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84C8B46847646C}" {
+      m_sEditableEntity "{31DBF7E7C9D70576}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_03.et"
+      m_sCompositionLayout "{C57C7CC829D7DAA2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_03.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84C8B4680E1AE5}" {
+      m_sEditableEntity "{1200F6499BA275FB}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_03.et"
+      m_sCompositionLayout "{C57C7CC829D7DAA2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_03.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84D70A8FCD3C63}" {
+      m_sEditableEntity "{0CEFD2DFBCBB8C41}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_04.et"
+      m_sCompositionLayout "{F84859F05CBB5395}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_04.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84D70A8FEA660C}" {
+      m_sEditableEntity "{2F34D371EECEFCCD}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_04.et"
+      m_sCompositionLayout "{F84859F05CBB5395}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_04.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE08853459C4}" {
+      m_sEditableEntity "{D7B8408B96F4DF79}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadSmall/E_Barricade_S_US_01.et"
+      m_sCompositionLayout "{501EE308E7CD554A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0885209F52}" {
+      m_sEditableEntity "{17B68DA54A970140}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadSmall/E_Barricade_S_USSR_01.et"
+      m_sCompositionLayout "{501EE308E7CD554A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0886C48CC7}" {
+      m_sEditableEntity "{6FE74C9C75DA8A52}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadMedium/E_Barricade_M_US_01.et"
+      m_sCompositionLayout "{EEC12B161BCF255F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_M_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0886EA1694}" {
+      m_sEditableEntity "{1236588FCEA4848F}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadMedium/E_Barricade_M_USSR_01.et"
+      m_sCompositionLayout "{EEC12B161BCF255F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_M_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE088695C569}" {
+      m_sEditableEntity "{DAEC7898BE11C117}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadLarge/E_Barricade_L_US_01.et"
+      m_sCompositionLayout "{290DBB8BEE996653}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_L_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0CF28B4478}" {
+      m_sEditableEntity "{3FB42D0A5589A530}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadLarge/E_Barricade_L_USSR_01.et"
+      m_sCompositionLayout "{290DBB8BEE996653}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_L_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98DBC39DC37}" {
+      m_sEditableEntity "{02C9F8198A7B9897}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_US_01.et"
+      m_sCompositionLayout "{33A2B437003B14DB}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_MachineGunNest_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98DBDDCE7AB}" {
+      m_sEditableEntity "{047B9C8AAB50CE0F}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_USSR_01.et"
+      m_sCompositionLayout "{33A2B437003B14DB}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_MachineGunNest_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98BB2A97FE4}" {
+      m_sEditableEntity "{6E9DCCF936BF17B9}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_US_02.et"
+      m_sCompositionLayout "{5FF680D7BCFF9BF5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_MachineGunNest_02.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98BB2558DB9}" {
+      m_sEditableEntity "{682FA86A17944120}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_USSR_02.et"
+      m_sCompositionLayout "{5FF680D7BCFF9BF5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_MachineGunNest_02.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B9874A7B27EA}" {
+      m_sEditableEntity "{E87F2E0B5C56A1C3}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_US_01.et"
+      m_sCompositionLayout "{E9CCAD99622A35F5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Bunker_US_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B9874A0B7600}" {
+      m_sEditableEntity "{4885DEA01D687DB3}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_USSR_01.et"
+      m_sCompositionLayout "{02291E93335E0856}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Bunker_USSR_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AECC1CA3}" {
+      m_sEditableEntity "{CDE540ACD9415078}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_FIA_01.et"
+      m_sCompositionLayout "{8E350990D5F5ABB5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_AmmoStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AE8B0AAD}" {
+      m_sEditableEntity "{1BED8F81D2FA2137}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_US_01.et"
+      m_sCompositionLayout "{8E350990D5F5ABB5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_AmmoStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AE171BE0}" {
+      m_sEditableEntity "{CD9004C6229D900B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_USSR_01.et"
+      m_sCompositionLayout "{8E350990D5F5ABB5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_AmmoStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A7701A2A8}" {
+      m_sEditableEntity "{543C31BC05F032B6}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_US_01.et"
+      m_sCompositionLayout "{B2EAAF9C153CAFDE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A77205ED6}" {
+      m_sEditableEntity "{DA380948C0CE5990}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_USSR_01.et"
+      m_sCompositionLayout "{B2EAAF9C153CAFDE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A5552879A}" {
+      m_sEditableEntity "{DA1AF79DD1C79E83}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_FIA_01.et"
+      m_sCompositionLayout "{B2EAAF9C153CAFDE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B0489E3AA298}" {
+      m_sEditableEntity "{DB7F01C68EACBEC0}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_US_01.et"
+      m_sCompositionLayout "{0828F87137D2F0C0}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_LivingArea_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B0489FDBAB79}" {
+      m_sEditableEntity "{BE3988DF6E3CD0B2}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_USSR_01.et"
+      m_sCompositionLayout "{0828F87137D2F0C0}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_LivingArea_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F1D6FD63}" {
+      m_sEditableEntity "{B6CF358D07FFC99F}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_FIA_01.et"
+      m_sCompositionLayout "{AA991650F6F3ADFD}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FuelStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F1F57EA3}" {
+      m_sEditableEntity "{6D2A35DA74224780}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_US_01.et"
+      m_sCompositionLayout "{AA991650F6F3ADFD}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FuelStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F18FA42C}" {
+      m_sEditableEntity "{C2D040BB21F15A20}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_USSR_01.et"
+      m_sCompositionLayout "{AA991650F6F3ADFD}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FuelStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B07DCA32C81F}" {
+      m_sEditableEntity "{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+      m_sCompositionLayout "{F28A8D6AC99AD4E8}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_M_01.et"
+      m_iBuildingValue 100
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B07DCBD32DB3}" {
+      m_sEditableEntity "{C0B1ABD67607623A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_US_01.et"
+      m_sCompositionLayout "{F28A8D6AC99AD4E8}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_M_01.et"
+      m_iBuildingValue 100
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E1480BD64}" {
+      m_sEditableEntity "{D0281DAF0B131742}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_FieldHospital_M_US_01.et"
+      m_sCompositionLayout "{B3EB9207435EEE1A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FieldHospital_M_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E14A6F5FF}" {
+      m_sEditableEntity "{505F78512FE8B698}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_FieldHospital_M_USSR_01.et"
+      m_sCompositionLayout "{B3EB9207435EEE1A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FieldHospital_M_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E760349A1}" {
+      m_sEditableEntity "{74B740B56C82C0CF}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_LivingArea_L_US_01.et"
+      m_sCompositionLayout "{6F40C26A3C08E3C0}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_LivingArea_L_US_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E77DFEFBE}" {
+      m_sEditableEntity "{85E7D977EFAC11CB}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_LivingArea_L_USSR_01.et"
+      m_sCompositionLayout "{2862411B0FB84CF7}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_LivingArea_L_USSR_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{65A6BAECE8BB1339}" {
+      m_sEditableEntity "{6676FBB212B337D6}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_Conflict_USSR_01.et"
+      m_sCompositionLayout "{F28A8D6AC99AD4E8}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_M_01.et"
+     }
+    }
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+   m_sPrefabToHoldSupplyOnRefund "{4BBE0A784C01900E}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_FreeRoamBuilding.et"
+  }
+  SCR_CampaignFactionCommanderHandlerComponent "{61146EC1B70521A0}" {
+   m_aAIFactionCommanders {
+    SCR_EstablishBaseAIFactionCommander "{65CE80A5057D51C5}" {
+     m_sFactionKey "US"
+     m_sEstablishBaseTaskPrefab "{FF81AEB7D26E6742}Prefabs/Tasks/Campaign/EstablishBaseTaskEntity.et"
+    }
+    SCR_EstablishBaseAIFactionCommander "{65CE80A53961F908}" {
+     m_sFactionKey "USSR"
+     m_sEstablishBaseTaskPrefab "{FF81AEB7D26E6742}Prefabs/Tasks/Campaign/EstablishBaseTaskEntity.et"
+    }
+   }
+   m_MinBaseDistanceConfig SCR_MinBaseDistanceConfig "{657AF15D818909EB}" {
+    m_aMinBaseDistanceInfoList {
+     SCR_MinBaseDistanceInfo "{652079898B1AD12B}" {
+      m_eBaseType RELAY
+     }
+     SCR_MinBaseDistanceInfo "{652079899A5455E7}" {
+      m_eBaseType SOURCE_BASE
+      m_iMinimumRequiredDistanceFromBase 420
+     }
+     SCR_MinBaseDistanceInfo "{65208ACF3B8FAB34}" {
+      m_iMinimumRequiredDistanceFromBase 450
+     }
+    }
+   }
+  }
+  SCR_CommandingManagerComponent "{5D16783AFAE684F8}" {
+   m_sCommandsConfigPath "{54764D4E706F348C}Configs/Commanding/Commands.conf"
+   m_iMaxAIPerGroup 4
+  }
   SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
    m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
    m_BaseLayout SCR_DebriefingScreenUnevenFourTiles "{5D349E3023E18896}" {
     m_TopRightTile SCR_DebriefingScreenFinishedObjectivesContent "{5D349E305DB53338}" {
      m_iMaxNumberOfObjectives 5
+    }
+   }
+  }
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_fDOTScale 0.75
+   m_fRegenScale 0.725
+   m_bPermitUnconsciousVON 1
+   m_fCompartmentRegenerationRateMultiplier 1.775
+  }
+  SCR_GameOverScreenManagerComponent "{56DEC646298AD219}" {
+   m_GameOverScreenConfig SCR_GameOverScreenConfig "{56DEC6462FFDD82D}" {
+    m_aGameOverScreens {
+     SCR_FactionGameOverScreenInfo "{568E79DBAC19013D}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{568E79DBB3E97D11}" {
+       m_sDebriefing "#AR-Campaign_MatchResult_DefeatDetail_Score"
+      }
+     }
+    }
+   }
+  }
+  SCR_GroupTaskManagerComponent "{657F21636F5CFD98}" {
+   m_GroupTaskRelevanceConfig SCR_GroupTaskRelevanceConfig "{657F21629E888368}" : "{8FD30741F5E75C87}Configs/Task/GroupTaskRelevanceConfig.conf" {
+   }
+   m_bEnabledAssigningFrequencies 0
+   m_aAllowedTasksWithFrequencies +{
+   }
+  }
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_sDefaultGroupPrefab "{077C06EB9DE8EC93}Prefabs/Groups/Campaign_PlayableGroup.et"
+  }
+  SCR_IdentityManagerComponent "{5AEEA80681EA61AF}" {
+   m_bGenerateValuableIntel 1
+  }
+  SCR_MapConfigComponent "{5C669498E250A34B}" {
+   m_sSpawnMapConfigPath "{901F9ED2088BBCA4}Configs/Map/MapSpawnConflict.conf"
+  }
+  SCR_MapMarkerManagerComponent "{5D32E876D3886A72}" {
+   m_sMarkerCfgPath "{3583D42139D9A10B}Configs/Map/CampaignMapMarkerConfig.conf"
+  }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_PerceivedFactionManagerComponent "{61AA7E6E0C6A76F9}" {
+   m_eCharacterPerceivedFactionOutfitType HIGHEST_VALUE
+   m_ePunishmentKillingWhileDisguised XP_LOSS
+  }
+  SCR_PlayerSpawnPointManagerComponent "{5CDABA98894199D0}" {
+   m_SpawnPointPrefab "{6FC8BA123C919DB3}Prefabs/MP/PlayerRadioSpawnPointCampaign.et"
+   m_bEnablePlayerSpawnPoints 0
+   m_eDeployableSpawnPointBudgetType SPAWNTICKET
+   m_iDeployableSpawnPointTicketAmount 2
+  }
+  SCR_RespawnBriefingComponent "{5B2A94A3CF791D6F}" {
+   m_sJournalConfigPath "{FFB1A12A7BFC4957}Configs/Journal/JournalConflict.conf"
+   m_Info SCR_UIInfo "{5B2A94A66BB56FB3}" {
+    Description "#AR-Campaign_GamemodeTutorial"
+   }
+   m_aGameModeHints {
+    SCR_UIInfo "{5B2A94A72CAF0E18}" {
+     Name "#AR-BriefingCampaign_Hint_Name_01"
+     Description "#AR-BriefingCampaign_Hint_Description_01"
+     Icon "{324E923535DCACF8}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_1_UI.edds"
+    }
+    SCR_UIInfo "{5B2A94A72AB20D65}" {
+     Name "#AR-BriefingCampaign_Hint_Name_02"
+     Description "#AR-BriefingCampaign_Hint_Description_02"
+     Icon "{3C50D67D082BA322}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_2_UI.edds"
+    }
+    SCR_UIInfo "{5B2A94A729D6B272}" {
+     Name "#AR-BriefingCampaign_Hint_Name_03"
+     Description "#AR-BriefingCampaign_Hint_Description_03"
+     Icon "{39A515BAE3795994}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_3_UI.edds"
+    }
+   }
+   m_aWinConditions {
+    SCR_BriefingVictoryCondition "{5B2A94A7531ADD24}" {
+     victoryCondition SEIZE
+     name "Condition_01"
+     description "#AR-BriefingCampaign_VictoryCondition_01"
+    }
+    SCR_BriefingVictoryCondition "{5B2A94A752415E44}" {
+     victoryCondition GUARD
+     name "Condition_02"
+     description "#AR-BriefingCampaign_VictoryCondition_02"
+    }
+    SCR_BriefingVictoryCondition "{5B2A94A75295460F}" {
+     victoryCondition SEIZE_RELAY
+     name "Condition_03"
+     description "#AR-BriefingCampaign_VictoryCondition_03"
+    }
+   }
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{5CEAA65B714D5CFF}" {
+   }
+  }
+  SCR_RespawnTimerComponent "{5B2A94A0E605AAFF}" {
+   m_fRespawnTime 15
+  }
+  SCR_SpawnProtectionComponent "{5D167A246026C95B}" {
+   m_fProtectionTime 5
+  }
+  SCR_TaskManagerUIComponent "{65D26A2BD7B67AAF}" {
+   m_bShowCurrentTaskOnRespawn 1
+   m_sTaskTabConfig "{BBB399D776C71EAA}Configs/Task/TasksTabConfig_Conflict.conf"
+  }
+  SCR_TaskNotificationManagerComponent "{6626B48EE1A89103}" {
+   m_TaskNotificationsConfig SCR_TaskNotificationsRootConfig "{66649B72D68567CC}" : "{28D1004EBAE35243}Configs/Task/Notifications/TaskNotificationsConfig.conf" {
+   }
+  }
+  SCR_TaskSolverManagerComponent "{6594F62B10A00882}" {
+   m_TaskSolverConfig SCR_TaskSolverConfig "{6594F62B0DA7D5B9}" : "{48D8C5421D600733}Configs/TaskSolver/TaskSolverConfig.conf" {
+   }
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5CC49B5A1313B84E}" {
+   m_bRandomStartingDaytime 1
+   m_fDayTimeAcceleration 4
+   m_fNightTimeAcceleration 12
+   m_bRandomStartingWeather 1
+   m_bRandomWeatherChanges 1
+   m_bAllowHeaderSettings 1
+  }
+  SCR_TimedSpawnPointComponent "{5D0A73EB7076C758}" {
+   m_fRespawnTime 15
+  }
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   m_aVotingTemplates {
+    SCR_VotingFactionCommander "{656AE0208EF9F502}" {
+     m_Type COMMANDER
+     m_bIsValuePlayerID 1
+     m_iMinVotes 1
+     m_Info SCR_VotingUIInfo "{609AC53980E3C969}" {
+      Name "#AR-FactionCommander_VoteNew"
+      m_sStartVotingName "#AR-FactionCommander_Volunteer"
+      m_sCancelVotingName "#AR-FactionCommander_VoteCancel"
+      m_sAbstainVoteName "#AR-FactionCommander_VoteAbstain"
+      m_sStickyNotificationText "#AR-FactionCommander_NotificationVolunteered"
+      m_iSucceededNotificationId VOTING_COMMANDER_DONE
+     }
+     m_bAlwaysDisplayVoteSubjectVotingTimer 1
+    }
+    SCR_VotingFactionCommanderWithdraw "{656AE0206D9E2455}" {
+     m_Type COMMANDER_WITHDRAW
+     m_bIsValuePlayerID 1
+     m_fThreshold 0
+     m_iMinParticipation 0
+     m_iMinVotes 1
+     m_Info SCR_VotingUIInfo "{609E76568B10BD68}" {
+      m_sStartVotingName "#AR-FactionCommander_Leave"
+      m_iSucceededNotificationId VOTING_COMMANDER_WITHDRAW
+     }
     }
    }
   }
@@ -39,6 +985,49 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
       SCR_WelcomeScreenIntroduction "{5D349E3F6FF705DE}" {
        m_sContentImage "{744DEEECF650BF7C}UI/Textures/FieldManual/MPModes/Conflict/Images/Conflict_CaptureHold.edds"
       }
+      SCR_WelcomeScreenIntroduction "{5D349E3F6C78332F}" {
+       m_sContentImage "{EFF804FB17026599}UI/Textures/FieldManual/MPModes/Conflict/Images/Conflict_service_antenna_UI.edds"
+       m_sContentTitleText "#AR-BriefingCampaign_Hint_Name_02"
+       m_sContentDescriptionText "#AR-BriefingCampaign_Hint_Description_02"
+      }
+      SCR_WelcomeScreenIntroduction "{5D349E3F6C38011F}" {
+       m_sContentImage "{E00CCCF1DB6DE5F3}UI/Textures/FieldManual/MPModes/Conflict/Images/Conflict_service_supply_UI.edds"
+       m_sContentTitleText "#AR-BriefingCampaign_Hint_Name_03"
+       m_sContentDescriptionText "#AR-BriefingCampaign_Hint_Description_03"
+      }
+     }
+    }
+   }
+  }
+  SCR_XPHandlerComponent "{5CAAA397E5408ABF}" {
+   m_sXPRewardsConfig "{8227B4636C73C5B5}Configs/Campaign/CampaignXPRewards.conf"
+   m_fVehicleRepairXPMultiplier 0.5
+   m_mSeizeXPRewardConfig SCR_SeizeXpRewardConfig "{657C71E620E93E4A}" {
+    m_aSeizeCompletionXpRewardList {
+     SCR_SeizeCompletionXpRewardInfo "{657C71E63D8D0E79}" {
+      m_iXPReward 25
+     }
+     SCR_SeizeCompletionXpRewardInfo "{657C71E63A17E2AA}" {
+      m_eBaseType SOURCE_BASE
+      m_iXPReward 50
+     }
+     SCR_SeizeCompletionXpRewardInfo "{657C71E639D75E88}" {
+      m_eBaseType CONTROL_POINT
+      m_iXPReward 150
+     }
+    }
+    m_aSeizeProgressionXpRewardList {
+     SCR_SeizeProgressionXpRewardInfo "{657C71E63BC15986}" {
+      m_sFactionKey "FIA"
+      m_iXPReward 5
+     }
+     SCR_SeizeProgressionXpRewardInfo "{657C71E63B5DC55E}" {
+      m_sFactionKey "USSR"
+      m_iXPReward 15
+     }
+     SCR_SeizeProgressionXpRewardInfo "{657C71E63B176CCC}" {
+      m_sFactionKey "US"
+      m_iXPReward 15
      }
     }
    }
@@ -50,8 +1039,8 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 20.291 0 5.837
 }
-SCR_CampaignFactionManager CampaignOriginalFactionManager1 : "{9DBBC0F766BEF527}Prefabs/MP/Campaign/CampaignOriginalFactionManager.et" {
- coords 22.848 0 10.715
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 4770.305 23.517 12041.453
 }
 GenericEntity {
  components {
@@ -943,6 +1932,9 @@ GenericEntity : "{00D81DF03240564B}Prefabs/Structures/Military/Camps/Canvas_Cove
    }
   }
  }
+}
+Vehicle Ural4320_transport_camo1 : "{015DE314BA981908}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
+ coords 4721.225 27.844 11172.185
 }
 $grp GenericEntity : "{01969A28078FCA69}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_02.et" {
  {
@@ -6050,9 +7042,6 @@ GenericEntity : "{2FAFFD858A8315E6}Prefabs/Compositions/Locations/Eden/SupplyCac
   }
  }
 }
-BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords 27.209 0 10.918
-}
 $grp GenericEntity : "{343F8773B9C33154}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I03_FIA_01.et" {
  {
   coords 7414.177 143.011 4721.915
@@ -7371,6 +8360,20 @@ GenericEntity : "{58CF761823C96210}Prefabs/Compositions/Locations/Eden/SupplyCac
 }
 GenericEntity : "{59DE9F68F4D2A490}Prefabs/Compositions/Locations/Eden/SupplyCache_Laruns_FIA_01.et" {
  coords 7558.335 82.526 5540.854
+}
+Vehicle TF_Wheeled_2B1 : "{5DBC14179A0C516E}Prefabs/Vehicles/Wheeled/2B9/TF_Wheeled_2B9.et" {
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2000
+     }
+    }
+   }
+  }
+ }
+ coords 4712.905 27.843 11166.611
 }
 $grp GenericEntity : "{6095B175AA9804DC}Prefabs/Props/VehicleParts/Tires/Tire_UAZ469.et" {
  {
@@ -8916,6 +9919,9 @@ $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSma
   angles 0 -142.213 0
  }
 }
+Vehicle Ural4320_ZU23_camo1 : "{85105381A2FED872}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23_camo.et" {
+ coords 4728.045 27.844 11171.286
+}
 $grp GenericEntity : "{8650C85210C0B43A}Prefabs/Compositions/Misc/SubCompositions/Building/Warehouse_01_FIA_01.et" {
  {
   coords 4426.118 15.144 9571.901
@@ -9002,8 +10008,14 @@ $grp GenericEntity : "{869A4C4CA7F43C21}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 0 -39.4 0
  }
 }
+BasePreloadManager PreloadManager_Campaign_podval_base1 : "{8781ED7348F673E4}Prefabs/World/Game/PreloadManager_Campaign_podval_base.et" {
+ coords 4771.51 23.567 12039.699
+}
 GenericEntity : "{8950F273E5D8657D}Prefabs/Compositions/Locations/Eden/SupplyCache_Gravette_FIA_01.et" {
  coords 4120.761 35.406 7796.203
+}
+Vehicle BM_21_1_empty_camo1 : "{8AB8CCE154851291}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_empty_camo.et" {
+ coords 4732.926 27.844 11171.76
 }
 $grp GenericEntity : "{8AD76C341BFCF8C5}Prefabs/Props/Commercial/Posters/PostersGround_01_Eden_V1.et" {
  {
@@ -12717,6 +13729,9 @@ $grp GenericEntity : "{96B440F2A3D3A33E}Prefabs/Props/Commercial/Posters/PosterS
   angles 0 169.64 0.153
  }
 }
+Vehicle BRDM2_AFRF1 : "{9AEDF323A812F9EE}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
+ coords 4740.735 27.844 11174.195
+}
 GenericEntity : "{9E36120FECA41BE8}Prefabs/Compositions/Misc/SubCompositions/Building/Castle_01_FIA_01.et" {
  coords 9318.288 208.953 1164.534
  angles 0 -3 0
@@ -13593,6 +14608,14 @@ $grp GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/Effe
 GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
  coords 2838.686 86.345 6339.803
 }
+SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
+ coords 8113.258 222.503 4143.343
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{68E33847EAA0782F}" {
+   m_sLoadoutResource "{CE1279E1DDBD38D5}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_AFRF_Player.et"
+  }
+ }
+}
 $grp GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
  {
   coords 3890.944 14.208 8508.7
@@ -13986,6 +15009,9 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
   coords 5861.283 236.282 7259.026
   angles -0.725 0.416 0.825
  }
+}
+GenericEntity : "{CD9004C6229D900B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_USSR_01.et" {
+ coords 4707.949 27.843 11154.064
 }
 GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhilippe_FIA_01.et" {
  coords 4502.756 14.702 10771.987
@@ -15323,9 +16349,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
 }
 GenericEntity : "{D523CF2B952C71A9}Prefabs/Compositions/Locations/Eden/SupplyCache_Durras_FIA_01.et" {
  coords 8826.849 94.671 2745.832
-}
-SCR_LoadoutManager : "{D6481650CF7CBAB3}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager.et" {
- coords 0.121 0 0.182
 }
 $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
  {

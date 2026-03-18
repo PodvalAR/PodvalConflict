@@ -1,0 +1,121 @@
+Vehicle : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68E34DC5FA7A74F2}" {
+     SourceMaterial "BRDM2_body_exterior_1"
+     AssignedMaterial "{04954E4552371521}Assets/Vehicles/Wheeled/BRDM2/Data/BRDM2_body_exterior_1_AFRF.emat"
+    }
+   }
+  }
+  RHS_GroupMaterialController "{68E34DC5FA7A74DA}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{68E34DC5FA7A74D5}" {
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{68E34DC5FA7A74D6}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{68E34DC5FA7A74D0}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{68E34DC5FA7A74D1}" {
+     m_sGroupName "LABELS"
+     m_iNumberOfTextures 13
+     m_bRandomize 1
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    IconSetName ""
+    m_sFaction "USSR"
+    m_aAutoLabels +{
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{62ACE79B7FDC31CE}" {
+      m_BudgetType RANK_SERGEANT
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F49BC4717082CC}" {
+     SlotTemplate InventoryStorageSlot ak74mags {
+      Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_AFRF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{36C4DD9F309134E2}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_AFRF.et"
+    }
+    RegisteringComponentSlotInfo CommanderTurret {
+     Prefab "{5B563E540C59F440}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_commander_AFRF.et"
+    }
+    EntitySlotInfo Lable_R {
+     PivotID "v_body"
+     Offset -0.7587 1.7392 1.1528
+     Angles -60.6594 -89.91911 126.5998
+     Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
+    }
+    EntitySlotInfo Number1_L {
+     PivotID "v_body"
+     Offset 0.9397 0.7313 1.1047
+     Angles 89.9604 -31.7472 179.9937
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number2_L {
+     PivotID "v_body"
+     Offset 0.9397 0.6313 1.1047
+     Angles 89.9604 -31.7472 179.9937
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_L {
+     PivotID "v_body"
+     Offset 0.9397 0.5313 1.1047
+     Angles 89.9604 -31.7472 179.9937
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Number1_B {
+     PivotID "v_body"
+     Offset 0.1 -2.663 1
+     Angles 0 90 -90.2
+     Prefab "{A50BC13DB1FCF1FB}Prefabs/Vehicles/Shared/decal_vehicle_group1_small.et"
+    }
+    EntitySlotInfo Number2_B {
+     PivotID "v_body"
+     Offset 0 -2.663 1
+     Angles 0 90 -90.2
+     Prefab "{845BF318A6537093}Prefabs/Vehicles/Shared/decal_vehicle_group2_small.et"
+    }
+    EntitySlotInfo Number3_B {
+     PivotID "v_body"
+     Offset -0.1 -2.663 1
+     Angles 0 90 -90.2
+     Prefab "{7A5BB35D53011CDF}Prefabs/Vehicles/Shared/decal_vehicle_group3_small.et"
+    }
+    EntitySlotInfo Lable_B {
+     PivotID "v_body"
+     Offset -0.8062 -2.6628 0.665
+     Angles 0 90 -90
+     Prefab "{0D546D2B04CF870A}Prefabs/Vehicles/Shared/decal_vehicle_label.et"
+    }
+   }
+  }
+ }
+ coords 4740.735 27.844 11174.195
+}
