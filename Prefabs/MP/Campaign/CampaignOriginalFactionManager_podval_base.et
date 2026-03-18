@@ -5,6 +5,7 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
   SCR_CampaignFaction "{50B30C3ADB052C80}" : "{2AB920A35862BBB8}Configs/Factions/US_Campaign_Original_podval.conf" {
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
+     m_eEntityCatalogType NONE
      m_aEntityEntryList {
       SCR_EntityCatalogEntry "{6116BA741CF3C099}" {
        m_aEntityDataList {
@@ -65,6 +66,7 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
      }
     }
     SCR_EntityCatalogMultiList "{5C9E82F29B327997}" {
+     m_eEntityCatalogType NONE
      m_aMultiLists {
       SCR_EntityCatalogMultiListEntry "{60569780DE4EE17A}" {
        m_aEntities {
@@ -90,7 +92,14 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
       }
      }
     }
+    SCR_EntityCatalogMultiList "{5C68A0EE8B97CA50}" {
+     m_eEntityCatalogType NONE
+    }
+    SCR_EntityCatalog "{5C68A0EEB7DB3E84}" {
+     m_eEntityCatalogType NONE
+    }
     SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
+     m_eEntityCatalogType NONE
      m_aMultiLists {
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA6FA1B8}" {
        m_aEntities {
@@ -387,10 +396,47 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
       }
      }
     }
+    SCR_EntityCatalog "{68E533DA1DE68382}" : "{0702949731C3DAEF}Configs/EntityCatalog/US/WeaponTripod_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalogMultiList "{68E533DA794BA43C}" : "{E3DE1AD43E23113A}Configs/EntityCatalog/US/InventoryItems_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalogMultiList "{68E533DA023A2A07}" : "{5CD941AE4A440811}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalogMultiList "{68E533D8C4E46328}" : "{8D2FF16F196C73D9}Configs/EntityCatalog/US/Characters_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalogMultiList "{68E533D8C175F160}" : "{52E5CB4B2DCD2F65}Configs/EntityCatalog/US/Groups_EntityCatalog_US.conf" {
+    }
    }
    m_sFactionBackground "{F8AC305446D5D480}UI/Textures/DeployMenu/Loadout-BG/Loadout_US_BG.imageset"
   }
   SCR_CampaignFaction "{68E338463D7DD9C8}" : "{F49148CAFAAE7D4A}Configs/Factions/USSR_Campaign_Original.conf" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
+     m_eEntityCatalogType NONE
+    }
+    SCR_EntityCatalogMultiList "{5C68A0E9B9AA3C2D}" {
+     m_eEntityCatalogType NONE
+    }
+    SCR_EntityCatalog "{5C68A0E9A51460AB}" {
+     m_eEntityCatalogType NONE
+    }
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
+     m_eEntityCatalogType NONE
+    }
+    SCR_EntityCatalogMultiList "{68E34DC62A8FBB2B}" {
+     m_eEntityCatalogType NONE
+    }
+    SCR_EntityCatalogMultiList "{68E533D9EF14C239}" : "{BCF3DF914B58F078}Configs/EntityCatalog/USSR/Characters_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalogMultiList "{68E533DA205DEBE9}" : "{CE7E912A3F3EAA9B}Configs/EntityCatalog/USSR/Vehicles_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalogMultiList "{68E533D9DF04ABBC}" : "{1CA8E5FBE353635D}Configs/EntityCatalog/USSR/InventoryItems_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalogMultiList "{68E533D9C7A72196}" : "{EAF4ECD1AA9070F0}Configs/EntityCatalog/USSR/Groups_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalog "{68E533D9FE8EB096}" : "{E8693B0C4281A283}Configs/EntityCatalog/USSR/WeaponTripod_EntityCatalog_USSR.conf" {
+    }
+   }
   }
   SCR_CampaignFaction "{56F0C3A6336375DC}" : "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf" {
    m_bShowInWelcomeScreenIfNonPlayable 0
