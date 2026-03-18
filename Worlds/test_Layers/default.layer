@@ -1359,9 +1359,6 @@ $grp SplineShapeEntity {
   }
  }
 }
-Vehicle M1083_Transport_Armed_ZU1 {
- coords 4777.076 27.845 11266.54
-}
 GenericEntity : "{00B3E3FD05C85DBD}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Small_Top_FIA_01_V1.et" {
  coords 3743.922 114.264 4986.952
  angles 0 -66.571 0
@@ -9272,9 +9269,6 @@ $grp GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMed
    }
   }
  }
-}
-Vehicle M1083_Transport_Covered_Armed_Woodland_zu1 : "{7CEFF66651FD2072}Prefabs/Vehicles/Wheeled/M1083/Armed/M1083_Transport_Covered_Armed_Woodland_zu23.et" {
- coords 7548.588 82.726 5538.952
 }
 GenericEntity : "{7F95D831CA586F06}Prefabs/Compositions/Misc/SubCompositions/CableReelWooden_Cluttered_USSR_01.et" {
  coords 7688.198 340.661 3056.859
@@ -18041,7 +18035,4 @@ GenericEntity : "{FB04C4D5947808F1}Prefabs/Compositions/Locations/Eden/Base_Mont
    Flags 0x100003 0
   }
  }
-}
-Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
- coords 7553.216 82.781 5529.586
 }
