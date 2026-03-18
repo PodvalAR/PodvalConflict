@@ -1,0 +1,43 @@
+Vehicle : "{CC55611936C21F25}Prefabs/Vehicles/Wheeled/M998/M1025_USAF.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68E4962411984139}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{C4AB365990070417}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_USAF_D.emat"
+    }
+    MaterialAssignClass "{68E4962411984120}" {
+     SourceMaterial "HMMWV_Body_Int_1C7B4ACE653D9BD1"
+     AssignedMaterial "{2CC2BB6BF01F3499}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_USAF_D.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{83AA32FF927F9C2D}UI/Textures/EditorPreviews/Vehicles/m998/M1025_USAF_D.edds"
+    m_sFaction "US"
+    m_aAutoLabels {
+     FACTION_US SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{043F0CF18FDEB7B7}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_tailgate_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo Brushguard {
+     Enabled 1
+     Prefab "{9B4A3C537F363CAE}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_brushguard_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo Mirrors {
+     Prefab "{F7760445AFF2B2F4}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_mirrors_01_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{3D8C20C3F692F18D}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_USAF_D.et"
+    }
+   }
+  }
+ }
+}

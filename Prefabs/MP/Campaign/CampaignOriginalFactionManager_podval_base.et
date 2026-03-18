@@ -2,7 +2,7 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
  ID "56B2B4776E6E4499"
  coords 8119.114 222.238 4141.895
  Factions {
-  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{2AB920A35862BBB7}Configs/Factions/US_Campaign_Original.conf" {
+  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{2AB920A35862BBB8}Configs/Factions/US_Campaign_Original_podval.conf" {
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
      m_aEntityEntryList {
@@ -393,7 +393,8 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
   SCR_CampaignFaction "{68E338463D7DD9C8}" : "{F49148CAFAAE7D4A}Configs/Factions/USSR_Campaign_Original.conf" {
   }
   SCR_CampaignFaction "{56F0C3A6336375DC}" : "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf" {
-   m_bIsPlayable 1
+   m_bShowInWelcomeScreenIfNonPlayable 0
+   m_bIsMilitary 0
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EABE8B7B2A}" {
      m_aEntityEntryList {

@@ -3,7 +3,7 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{68E33847EAA07831}" {
    m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
-   m_sLoadoutResource "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Player.et"
+   m_sLoadoutResource "{D5647A563CE39A47}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et"
    m_sAffiliatedFaction "US"
   }
   SCR_FactionPlayerLoadout "{68E33847EAA0782C}" {

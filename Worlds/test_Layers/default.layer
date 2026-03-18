@@ -21,7 +21,7 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
  coords 8119.114 222.238 4141.895
  Factions {
-  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{2AB920A35862BBB7}Configs/Factions/US_Campaign_Original.conf" {
+  SCR_CampaignFaction "{50B30C3ADB052C80}" : "{2AB920A35862BBB8}Configs/Factions/US_Campaign_Original_podval.conf" {
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
      m_aEntityEntryList {
@@ -412,7 +412,8 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB64
   SCR_CampaignFaction "{68E338463D7DD9C8}" {
   }
   SCR_CampaignFaction "{56F0C3A6336375DC}" : "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf" {
-   m_bIsPlayable 1
+   m_bShowInWelcomeScreenIfNonPlayable 0
+   m_bIsMilitary 0
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EABE8B7B2A}" {
      m_aEntityEntryList {
@@ -1932,9 +1933,6 @@ GenericEntity : "{00D81DF03240564B}Prefabs/Structures/Military/Camps/Canvas_Cove
    }
   }
  }
-}
-Vehicle Ural4320_transport_camo1 : "{015DE314BA981908}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_camo1.et" {
- coords 4721.225 27.844 11172.185
 }
 $grp GenericEntity : "{01969A28078FCA69}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_02.et" {
  {
@@ -8361,20 +8359,6 @@ GenericEntity : "{58CF761823C96210}Prefabs/Compositions/Locations/Eden/SupplyCac
 GenericEntity : "{59DE9F68F4D2A490}Prefabs/Compositions/Locations/Eden/SupplyCache_Laruns_FIA_01.et" {
  coords 7558.335 82.526 5540.854
 }
-Vehicle TF_Wheeled_2B1 : "{5DBC14179A0C516E}Prefabs/Vehicles/Wheeled/2B9/TF_Wheeled_2B9.et" {
- components {
-  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    m_EntityBudgetCost {
-     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 2000
-     }
-    }
-   }
-  }
- }
- coords 4712.905 27.843 11166.611
-}
 $grp GenericEntity : "{6095B175AA9804DC}Prefabs/Props/VehicleParts/Tires/Tire_UAZ469.et" {
  {
   components {
@@ -9919,9 +9903,6 @@ $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSma
   angles 0 -142.213 0
  }
 }
-Vehicle Ural4320_ZU23_camo1 : "{85105381A2FED872}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23_camo.et" {
- coords 4728.045 27.844 11171.286
-}
 $grp GenericEntity : "{8650C85210C0B43A}Prefabs/Compositions/Misc/SubCompositions/Building/Warehouse_01_FIA_01.et" {
  {
   coords 4426.118 15.144 9571.901
@@ -10013,9 +9994,6 @@ BasePreloadManager PreloadManager_Campaign_podval_base1 : "{8781ED7348F673E4}Pre
 }
 GenericEntity : "{8950F273E5D8657D}Prefabs/Compositions/Locations/Eden/SupplyCache_Gravette_FIA_01.et" {
  coords 4120.761 35.406 7796.203
-}
-Vehicle BM_21_1_empty_camo1 : "{8AB8CCE154851291}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_empty_camo.et" {
- coords 4732.926 27.844 11171.76
 }
 $grp GenericEntity : "{8AD76C341BFCF8C5}Prefabs/Props/Commercial/Posters/PostersGround_01_Eden_V1.et" {
  {
@@ -13729,9 +13707,6 @@ $grp GenericEntity : "{96B440F2A3D3A33E}Prefabs/Props/Commercial/Posters/PosterS
   angles 0 169.64 0.153
  }
 }
-Vehicle BRDM2_AFRF1 : "{9AEDF323A812F9EE}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
- coords 4740.735 27.844 11174.195
-}
 GenericEntity : "{9E36120FECA41BE8}Prefabs/Compositions/Misc/SubCompositions/Building/Castle_01_FIA_01.et" {
  coords 9318.288 208.953 1164.534
  angles 0 -3 0
@@ -15009,9 +14984,6 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
   coords 5861.283 236.282 7259.026
   angles -0.725 0.416 0.825
  }
-}
-GenericEntity : "{CD9004C6229D900B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_USSR_01.et" {
- coords 4707.949 27.843 11154.064
 }
 GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhilippe_FIA_01.et" {
  coords 4502.756 14.702 10771.987

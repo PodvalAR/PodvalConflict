@@ -2,7 +2,7 @@ BasePreloadManager {
  ID "68E33847E6FBF938"
  PrefabsToPreload {
   PreloadEntry "{68E33847E6FBF935}" {
-   Prefab "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Player.et"
+   Prefab "{D5647A563CE39A47}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et"
    FullyPreload 1
   }
   PreloadEntry "{68E33847E6FBF903}" {
