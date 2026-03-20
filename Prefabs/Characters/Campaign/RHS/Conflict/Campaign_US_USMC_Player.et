@@ -110,7 +110,7 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUF
      }
     }
     ItemsInitConfigurationItem "{68E49625E1A49F98}" {
-     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/camerleft/Pouch_FILBE_doubleM4_3.et"
+     TargetStorage "Pants/Pants_FROG_Trousers.et"
      PrefabsToSpawn {
       "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
      }
@@ -124,5 +124,5 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUF
    }
   }
  }
- coords 6907.103 113.719 5925.325
+ coords 7683.593 340.875 3089.093
 }
