@@ -1,3 +1,6 @@
-SCR_ChimeraCharacter : "{D5647A563CE39A47}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et" {
- coords 7683.593 340.875 3089.093
+GenericEntity : "{9A45B2669EBA2001}Prefabs/Props/Military/9K135_Sight_part.et" {
+ coords 7683.635 340.875 3089.71
+}
+GenericEntity : "{F54BE3402DBB59EF}Prefabs/Weapons/Tripods/9K135/Part_1_9K135_Tripod.et" {
+ coords 7683.73 340.875 3088.909
 }
