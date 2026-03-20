@@ -376,8 +376,14 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      FACTION_US SIZE_M VEHICLE_CAR
     }
     m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6052A79ADDA6C7A8}" {
+      m_Value 15
+     }
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 110
+      m_Value 50
+     }
+     SCR_EntityBudgetValue "{5EE71CA1677C234F}" {
+      m_Value 15
      }
     }
     m_aOccupantFillCompartmentTypes {

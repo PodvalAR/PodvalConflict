@@ -7,6 +7,11 @@ Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
     m_aAutoLabels {
      FACTION_USSR SIZE_M VEHICLE_CAR
     }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 50
+     }
+    }
    }
   }
  }

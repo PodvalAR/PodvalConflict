@@ -7,7 +7,16 @@ Vehicle : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.e
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "RHS_USAF"
+   "faction affiliation" "US"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Arsenal {
+     DisablePhysicsInteraction 1
+    }
+   }
   }
  }
+ coords 6911.506 113.682 5928.273
+ angles 0 88.045 0
 }

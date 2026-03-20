@@ -22,6 +22,9 @@ Vehicle : "{4E3A86638BFF9FC6}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_U
     }
    }
   }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "US"
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Tailgate {
@@ -39,4 +42,6 @@ Vehicle : "{4E3A86638BFF9FC6}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_U
    }
   }
  }
+ coords 6911.45 113.74 5933.108
+ angles 0 67.618 0
 }

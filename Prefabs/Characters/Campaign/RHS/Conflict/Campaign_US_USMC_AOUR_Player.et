@@ -29,7 +29,7 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUF
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{90D8238D1D8D2DC5}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_Aimpoint.et"
+   WeaponTemplate "{0761CE8644BBB28E}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -74,7 +74,7 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUF
      }
     }
     ItemsInitConfigurationItem "{5538C040738A83D1}" {
-     TargetStorage "Back/FILBE_hydration_pack.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/m18_2/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
@@ -85,37 +85,37 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUF
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{68E85205FEFFC840}" {
+    ItemsInitConfigurationItem "{68E88BF546F73F27}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman.et/util/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
-    ItemsInitConfigurationItem "{68E85205DC507E87}" {
+    ItemsInitConfigurationItem "{68E88BF546F73F18}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman.et/m67/Pouch_Filbe_M67_Base.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
-    ItemsInitConfigurationItem "{68E85205C487304A}" {
+    ItemsInitConfigurationItem "{68E88BF546F73F19}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman.et/m67_2/Pouch_Filbe_M67_2.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
-    ItemsInitConfigurationItem "{68E8520429C77691}" {
+    ItemsInitConfigurationItem "{68E88BF546F7747A}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman.et/tako2/Pouch_FILBE_doubleM4_2.et"
      PrefabsToSpawn {
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{68E49625E1A49F98}" {
+    ItemsInitConfigurationItem "{68E88BF546F77475}" {
      TargetStorage "Vest/Vest_PCGen_III_rifleman.et/camerleft/Pouch_FILBE_doubleM4_3.et"
      PrefabsToSpawn {
       "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
      }
     }
-    ItemsInitConfigurationItem "{68E852046B8D598B}" {
+    ItemsInitConfigurationItem "{68E88BF546F77474}" {
      TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
      PrefabsToSpawn {
       "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et"
@@ -124,5 +124,5 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUF
    }
   }
  }
- coords 6907.103 113.719 5925.325
+ coords 4773.789 28.281 11428.892
 }
