@@ -1,0 +1,10 @@
+Vehicle : "{56E88FE5DDF6AA12}Prefabs/Vehicles/Helicopters/AH1S/AH1S_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#WCS-Vehicle_AH1S_Marines_Name"
+   }
+  }
+ }
+}

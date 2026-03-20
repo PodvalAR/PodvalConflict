@@ -45,7 +45,7 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
    Slots {
     LoadoutSlotInfo Hat {
      Enabled 1
-     Prefab "{39B0FB281A8CA301}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_HC_3M_emr.et"
+     Prefab "{33D72F3EE7C7317D}Prefabs/Characters/HeadGear/Helmet_6B7/variants/Helmet_6B7_EMR.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
@@ -78,7 +78,7 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{689E8D71B384265F}" {
      TargetStorage "Jacket/Jacket_6b51_VKPO.et"
      PrefabsToSpawn {
-      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+      "{B343AB76B0725657}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
      }
     }
     ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
@@ -120,5 +120,5 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
  }
- coords 4769.553 23.554 12040.46
+ coords 5608.64 46.815 4239.77
 }

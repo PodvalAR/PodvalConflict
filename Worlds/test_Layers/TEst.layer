@@ -1,0 +1,32 @@
+GenericEntity : "{13AD1A501F820288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_base.et" {
+ coords 4768.09 28.278 11427.813
+}
+GameEntity : "{512DE5A159E82012}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MC.et" {
+ coords 4770.1 28.262 11426.772
+}
+GameEntity : "{738798231DAF3078}Prefabs/Characters/Uniforms/Pants_6b51_VKPO.et" {
+ coords 4766.386 28.272 11427.394
+}
+GameEntity : "{B29BC5B07E28DEE9}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_ATACS.et" {
+ coords 4769.832 28.261 11426.695
+}
+GameEntity : "{B8B7CB8DE9BD2B32}Prefabs/Characters/HeadGear/Helmet_6B7/Helmet_6B7_base.et" {
+ coords 4767.229 28.275 11427.609
+}
+GenericEntity : "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et" {
+ coords 4768.907 28.256 11426.42
+}
+SCR_ChimeraCharacter : "{CE1279E1DDBD38D5}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_AFRF_Player.et" {
+ coords 4767.32 28.26 11426.611
+}
+$grp SCR_ChimeraCharacter : "{D5647A563CE39A47}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et" {
+ {
+  coords 4770.147 28.281 11429.344
+ }
+ {
+  coords 4773.789 28.281 11428.892
+ }
+}
+GameEntity : "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et" {
+ coords 4767.779 28.279 11427.844
+}

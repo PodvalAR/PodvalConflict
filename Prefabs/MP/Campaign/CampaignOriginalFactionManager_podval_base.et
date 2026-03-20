@@ -3,6 +3,9 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
  coords 8119.114 222.238 4141.895
  Factions {
   SCR_CampaignFaction "{50B30C3ADB052C80}" : "{2AB920A35862BBB8}Configs/Factions/US_Campaign_Original_podval.conf" {
+   m_aFriendlyFactionsIds {
+    "RHS_USAF"
+   }
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
      m_eEntityCatalogType NONE
@@ -410,6 +413,10 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
    m_sFactionBackground "{F8AC305446D5D480}UI/Textures/DeployMenu/Loadout-BG/Loadout_US_BG.imageset"
   }
   SCR_CampaignFaction "{68E338463D7DD9C8}" : "{F49148CAFAAE7D4A}Configs/Factions/USSR_Campaign_Original.conf" {
+   m_aFriendlyFactionsIds {
+    "RHS_AFRF"
+   }
+   m_bEnableAutoGroupCreationWhenFull 0
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
      m_eEntityCatalogType NONE
