@@ -5,10 +5,11 @@ Vehicle : "{A8C732BE755F8BD0}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_base.et" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 1984
+      m_Value 1375
      }
     }
    }
   }
  }
+ coords 7247.11 60.66 8363.642
 }

@@ -1,7 +1,12 @@
-Vehicle M151A2_transport1 : "{0406BEC84D81A89E}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+Vehicle : "{E1A99B5F2DC9B38A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo.et" {
+ ID "44EC665ABD2FF04B"
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+    m_aAutoLabels {
+     FACTION_USSR SIZE_M VEHICLE_CAR
+    }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 50
@@ -11,13 +16,11 @@ Vehicle M151A2_transport1 : "{0406BEC84D81A89E}Prefabs/Vehicles/Wheeled/M151A2/M
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
-    RegisteringComponentSlotInfo Canvas {
+    RegisteringComponentSlotInfo Roof {
+     Enabled 0
     }
    }
   }
  }
- coords 7235.478 120.363 4829.945
-}
-Vehicle M151A1 : "{24C2DDAB6129F316}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
- coords 7233.042 120.35 4829.533
+ coords 7234.836 120.395 4830.013
 }

@@ -7,8 +7,13 @@ Vehicle : "{03D9932135924AEF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Camo_uncover
     m_aAutoLabels {
      FACTION_USSR SIZE_M VEHICLE_CAR
     }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 50
+     }
+    }
    }
   }
  }
- coords 4757.595 23.358 12047.054
+ coords 7232.236 120.261 4830.001
 }
