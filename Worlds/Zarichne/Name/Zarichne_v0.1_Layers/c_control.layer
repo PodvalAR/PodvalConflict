@@ -1,0 +1,16 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 3840.132 20.591 2400.663
+ }
+ {
+  coords 2366.523 8.312 2188.952
+ }
+ {
+  coords 1084.261 18.484 1578.146
+ }
+}
