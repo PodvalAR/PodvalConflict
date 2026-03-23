@@ -1,13 +1,15 @@
-Vehicle : "{20C37D5090E4E0E6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_base.et" {
+Vehicle : "{3C6B3ED0C3AC30D5}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HE.et" {
  ID "5A7CEB06421662F8"
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 1500
+      m_Value 2500
      }
     }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68EF015CE22FE64A}" {
    }
   }
  }
