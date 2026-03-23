@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A99A0601F7FF3E1D}Prefabs/Vehicles/Helicopters/UH1H/UH1H_Podval_armed_gunship_HE_sharkNose.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
