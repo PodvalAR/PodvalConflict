@@ -16,15 +16,40 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 2305.285 9 2310.39
 }
-SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
- coords 2304.711 9 2314.162
-}
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 2305.285 9 2309.39
 }
-RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
- coords 2303.983 9 2314.839
+SCR_CampaignFactionManager CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 2305.285 9 2312.39
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "CampaignFactionManager: "\
+   "Make sure one faction is non-playable to use for Independent units."
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
 }
-BasePreloadManager PreloadManager_Campaign_podval_base1 : "{8781ED7348F673E4}Prefabs/World/Game/PreloadManager_Campaign_podval_base.et" {
- coords 1119.529 19.759 1607.247
+SCR_LoadoutManager CampaignLoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 2305.285 9 2314.39
+}
+Vehicle CampaignMobileAssemblyEast1 : "{E171C9F443958372}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyEast.et" {
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_aAutoLabels {
+     FACTION_USSR
+     SIZE_M
+     VEHICLE_TRUCK
+     FACTION_USSR
+    }
+   }
+  }
+ }
+ coords 2214.241 7.625 2455.264
+ angles 0 -18.348 0
 }
