@@ -1,0 +1,20 @@
+GenericEntity : "{2C01215170B0FFE0}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_arsenal_box.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{68EF238BE50897E5}" {
+     SourceMaterial "base1"
+     AssignedMaterial "{A043AB0B28025E16}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Cargo_camo1.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{5CDEDAF3F117B260}" {
+   Slots {
+    RegisteringComponentSlotInfo Canvas {
+     Prefab "{7C4AABE7C767B24E}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_canvas_closed_camo1.et"
+    }
+   }
+  }
+ }
+}

@@ -16,14 +16,7 @@ Vehicle : "{32E77EC32ED2B6D1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Arsenal.
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     Name "#AR-Vehicle_Ural4320_Arsenal_Name #RHS-Camo"
-    m_sFaction "RHS_AFRF"
-    m_aAutoLabels {
-     FACTION_RHS_AFRF SIZE_M VEHICLE_TRUCK
-    }
    }
-  }
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "RHS_AFRF"
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
