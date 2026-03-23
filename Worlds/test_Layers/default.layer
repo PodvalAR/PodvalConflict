@@ -22,6 +22,9 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB64
  coords 8119.114 222.238 4141.895
  Factions {
   SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   m_bIsPlayable 1
+   m_bShowInWelcomeScreenIfNonPlayable 1
+   m_bIsMilitary 1
   }
  }
 }
@@ -378,6 +381,8 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
     }
    }
   }
+  SCR_CampaignMobileAssemblyComponent "{68ECD66A5AB28B4F}" {
+  }
   SCR_CommandingManagerComponent "{5D16783AFAE684F8}" {
    m_sCommandsConfigPath "{54764D4E706F348C}Configs/Commanding/Commands.conf"
    m_iMaxAIPerGroup 4
@@ -435,9 +440,6 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   }
   SCR_PlayerSpawnPointManagerComponent "{5CDABA98894199D0}" {
    m_SpawnPointPrefab "{6FC8BA123C919DB3}Prefabs/MP/PlayerRadioSpawnPointCampaign.et"
-   m_bEnablePlayerSpawnPoints 0
-   m_eDeployableSpawnPointBudgetType SPAWNTICKET
-   m_iDeployableSpawnPointTicketAmount 2
   }
   SCR_RespawnBriefingComponent "{5B2A94A3CF791D6F}" {
    m_sJournalConfigPath "{FFB1A12A7BFC4957}Configs/Journal/JournalConflict.conf"
