@@ -6,7 +6,6 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUF
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
       }
       SCR_EquipmentStorageSlot WristwatchSlot {
       }
