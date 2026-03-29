@@ -12,9 +12,6 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
      }
     }
    }
-   SCR_FactionAffiliationComponent "{621EB97024DABA88}" {
-    "faction affiliation" "FIA"
-   }
   }
   coords 837.77 19.736 2766.083
   angles 4.12 -8.586 3.915
@@ -54,9 +51,6 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
       "Transmitting Range" 1500
      }
     }
-   }
-   SCR_FactionAffiliationComponent "{621EB97024DABA88}" {
-    "faction affiliation" "FIA"
    }
   }
   coords 2623.923 12.24 2351.327
