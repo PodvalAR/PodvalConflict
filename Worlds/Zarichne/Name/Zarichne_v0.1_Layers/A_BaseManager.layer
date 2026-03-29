@@ -10,6 +10,9 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB64
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 1424.379 17.643 371.143
 }
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 1441.065 17.795 380.884
+}
 SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 2305.361 9 2309.831
  m_iControlPointsThreshold 3
