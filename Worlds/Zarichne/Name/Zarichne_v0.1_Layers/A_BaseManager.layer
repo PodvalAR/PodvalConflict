@@ -17,6 +17,9 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
  coords 2305.361 9 2309.831
  m_iControlPointsThreshold 3
 }
+GenericEntity : "{597378E657C7290C}Prefabs/Weapons/Rifles/SR25/Rifle_M110_base.et" {
+ coords 2172.917 7.001 2501.304
+}
 SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
  coords 2305.668 9 2311.589
 }

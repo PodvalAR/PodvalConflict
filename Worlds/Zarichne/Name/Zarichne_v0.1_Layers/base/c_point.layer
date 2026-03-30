@@ -2,8 +2,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
  {
   components {
    SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
-    m_fMaximumSeizingTime 600
-    m_fMinimumSeizingTime 420
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
    }
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
@@ -42,8 +42,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
  {
   components {
    SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
-    m_fMaximumSeizingTime 600
-    m_fMinimumSeizingTime 420
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
    }
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
@@ -77,8 +77,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
  {
   components {
    SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
-    m_fMaximumSeizingTime 600
-    m_fMinimumSeizingTime 420
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
    }
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
