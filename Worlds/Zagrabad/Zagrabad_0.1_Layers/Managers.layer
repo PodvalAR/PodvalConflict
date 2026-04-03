@@ -1,22 +1,25 @@
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- coords 347.74 17.5 873.402
+ coords 1928.227 95.065 -1250.489
 }
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 2305.285 9 2310.39
+ coords 3885.772 86.565 186.499
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
- coords 2304.764 9 2309.744
+ coords 3885.251 86.565 185.853
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
- coords 1424.379 17.643 371.143
+ coords 3004.866 95.208 -1752.748
 }
 RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
- coords 1441.065 17.795 380.884
+ coords 3021.552 95.36 -1743.007
 }
 SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
- coords 2305.361 9 2309.831
+ coords 3885.848 86.565 185.94
  m_iControlPointsThreshold 3
+ m_iSuppliesReplenishThreshold 15000
+ m_iRegularSuppliesIncome 25
+ m_iRegularSuppliesIncomeBase 15
 }
 SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 2305.668 9 2311.589
+ coords 3886.155 86.565 187.698
 }
