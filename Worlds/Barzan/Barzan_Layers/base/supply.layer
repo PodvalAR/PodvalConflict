@@ -133,7 +133,7 @@ $grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 0 -173.186 0
  }
  {
-  coords 1206.066 3.849 2736.563
+  coords 1206.128 3.849 2736.543
   angles 0 -65.187 0
   {
    GenericEntity {
