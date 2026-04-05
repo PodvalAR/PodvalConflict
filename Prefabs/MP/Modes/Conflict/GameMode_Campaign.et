@@ -357,17 +357,18 @@ SCR_GameModeCampaign : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
    }
   }
  }
+ coords 2305.361 9 2309.831
  PlayerControllerPrefab "{D39FCAB93FC4FB02}Prefabs/Characters/Core/DefaultPlayerControllerMP_Campaign.et"
  m_eTestGameFlags 6
  m_bAllowFactionChange 0
  m_fAutoReloadTime 75
- m_iControlPointsThreshold 4
+ m_iControlPointsThreshold 3
  m_fVictoryTimer 900
  m_iSuppliesReplenishThreshold 6000
- m_iQuickSuppliesReplenishThreshold 100
+ m_iQuickSuppliesReplenishThreshold 500
  m_iRegularSuppliesIncome 10
- m_iRegularSuppliesIncomeBase 0
- m_iRegularSuppliesIncomeExtra 1
+ m_iRegularSuppliesIncomeBase 25
+ m_iRegularSuppliesIncomeExtra 10
  m_iHQStartingSupplies 1000
  m_iMinStartingSupplies 75
  m_iMaxStartingSupplies 250

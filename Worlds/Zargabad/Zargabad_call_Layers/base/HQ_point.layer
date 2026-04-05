@@ -1,0 +1,56 @@
+$grp GenericEntity : "{2BCE96CD93121D01}Prefabs/Systems/MilitaryBase/ConflictBase_Base.et" {
+ {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
+    m_iSupplies 1000
+    m_iSuppliesMax 2500
+   }
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    "Turned on" 1
+    "Editor radio" 1
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1500
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main operational base"
+    m_sBaseNameUpper "Main operational base"
+   }
+  }
+  coords 3390.402 27.537 7136.471
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
+    m_iSupplies 1000
+    m_iSuppliesMax 2500
+   }
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    "Turned on" 1
+    "Editor radio" 1
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 1500
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main operational base"
+    m_sBaseNameUpper "Main operational base"
+   }
+  }
+  coords 3104.718 3.952 639.628
+ }
+}
