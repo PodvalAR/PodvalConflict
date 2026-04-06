@@ -13,6 +13,15 @@ Vehicle : "{FD109F3702AAB393}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23_bas
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1250
+     }
+    }
+   }
+  }
  }
  coords 4728.045 27.844 11171.286
 }
