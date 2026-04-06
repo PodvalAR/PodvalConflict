@@ -5,7 +5,10 @@ Vehicle : "{A78D786EFFDDC8FD}Prefabs/Vehicles/Wheeled/2B9/TF_Wheeled_2B9.et" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 2000
+      m_Value 800
+     }
+     SCR_EntityBudgetValue "{6890AB0351769C7D}" {
+      m_BudgetType RANK_LIEUTENANT
      }
     }
    }
