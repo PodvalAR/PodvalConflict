@@ -13,6 +13,15 @@ Vehicle : "{F4238420855F2BDE}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_emp
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2200
+     }
+    }
+   }
+  }
  }
  coords 4732.926 27.844 11171.76
 }
