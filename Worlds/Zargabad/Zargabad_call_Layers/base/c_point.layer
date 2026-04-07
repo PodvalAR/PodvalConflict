@@ -6,6 +6,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 60
     m_sBaseName "Mosque"
     m_sBaseNameUpper "Mosque"
    }
