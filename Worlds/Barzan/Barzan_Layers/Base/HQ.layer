@@ -6,7 +6,8 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_iRegularSuppliesIncomeBase 125
    }
   }
-  coords 834.115 2.697 588.776
+  coords 849.058 5.816 617.502
+  angles 0 -130.514 0
  }
  {
   components {
