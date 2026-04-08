@@ -1,0 +1,14 @@
+GameEntity : "{02EE7A78CDF7EC68}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_GRN.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_ItemOutfitFactionComponent "{65E2E2FD556908AD}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{65E2E2FD55690891}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{65E2E2FD5569089D}" {
+      m_AffiliatedFactionKey "US"
+     }
+    }
+   }
+  }
+ }
+}
