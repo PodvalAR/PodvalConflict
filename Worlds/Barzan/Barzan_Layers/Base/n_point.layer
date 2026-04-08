@@ -1,0 +1,54 @@
+GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_iRadius 80
+  }
+ }
+ coords 2638.633 22.185 2098.676
+ angles 0 -83.145 0
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   components {
+    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "606078EE23DE48AC"
+   components {
+    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{2BCE96CD93121D01}Prefabs/Systems/MilitaryBase/ConflictBase_Base.et" {
+ components {
+  SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+   m_bCapturingRequiresPlayer 1
+  }
+  SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
+   m_fOperationalRadius 25
+  }
+  SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+   m_iRadius 100
+   m_bDisableWhenUnusedAsHQ 1
+  }
+ }
+ coords 1340.135 2.846 948.209
+}
