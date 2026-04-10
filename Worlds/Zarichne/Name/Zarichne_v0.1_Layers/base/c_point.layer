@@ -12,6 +12,10 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
      }
     }
    }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "Ферма"
+    m_sBaseNameUpper "Ферма"
+   }
   }
   coords 837.77 19.736 2766.083
   angles 4.12 -8.586 3.915
@@ -52,6 +56,10 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
      }
     }
    }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "Полевой лагерь"
+    m_sBaseNameUpper "Полевой лагерь"
+   }
   }
   coords 2623.923 12.24 2351.327
   angles -0.787 79.872 -4.397
@@ -86,6 +94,10 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
       "Transmitting Range" 1500
      }
     }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "Хозяйство «Заречное»"
+    m_sBaseNameUpper "Хозяйство «Заречное»"
    }
   }
   coords 1743.651 16.926 2449.236
