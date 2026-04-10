@@ -19,14 +19,6 @@ RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
  coords 627.694 10.732 -537.268
 }
 SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
- components {
-  SCR_CampaignFactionCommanderHandlerComponent "{68F6CAE64ED4B64C}" {
-   Enabled 0
-  }
-  SCR_CommandingManagerComponent "{68F6CAE64ED4B658}" {
-   Enabled 0
-  }
- }
  coords 1491.99 1.937 1391.679
  m_iQuickSuppliesReplenishThreshold 100
  m_fQuickSuppliesReplenishMultiplier 1

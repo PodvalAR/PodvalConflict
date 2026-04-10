@@ -17,9 +17,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    GenericEntity {
     ID "5CCED514A5908822"
     components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      Enabled 0
-     }
      SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
       Enabled 0
      }
@@ -52,9 +49,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    GenericEntity {
     ID "5CCED514A5908822"
     components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      Enabled 0
-     }
      SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
       Enabled 0
      }
