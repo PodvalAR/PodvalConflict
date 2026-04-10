@@ -3,6 +3,10 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 75
+    m_sBaseName "Поселок Агнат"
+    m_sBaseNameUpper "Поселок Агнат"
+    m_iRegularSuppliesIncomeBase 25
+    m_iSuppliesArrivalInterval 300
    }
   }
   coords 1146.741 9.968 1774.486
@@ -10,6 +14,9 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    GenericEntity {
     ID "622086ACB9D1E3B2"
     components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
      SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
       Enabled 0
      }
@@ -29,6 +36,10 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 80
+    m_sBaseName "Болото"
+    m_sBaseNameUpper "Болото"
+    m_iRegularSuppliesIncomeBase 25
+    m_iSuppliesArrivalInterval 300
    }
   }
   coords 882.41 1.5 2645.606
@@ -44,12 +55,27 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
      }
     }
    }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+     }
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
   }
  }
  {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 75
+    m_sBaseName "Станция наблюдения"
+    m_sBaseNameUpper "Станция наблюдения"
+    m_iRegularSuppliesIncomeBase 25
+    m_iSuppliesArrivalInterval 300
    }
   }
   coords 1870.839 2 2973.206
