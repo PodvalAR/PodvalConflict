@@ -1,0 +1,19 @@
+GenericEntity : "{11F3A285A6F1F51D}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5EE3717254A87257}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset 0.016 0.007 -0.0169
+      Prefab "{CCA2C7A662439781}Prefabs/Weapons/Attachments/Rails/b18/b18.et"
+     }
+    }
+    AttachmentSlotComponent "{5EE4B6E06A50CD02}" {
+     AttachmentSlot InventoryStorageSlot opticPso {
+     }
+    }
+   }
+  }
+ }
+}
