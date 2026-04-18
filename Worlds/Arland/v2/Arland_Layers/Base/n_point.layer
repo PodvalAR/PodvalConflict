@@ -14,6 +14,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 90
+    m_sBaseName "Арлевиль"
+    m_sBaseNameUpper "Арлевиль"
    }
   }
   coords 2726.167 77.531 1677.541
@@ -45,6 +47,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 90
+    m_sBaseName "Ферма"
+    m_sBaseNameUpper "Ферма"
    }
   }
   coords 2210.344 53.901 2912.213
@@ -76,6 +80,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 90
+    m_sBaseName "Аэродром"
+    m_sBaseNameUpper "Аэродром"
    }
   }
   coords 946.338 38.343 2885.413
@@ -107,6 +113,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 90
+    m_sBaseName "Пустырь"
+    m_sBaseNameUpper "Пустырь"
    }
   }
   coords 1634.135 3.665 894.72
@@ -142,6 +150,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
       "Transmitting Range" 500
      }
     }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Военная база"
+    m_sBaseNameUpper "Военная база"
    }
   }
   coords 1411.144 10.997 1853.677

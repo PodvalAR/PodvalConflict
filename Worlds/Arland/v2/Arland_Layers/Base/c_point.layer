@@ -3,6 +3,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 90
+    m_sBaseName "п. Борегар"
+    m_sBaseNameUpper "п. Борегар"
    }
   }
   coords 3296.937 2 2859.601
@@ -30,6 +32,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 90
+    m_sBaseName "Остров чаек"
+    m_sBaseNameUpper "Остров чаек"
    }
   }
   coords 900.91 16.778 1468.397
@@ -55,6 +59,11 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
  }
 }
 GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   m_sBaseName "Сигнальная вышка"
+  }
+ }
  coords 2507.69 148.652 2268.143
  angles 0 -46.789 0
 }
