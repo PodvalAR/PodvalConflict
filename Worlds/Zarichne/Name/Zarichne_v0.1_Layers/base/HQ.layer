@@ -1,83 +1,31 @@
-$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+$grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
  {
   components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    Enabled 0
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
+     RelayTransceiver "{621EB97024DABAB8}" {
       "Transmitting Range" 1500
      }
     }
-    m_bIsSource 1
    }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bCanBeHQ 1
-   }
-  }
-  coords 1965.026 13.643 4433.91
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
-      Enabled 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    components {
-     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
-      Enabled 0
-     }
-    }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRegularSuppliesIncomeBase 125
    }
   }
+  coords 1959.778 13.318 4443.885
+  angles 0 -80.859 0
  }
  {
   components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    Enabled 0
-   }
-   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
-    m_iSuppliesMax 1500
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
+     RelayTransceiver "{621EB97024DABAB8}" {
       "Transmitting Range" 1500
      }
     }
-    m_bIsSource 1
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bCanBeHQ 1
-    m_bDisableWhenUnusedAsHQ 0
    }
   }
-  coords 1534.244 16.684 359.658
-  angles 0.04 -177.431 -0.894
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    components {
-     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
-      Enabled 0
-      "faction affiliation" ""
-     }
-    }
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    components {
-     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
-      Enabled 0
-      "faction affiliation" ""
-     }
-    }
-   }
-  }
+  coords 1548.538 16.531 346.104
+  angles 0 91.685 0
  }
 }
