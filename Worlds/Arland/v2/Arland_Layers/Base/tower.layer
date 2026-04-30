@@ -1,16 +1,21 @@
 $grp GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
  {
-  coords 2467.484 141.889 2199.089
-  angles 0 -60.741 0
+  coords 2467.484 141.89 2199.089
+  angles -2.789 -60.364 -6.095
   {
    GenericEntity {
     ID "605ECD8CFCE822A1"
     {
      Turret {
       ID "605ECD8C01B355D2"
-      coords 0.016 -32.83 -0.677
+      coords 0.065 0.694 -0.76
      }
     }
+   }
+   GenericEntity {
+    ID "605ECD8CFCE822B7"
+    coords 2.916 0.358 0.474
+    angles 0 8.05 0
    }
   }
  }
@@ -23,7 +28,8 @@ $grp GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSma
     {
      Turret {
       ID "605ECD8C01B355D2"
-      coords 0.016 -34.004 -0.677
+      coords -0.041 0.655 -0.253
+      angles 2.254 0.075 1.901
      }
     }
    }
@@ -56,7 +62,7 @@ GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
    {
     Turret {
      ID "5CCCBEDD771835C6"
-     coords 0.016 -12.137 -0.677
+     coords 0.016 0.684 -0.677
     }
    }
   }
@@ -143,7 +149,7 @@ SCR_DestructibleBuildingEntity : "{BD4E6475CA2BAE24}Prefabs/Structures/Military/
  coords 2536.597 0.045 2255.219
 }
 SCR_DestructibleBuildingEntity : "{C768E842A6F11CEE}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet.et" {
- coords 2539.261 -0 2264.302
+ coords 2539.261 0 2264.302
  angles 0 -95.117 0
 }
 GenericEntity : "{D7B21E69929A0546}Prefabs/Structures/Military/Camps/Shelters/ShelterStorageUSSR_01.et" {
