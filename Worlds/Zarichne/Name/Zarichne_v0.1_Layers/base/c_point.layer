@@ -13,7 +13,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     }
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 95
+    m_iRadius 65
     m_sBaseName "Ферма"
     m_sBaseNameUpper "Ферма"
    }
@@ -58,13 +58,13 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     }
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 120
+    m_iRadius 65
     m_sBaseName "Полевой лагерь"
     m_sBaseNameUpper "Полевой лагерь"
    }
   }
-  coords 2623.923 12.24 2351.327
-  angles -0.787 79.872 -4.397
+  coords 2645.115 13.966 2329.237
+  angles -4.343 -13.539 1.045
   {
    GenericEntity {
     ID "622086ACB9D1E3B2"
@@ -98,7 +98,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     }
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 95
+    m_iRadius 65
     m_sBaseName "Хозяйство «Заречное»"
     m_sBaseNameUpper "Хозяйство «Заречное»"
    }
