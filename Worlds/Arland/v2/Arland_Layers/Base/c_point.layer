@@ -1,6 +1,10 @@
 $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
  {
   components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 90
     m_sBaseName "п. Борегар"
@@ -26,10 +30,18 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
      }
     }
    }
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    m_fSpawnPositionUsageRange 90
+   }
   }
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 90
     m_sBaseName "Остров чаек"

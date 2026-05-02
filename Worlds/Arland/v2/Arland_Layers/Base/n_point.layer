@@ -152,6 +152,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 90
     m_sBaseName "Военная база"
     m_sBaseNameUpper "Военная база"
    }
