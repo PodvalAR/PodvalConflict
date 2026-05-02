@@ -6,7 +6,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "в/ч 41827"
     m_sBaseNameUpper "в/ч 41827"
    }
@@ -39,7 +39,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "в/ч 55309"
     m_sBaseNameUpper "в/ч 55309"
    }
@@ -72,7 +72,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Миглерон"
     m_sBaseNameUpper "Миглерон"
    }
@@ -105,7 +105,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Лангонет"
     m_sBaseNameUpper "Лангонет"
    }
@@ -138,7 +138,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Комсомольск"
     m_sBaseNameUpper "Комсомольск"
    }
@@ -171,7 +171,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Заброшка"
     m_sBaseNameUpper "Заброшка"
    }
@@ -204,7 +204,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Сортировочная"
     m_sBaseNameUpper "Сортировочная"
    }
@@ -237,7 +237,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Хижина в лесу"
     m_sBaseNameUpper "Хижина в лесу"
    }
@@ -270,7 +270,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "в/ч 72041"
     m_sBaseNameUpper "в/ч 72041"
    }
@@ -303,7 +303,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "в/ч 88163"
     m_sBaseNameUpper "в/ч 88163"
    }
@@ -336,7 +336,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Бовемонт"
     m_sBaseNameUpper "Бовемонт"
    }
@@ -369,7 +369,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Соумонт"
     m_sBaseNameUpper "Соумонт"
    }
@@ -402,7 +402,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Перекресток"
     m_sBaseNameUpper "Перекресток"
    }
@@ -435,7 +435,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Хамертин"
     m_sBaseNameUpper "Хамертин"
    }
@@ -468,7 +468,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Сосновый мыс"
     m_sBaseNameUpper "Сосновый мыс"
    }
@@ -501,7 +501,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Ферма"
     m_sBaseNameUpper "Ферма"
    }
@@ -534,7 +534,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "в/ч 94520"
     m_sBaseNameUpper "в/ч 94520"
    }
@@ -567,7 +567,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "в/ч 14283"
     m_sBaseNameUpper "в/ч 14283"
    }
@@ -600,7 +600,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "в/ч 27516"
     m_sBaseNameUpper "в/ч 27516"
    }
@@ -633,7 +633,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "в/ч 39047"
     m_sBaseNameUpper "в/ч 39047"
    }
@@ -666,7 +666,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Ле Рочер"
     m_sBaseNameUpper "Ле Рочер"
    }
@@ -699,7 +699,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Шахта «Надежда»"
     m_sBaseNameUpper "Шахта «Надежда»"
    }
@@ -732,7 +732,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Старая дорога"
     m_sBaseNameUpper "Старая дорога"
    }
@@ -765,7 +765,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Шахта «Красный Октябрь»"
     m_sBaseNameUpper "Шахта «Красный Октябрь»"
    }
@@ -798,7 +798,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Мичурино"
     m_sBaseNameUpper "Мичурино"
    }

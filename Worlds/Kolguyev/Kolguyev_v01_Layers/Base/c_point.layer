@@ -6,7 +6,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Угольдар"
     m_sBaseNameUpper "Угольдар"
    }
@@ -39,7 +39,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Аэропорт"
     m_sBaseNameUpper "Аэропорт"
    }
@@ -71,7 +71,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Вилла"
     m_sBaseNameUpper "Вилла"
    }
@@ -104,12 +104,13 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 65
     m_sBaseName "Миниралы"
     m_sBaseNameUpper "Миниралы"
    }
   }
   coords 6320.924 37.433 8009.375
-  angles 0 -90.234 0
+  angles 0 5.932 0
   {
    GenericEntity {
     ID "622086ACB9D1E3B2"
@@ -136,7 +137,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "в/ч 31986"
     m_sBaseNameUpper "в/ч 31986"
    }
@@ -169,7 +170,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Каменская котельная №4"
     m_sBaseNameUpper "Каменская котельная №4"
    }
@@ -202,12 +203,12 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Горшково"
     m_sBaseNameUpper "Горшково"
    }
   }
-  coords 8441.511 22.719 6599.598
+  coords 8423.604 22.719 6606.046
   angles 0 106.019 0
   {
    GenericEntity {
