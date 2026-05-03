@@ -5,7 +5,7 @@ Vehicle : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_sFaction "USSR"
     m_aAutoLabels {
-     FACTION_USSR SIZE_M VEHICLE_APC ENTITYTYPE_VEHICLE
+     FACTION_USSR SIZE_L VEHICLE_APC ENTITYTYPE_VEHICLE
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {

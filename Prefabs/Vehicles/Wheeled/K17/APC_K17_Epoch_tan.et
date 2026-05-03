@@ -14,6 +14,9 @@ Vehicle : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
     Name "#RHS-Vehicle_K17_Epoch_Name #RHS-Tan"
     m_Image "{3AE5193A43AD0092}UI/Textures/EditorPreviews/Vehicles/K17/Vehicle_K17_Epoch_tan.edds"
     m_sFaction "USSR"
+    m_aAutoLabels {
+     FACTION_USSR SIZE_L VEHICLE_APC ENTITYTYPE_VEHICLE
+    }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 5500

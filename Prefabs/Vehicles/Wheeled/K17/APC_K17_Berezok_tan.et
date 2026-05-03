@@ -14,6 +14,9 @@ Vehicle : "{31F0866273C46D76}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok.et" {
     Name "#RHS-Vehicle_K17_Berezok_Name #RHS-Tan"
     m_Image "{37E4446D986508B1}UI/Textures/EditorPreviews/Vehicles/K17/Vehicle_K17_Berezhok_tan.edds"
     m_sFaction "USSR"
+    m_aAutoLabels {
+     FACTION_USSR SIZE_L VEHICLE_APC ENTITYTYPE_VEHICLE
+    }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 5000
