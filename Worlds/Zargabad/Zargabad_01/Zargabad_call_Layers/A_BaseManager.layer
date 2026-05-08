@@ -8,7 +8,6 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB64
  coords 2304.764 9 2309.744
  m_aRanks {
   SCR_RankIDCampaign "{5CB0777E83631136}" {
-   m_iRadioRespawnCooldown 150
   }
  }
 }
