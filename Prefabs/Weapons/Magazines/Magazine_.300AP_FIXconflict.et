@@ -18,7 +18,7 @@ GenericEntity : "{6D18CC33708EE712}Prefabs/Weapons/Magazines/Magazine_762x51_M14
    }
    ItemModel "{8F18D27FC061D902}Assets/Weapons/SPR300/mag/SPRmag.xob"
    MaxAmmo 10
-   AmmoConfig "{53732A927930D2DE}Worlds/S1lENCE_prefabs/Weapons/Ammo/Ammo_300Win_FIX.conf"
+   AmmoConfig "{6ED0885A8838C11C}Prefabs/Weapons/Ammo/Ammo_300Win_FIX.conf"
    AmmoMapping {
     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
    }
