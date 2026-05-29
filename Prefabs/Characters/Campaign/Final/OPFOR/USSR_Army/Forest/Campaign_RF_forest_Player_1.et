@@ -120,5 +120,6 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
  }
- coords 0 -0.015 0
+ coords 0 0 0
+ angles 0 -82 0
 }
