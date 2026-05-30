@@ -6,8 +6,9 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
  coords 8412.288 243.312 8626.307
- m_aRanks {
-  SCR_RankIDCampaign "{5CB0777E83631136}" {
+ Factions {
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   m_iFactionRadioFrequency 45000
   }
  }
 }
@@ -18,6 +19,11 @@ RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
  coords 7548.589 252.107 6697.446
 }
 SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_PlayerSpawnPointManagerComponent "{68F6CAE64ED4B671}" {
+   m_eDeployableSpawnPointBudgetType NONE
+  }
+ }
  coords 8412.885 243.312 8626.395
  m_iControlPointsThreshold 5
  m_iQuickSuppliesReplenishThreshold 100

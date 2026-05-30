@@ -23,6 +23,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB64
  Factions {
   SCR_CampaignFaction "{56F0C3A6336375DC}" {
    m_bIsMilitary 1
+   m_iFactionRadioFrequency 45000
   }
  }
 }
@@ -74,7 +75,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
    m_iXpRewardTreshold 5
    m_iInitialRewardInterval 5
    m_fRewardCurveIncrement 0.2
-   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5D7A73031D9A11E1}" : "{96A8B496A076F1C0}scripts/Game/Building/CampaignBuildingCompositionOutline.conf" {
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5D7A73031D9A11E1}" : "{96A8B496A076F1C0}scripts/Game/ACE_Trenches/Building/CampaignBuildingCompositionOutline.conf" {
     m_aCompositionLayouts {
      SCR_CampaignBuildingCompositionOutline "{5D34D094366A7550}" {
       m_sEditableEntity "{18BEFC9A7FA72CD8}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_BarbedTapeKnifeRest_S_US_01.et"
@@ -438,6 +439,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   }
   SCR_PlayerSpawnPointManagerComponent "{5CDABA98894199D0}" {
    m_SpawnPointPrefab "{6FC8BA123C919DB3}Prefabs/MP/PlayerRadioSpawnPointCampaign.et"
+   m_eDeployableSpawnPointBudgetType NONE
   }
   SCR_RespawnBriefingComponent "{5B2A94A3CF791D6F}" {
    m_sJournalConfigPath "{FFB1A12A7BFC4957}Configs/Journal/JournalConflict.conf"
