@@ -1,4 +1,4 @@
-Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+Vehicle : "{A35A4AE2AD56643E}Prefabs/Vehicles/Wheeled/M998/M1151_armed_MK19.et" {
  ID "BBCBA43A9778AE21"
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
@@ -8,6 +8,9 @@ Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" 
      SIZE_M VEHICLE_CAR FACTION_US
     }
     m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 750
+     }
      SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
       m_BudgetType RANK_SERGEANT
       m_Value 3
@@ -16,7 +19,7 @@ Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" 
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "RHS_USAF"
+   "faction affiliation" ""
   }
  }
 }
