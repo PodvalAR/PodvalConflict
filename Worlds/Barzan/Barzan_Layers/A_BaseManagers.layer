@@ -6,6 +6,16 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
  coords 1491.393 1.937 1391.592
+ Factions {
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aStartingVehicles {
+    "{3277F8B1FA06A2BD}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et"
+    "{3277F8B1FA06A2BD}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et"
+    "{26540C659F802A66}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Woodland.et"
+    "{26540C659F802A66}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Woodland.et"
+   }
+  }
+ }
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 611.008 10.58 -547.009

@@ -6,8 +6,22 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
  coords 3505.503 133.633 6648.112
- m_aRanks {
-  SCR_RankIDCampaign "{5CB0777E83631136}" {
+ Factions {
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aStartingVehicles {
+    "{B8C827A45C1347A5}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et"
+    "{B8C827A45C1347A5}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF_D.et"
+    "{100F935485BB1F6D}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Tan.et"
+    "{763CE04375722F13}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Covered_Tan.et"
+   }
+  }
+  SCR_CampaignFaction "{68E338463D7DD9C8}" {
+   m_aStartingVehicles {
+    "{7B73B9445F145E6F}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_Tan.et"
+    "{7B73B9445F145E6F}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_Tan.et"
+    "{0075D36080C5681A}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_tan.et"
+    "{78E46A3CAC36BB1F}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_tan.et"
+   }
   }
  }
 }

@@ -21,6 +21,14 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
  coords 8119.114 222.238 4141.895
  Factions {
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aStartingVehicles {
+    "{3277F8B1FA06A2BD}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et"
+    "{3277F8B1FA06A2BD}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et"
+    "{26540C659F802A66}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Woodland.et"
+    "{26540C659F802A66}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Woodland.et"
+   }
+  }
   SCR_CampaignFaction "{56F0C3A6336375DC}" {
    m_bIsMilitary 1
    m_iFactionRadioFrequency 45000
