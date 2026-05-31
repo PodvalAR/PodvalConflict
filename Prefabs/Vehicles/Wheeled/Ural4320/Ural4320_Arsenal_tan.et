@@ -3,6 +3,7 @@ Vehicle : "{A237F9817A6ADB17}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_Arsenal_
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{E55423B67DB41216}Images/UralTan.edds"
     m_sFaction "USSR"
     m_aAutoLabels {
      FACTION_USSR SIZE_M VEHICLE_TRUCK

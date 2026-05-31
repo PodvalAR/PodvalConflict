@@ -3,6 +3,7 @@ Vehicle : "{22817160AC1DC779}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_t
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{23CCCD382B073FA4}Images/UralTan3.edds"
     m_sFaction "USSR"
     m_aAutoLabels {
      FACTION_USSR SIZE_M VEHICLE_TRUCK
