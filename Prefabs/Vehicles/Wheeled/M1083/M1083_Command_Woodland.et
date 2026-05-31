@@ -1,0 +1,38 @@
+Vehicle : "{DE1947A6D4DECD2C}Prefabs/Vehicles/Wheeled/M1083/M1083_Command.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{697E8409A107BFE4}" {
+     SourceMaterial "Cabin"
+     AssignedMaterial "{0DB292AA4D779419}Assets/Vehicles/Wheeled/M1083/Data/Cabin_Woodland.emat"
+    }
+    MaterialAssignClass "{697E8409A107BFDF}" {
+     SourceMaterial "Chassis"
+     AssignedMaterial "{9DFE76D5AEC1B4F9}Assets/Vehicles/Wheeled/M1083/Data/Chassis_Woodland.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{7A081F031756BA23}UI/Textures/EditablePreviews/Vehicles/Wheeled/M1083/M1083_Command_Carc.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 420
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof_Hatch {
+     Prefab "{42F189AEB8D3C01A}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_RoofHatch_Woodland.et"
+    }
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{08C502E90F56E5C3}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_Command_Box_Woodland.et"
+    }
+   }
+  }
+ }
+ coords 127.244 1 1185.062
+}
