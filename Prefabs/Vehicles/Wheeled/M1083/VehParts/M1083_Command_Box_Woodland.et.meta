@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5F3FF2AFD7C4D8F2}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_Command_Box_Woodland.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

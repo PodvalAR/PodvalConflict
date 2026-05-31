@@ -1,0 +1,14 @@
+GenericEntity : "{79971EA4027F0D32}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_Command_Box.et" {
+ ID "5206D4E7EFE2C051"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5554D0E4A8570A47}" {
+     SourceMaterial "M923a1_COM"
+     AssignedMaterial "{22DC757D0FBB862D}Assets/Vehicles/Wheeled/M1083/Data/M1083_COM_Carc.emat"
+    }
+   }
+  }
+ }
+ coords 139.878 1 1174.541
+}
