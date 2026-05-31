@@ -5,6 +5,9 @@ Vehicle : "{78E46A3CAC36BB1E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transpor
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_Image "{9E1C9FBF541C23BA}Images/UralTan5.edds"
     m_sFaction "USSR"
+    m_aAutoLabels {
+     FACTION_USSR SIZE_M VEHICLE_TRUCK
+    }
    }
   }
  }

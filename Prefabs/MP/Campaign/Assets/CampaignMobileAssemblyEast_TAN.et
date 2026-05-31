@@ -1,0 +1,40 @@
+Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ ID "5206D4E7C4A16F13"
+ components {
+  BaseRadioComponent "{51EAE036CCD0A08E}" {
+   "Turned on" 0
+   Transceivers {
+    RelayTransceiver "{697E7268C6B44E64}" {
+     "Transmitting Range" 2000
+    }
+   }
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{697E726B9D423A89}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{877194EA94C1DE33}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_tan.emat"
+    }
+   }
+  }
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   Enabled 0
+  }
+  SCR_CampaignMHQLockComponent "{697E7268C6B44E51}" {
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-MapSymbol_MobileHQ"
+    m_Image "{148164BDD1E2366F}Images/Ural4320_command_TAN.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Radio {
+     Prefab "{8576CED117A875E8}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyCargoEast_TAN.et"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}
