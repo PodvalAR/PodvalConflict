@@ -229,4 +229,33 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    }
   }
  }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 65
+    m_sBaseName "Бовемонт"
+    m_sBaseNameUpper "Бовемонт"
+   }
+  }
+  coords 6106.682 417.525 6154.917
+  angles 0 -175.605 0
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
 }
