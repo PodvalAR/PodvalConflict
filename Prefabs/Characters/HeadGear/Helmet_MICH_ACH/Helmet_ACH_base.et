@@ -10,5 +10,9 @@ GameEntity : "{907F51E4DFF366FF}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helm
     }
    }
   }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{942BB93A7E7E4D84}Assets/Characters/HeadGear/Helmet_ACH_MICH/rhs_ach_cov_shroud.xob"
+   ItemModel "{24B3272B405FC7B7}Assets/Characters/HeadGear/Helmet_ACH_MICH/rhs_ach_cov_shroud_item.xob"
+  }
  }
 }
