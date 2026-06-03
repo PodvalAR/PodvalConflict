@@ -51,7 +51,7 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
      Prefab "{03FF161D3AC1E1DF}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et"
+     Prefab "{13AD1A501F820288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_base.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{8EF93CC5575CFD4B}Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO.et"
