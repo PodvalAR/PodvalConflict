@@ -51,7 +51,7 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
      Prefab "{4CE32EDC792572E4}Prefabs/Characters/Uniforms/6Sh122_Jacket/Jacket_6Sh122_Syrian_Digital.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et"
+     Prefab "{13AD1A501F820288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_base.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{CBEC4553081D6472}Prefabs/Characters/Uniforms/6Sh122_Pants/Pants_6Sh122_Syrian_Digital.et"
