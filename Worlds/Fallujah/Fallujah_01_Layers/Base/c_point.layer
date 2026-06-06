@@ -92,7 +92,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_iRadius 65
    }
   }
-  coords 2039.597 8.344 1785.549
+  coords 2053.896 8.344 1785.366
   angles 0 92.01 0
   {
    GenericEntity {
@@ -110,6 +110,10 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
       Enabled 0
      }
     }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords -1.237 -0.188 11.503
    }
   }
  }
