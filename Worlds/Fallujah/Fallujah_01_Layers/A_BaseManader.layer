@@ -1,3 +1,8 @@
+SCR_MapEntity SCR_MapEntity1 {
+ coords 2011.265 8.156 2103.386
+ "Map Geometry Data" "{EF4B221B198B0903}Worlds/Fallujah.topo"
+ "Satellite background image" "{575B9C7B427A8CF9}Worlds/Fallujah.edds"
+}
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  coords 50.615 21.584 668.123
 }
@@ -6,10 +11,6 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
  coords 2007.639 13.084 2104.465
- m_aRanks {
-  SCR_RankIDCampaign "{5CB0777E83631136}" {
-  }
- }
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 1127.254 21.727 165.863
