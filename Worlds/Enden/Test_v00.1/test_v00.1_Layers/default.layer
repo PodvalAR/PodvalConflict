@@ -7936,6 +7936,14 @@ $grp GenericEntity : "{869A4C4CA7F43C21}Prefabs/MP/Campaign/SupplyDepots/SupplyC
 }
 BasePreloadManager PreloadManager_Campaign_podval_base1 : "{8781ED7348F673E4}Prefabs/World/Game/PreloadManager_Campaign_podval_base.et" {
  coords 4771.51 23.567 12039.699
+ PrefabsToPreload {
+  PreloadEntry "{68E33847E6FBF935}" {
+   Prefab "{D12A748951DA5352}Prefabs/Characters/Campaign/RHS/Conflict/Variants/forest/Campaign_US_forest_Player_1.et"
+  }
+  PreloadEntry "{68E33847E6FBF903}" {
+   Prefab "{208647DB054C74B2}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Forest/Campaign_RF_forest_Player_1.et"
+  }
+ }
 }
 GenericEntity : "{8950F273E5D8657D}Prefabs/Compositions/Locations/Eden/SupplyCache_Gravette_FIA_01.et" {
  coords 4120.761 35.406 7796.203

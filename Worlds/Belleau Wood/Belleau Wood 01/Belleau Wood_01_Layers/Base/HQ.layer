@@ -1,0 +1,8 @@
+$grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
+ {
+  coords 6046.284 125.421 6498.924
+ }
+ {
+  coords 6165.828 127.183 5789.625
+ }
+}

@@ -17,6 +17,55 @@ Vehicle : "{36ED190F9C9A8E0C}Prefabs/Vehicles/Wheeled/M998/M1151_armed_CROWS_M2_
     }
    }
   }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68D4DD4BCD7F84D8}" {
+     SlotTemplate InventoryStorageSlot Tourniquets {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7F84AE}" {
+     SlotTemplate InventoryStorageSlot Morphine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7F84AB}" {
+     SlotTemplate InventoryStorageSlot M16ammo {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7F84A9}" {
+     SlotTemplate InventoryStorageSlot SAWammo {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7F84A8}" {
+     SlotTemplate InventoryStorageSlot Grenades {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7F84A7}" {
+     SlotTemplate InventoryStorageSlot SmokeGrenades {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7FA740}" {
+     SlotTemplate InventoryStorageSlot ugl {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7FA742}" {
+     SlotTemplate InventoryStorageSlot ugl_flare {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7FFE15}" {
+     SlotTemplate InventoryStorageSlot ATmine {
+      Enabled 0
+     }
+    }
+   }
+  }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "RHS_USAF"
   }

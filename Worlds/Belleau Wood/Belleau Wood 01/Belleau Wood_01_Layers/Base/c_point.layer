@@ -1,0 +1,45 @@
+$grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
+ {
+  coords 4751.239 173.385 3504.17
+  angles 0 -9.107 0
+  {
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4172.282 157.203 520.118
+  angles 0 -176.585 0
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5515.86 182.594 5159.802
+  angles 0 80.242 0
+ }
+ {
+  coords 6838.967 125.577 4099.559
+ }
+}
