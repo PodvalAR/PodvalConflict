@@ -12,8 +12,60 @@ Vehicle : "{D875ADE39021650C}Prefabs/Vehicles/Wheeled/M998/M1167_armed_TOW_Tan.e
       m_Value 1500
      }
      SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
-      m_BudgetType RANK_CAPTAIN
-      m_Value 5
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC91FA}" {
+     SlotTemplate InventoryStorageSlot Tourniquets {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9108}" {
+     SlotTemplate InventoryStorageSlot Morphine {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9114}" {
+     SlotTemplate InventoryStorageSlot M16ammo {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9113}" {
+     SlotTemplate InventoryStorageSlot SAWammo {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9111}" {
+     SlotTemplate InventoryStorageSlot Grenades {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9110}" {
+     SlotTemplate InventoryStorageSlot SmokeGrenades {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911F}" {
+     SlotTemplate InventoryStorageSlot ugl {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911D}" {
+     SlotTemplate InventoryStorageSlot ugl_flare {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911C}" {
+     SlotTemplate InventoryStorageSlot ATmine {
+      Enabled 0
      }
     }
    }
