@@ -1,0 +1,163 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ {
+  coords 10696.659 196.844 2063.956
+  angles 0 -89.948 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 9918.293 127.319 2353.162
+  angles 0 93.628 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 8392.151 185.687 3235.818
+  angles 0 2.403 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 8911.991 162.529 6632.135
+  angles 0 8.516 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 9680.443 124.685 9187.995
+  angles 0 177.845 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 7663.086 128.168 10789.626
+  angles 0 169.539 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 6082.93 173.499 7221.336
+  angles 0 -9.005 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 5666.342 118.981 6446.868
+  angles 0 86.098 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 4757.701 108.66 6960.23
+  angles 0 -54.442 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 1322.912 87.563 7662.747
+  angles 0 31.861 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 4240.716 89.295 8142.712
+  angles 0 95.067 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 3597.786 153.805 9667.235
+  angles 0 -157.213 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 2243.479 164.766 9333.834
+  angles 0 -100.927 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 1182.908 166.365 9432.752
+  angles 0 60.469 0
+ }
+}
+GenericEntity : "{FB26A800AC01D85A}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_FIA_01.et" {
+ coords 6061.774 173.406 7212.758
+ angles 0 57.236 0
+}

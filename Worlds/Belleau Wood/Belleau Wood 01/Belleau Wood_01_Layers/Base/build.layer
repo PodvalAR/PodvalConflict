@@ -1,0 +1,63 @@
+GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_FIA_01.et" {
+ coords 4806.695 170.289 3489.19
+ angles 0 -46.618 0
+}
+$grp GenericEntity : "{3D72BF835223B352}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_FIA_01.et" {
+ {
+  coords 4694.317 175.55 3452.043
+  angles 0 -167.81 0
+ }
+ {
+  coords 5562.252 178.419 5190.684
+  angles -9.306 107.556 -2.929
+ }
+ {
+  coords 6750.407 128.016 4125.677
+  angles 0 168.072 0
+ }
+ {
+  coords 6162.546 173.773 7238.104
+  angles 0 -10.092 0
+ }
+}
+$grp GenericEntity : "{4510C273B794F3A9}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_USSR_01.et" {
+ {
+  coords 4646.301 176.544 3427.833
+  angles 0 -26.962 0
+ }
+ {
+  coords 5578.722 178.101 5237.289
+  angles 0 -137.662 0
+ }
+ {
+  coords 6754.923 129.958 4071.818
+  angles 0 137.805 0
+ }
+ {
+  coords 6144.174 173.812 7229.893
+  angles 0 31.85 0
+ }
+}
+$grp GenericEntity : "{8E49E48C2BD0BFE3}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_FIA_01.et" {
+ {
+  coords 4683.993 176.937 3482.482
+  angles 0 86.891 0
+ }
+ {
+  coords 6882.589 126.787 4087.54
+ }
+}
+$grp GenericEntity : "{FB26A800AC01D85A}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_FIA_01.et" {
+ {
+  coords 4697.948 177.375 3526.45
+  angles 0 162.162 0
+ }
+ {
+  coords 5509.196 176.469 5233.212
+  angles 0 -158.067 0
+ }
+ {
+  coords 6834.809 125.121 4135.719
+  angles 0 -69.47 0
+ }
+}

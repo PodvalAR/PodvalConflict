@@ -1,0 +1,47 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 2983.677 180.344 2170.848
+  angles 0 2.181 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 2053.72 201.343 3121.018
+  angles 0 -36.291 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 4412.344 189.771 4688.48
+  angles 0 -38.465 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 2972.96 175.296 3891.241
+  angles 0 -22.602 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 4082.35 201.251 2355.401
+  angles 0 120.989 0
+ }
+}
