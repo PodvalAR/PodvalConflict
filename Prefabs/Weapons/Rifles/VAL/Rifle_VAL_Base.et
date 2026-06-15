@@ -1,0 +1,18 @@
+GenericEntity : "{F25D16BD5F748372}Prefabs/Weapons/Rifles/VAL/Rifle_VAL_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{689B495D05E3752D}" {
+   Slots {
+    EntitySlotInfo Dustcover {
+     Prefab "{9C5CC723D7F3598C}Prefabs/Weapons/Attachments/Receivers/VSS_Platform/VSSM_Dustcover.et"
+    }
+    EntitySlotInfo Handguard {
+     PivotID "slot_handguard"
+     Prefab "{FDACBB9AD6F464CA}Prefabs/Weapons/Attachments/Handguards/VSS_Platform/Handguard_VSS_RIS.et"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angles 0 48.5 0
+}
