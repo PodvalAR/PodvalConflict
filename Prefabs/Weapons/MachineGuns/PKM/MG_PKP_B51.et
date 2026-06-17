@@ -1,0 +1,29 @@
+GenericEntity : "{1414EEC1849D2447}Prefabs/Weapons/MachineGuns/PKM/MG_PKP_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{69A28C7900878246}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot rail1913 {
+      PivotID "w_topcover"
+      Offset 0 0.059 -0.1844
+      Prefab ""
+      InspectionWidgetOffset 0 0.1819 0
+      m_fMaximumPositiveSlideOffset 0.11
+      m_fMaximumNegativeSlideOffset -0.07
+     }
+     AttachmentType AttachmentOpticsRIS1913Medium "{69A28C79664C2C8F}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{69A28C791730F6FF}" {
+     AttachmentSlot InventoryStorageSlot "{69A28C7916D518FA}" {
+      PivotID "w_topcover"
+      Prefab "{D9C50A954F8CAC2E}Prefabs/Weapons/Attachments/Rails/b51/b51.et"
+     }
+    }
+   }
+  }
+ }
+ coords 104.304 1 190.368
+}
