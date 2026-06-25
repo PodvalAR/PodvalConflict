@@ -1,0 +1,14 @@
+GameEntity : "{8061260ACEA3C089}Prefabs/Characters/HeadGear/Hat_Cap/GD_Cap_Headphones_Black.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_ItemOutfitFactionComponent "{6196E6B24DFC8811}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96689DB8CC5}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96688AA6724}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+ }
+}

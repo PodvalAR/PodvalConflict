@@ -1,0 +1,14 @@
+GameEntity : "{E9B03B5655F5A020}Prefabs/Characters/Uniforms/Shirt_CP_G3/MOH_camo/CP_G3_Shirt_ColA_BaseT_FullS_MOH.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_ItemOutfitFactionComponent "{618AD7BA742C881B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8A841FFD3695A}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8A841FF4AEFAF}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+ }
+}
