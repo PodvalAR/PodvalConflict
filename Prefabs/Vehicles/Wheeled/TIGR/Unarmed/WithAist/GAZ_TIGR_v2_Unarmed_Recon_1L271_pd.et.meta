@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7D0263F018684510}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/WithAist/GAZ_TIGR_v2_Unarmed_Recon_1L271_pd.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
