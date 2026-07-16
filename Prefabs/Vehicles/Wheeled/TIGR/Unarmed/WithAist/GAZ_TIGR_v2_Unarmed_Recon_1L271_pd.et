@@ -5,15 +5,15 @@ Vehicle : "{162B7A60442C5913}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/WithAist/GAZ_
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_sFaction "USSR"
     m_aAutoLabels {
-     NONE SIZE_M VEHICLE_CAR
+     FACTION_USSR SIZE_M VEHICLE_CAR
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 10000
+      m_Value 740
      }
      SCR_EntityBudgetValue "{69D91E5409C58C90}" {
-      m_BudgetType RANK_MAJOR
-      m_Value 6
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
      }
     }
    }
