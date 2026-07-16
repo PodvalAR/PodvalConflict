@@ -1,0 +1,185 @@
+GenericEntity {
+ ID "69E066C6C221E3AC"
+ components {
+  RigidBody "{69E066C6C2217A5B}" {
+   ResponseIndex "NoCollision"
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     LayerPreset "Interaction"
+     Offset 0 0 0.919
+     Extents 8 2 1.5
+    }
+   }
+   Static 1
+  }
+  SCR_CampaignBuildingCompositionComponent "{69E066C6C2217A46}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{69E066C6C2217A4B}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_SANDBAG"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{69E066C6C2217A4D}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_SANDBAG"
+    m_eFlags 5
+   }
+  }
+  SCR_EditableEntityComponent "{69E066C6C2217A4E}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{69E066C6C2217A30}" {
+    Name "Hesco Wall"
+    Description "Stacked Hesco blocks forming a wall"
+    m_Image "{AE6E6DF198779088}Pictures/BlockWallUS.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     THEME_MILITARY FACTION_US
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_M CONTENT_MODDED
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{69E066C6C2217A33}" {
+      m_BudgetType CAMPAIGN
+      m_Value 200
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69E066C6C2217A34}" {
+      m_BudgetType PROPS
+      m_Value 5
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 132355
+  }
+  SCR_EditorLinkComponent "{69E066C6C2217A36}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{69E066C6C2217A3A}" {
+     m_Prefab "{1F6CF8DD61C67BF7}Prefabs/OG_HescoWall_USSR.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+  SCR_SlotCompositionComponent "{69E066C6C2217A3C}" {
+  }
+  ActionsManagerComponent "{69E066C6C2217A3F}" {
+   ActionContexts {
+    UserActionContext "{69E066C6C2217A20}" {
+     ContextName "Disassembly"
+     Position PointInfo "{69E066C6C2217A2A}" {
+      Offset 0 0 0.9415
+     }
+     Radius 1.5
+     Height 0
+     "Display UI At Reference Point" 1
+    }
+    UserActionContext "{69E066C6C2217A2B}" {
+     ContextName "DisassemblyL"
+     Position PointInfo "{69E066C6C2217A2D}" {
+      Offset -2.1404 0 0.9415
+     }
+     Radius 1.5
+     Height 0
+     "Display UI At Reference Point" 1
+    }
+    UserActionContext "{69E066C6C2217A2E}" {
+     ContextName "DisassemblyR"
+     Position PointInfo "{69E066C6C2217A2F}" {
+      Offset 2.1404 0 0.9415
+     }
+     Radius 1.5
+     Height 0
+     "Display UI At Reference Point" 1
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{69E066C6C2217A11}" {
+     ParentContextList {
+      "Disassembly"
+     }
+     UIInfo UIInfo "{69E066C6C2217A14}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly"
+     }
+     VisibilityRange 1.5
+     Duration 20
+    }
+    SCR_CampaignBuildingDisassemblyUserAction "{69E066C6C2217A18}" {
+     ParentContextList {
+      "DisassemblyL"
+     }
+     UIInfo UIInfo "{69E066C6C2217A19}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly"
+     }
+     VisibilityRange 1.5
+     Duration 20
+    }
+    SCR_CampaignBuildingDisassemblyUserAction "{69E066C6C2217A1A}" {
+     ParentContextList {
+      "DisassemblyR"
+     }
+     UIInfo UIInfo "{69E066C6C2217A1B}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly"
+     }
+     VisibilityRange 1.5
+     Duration 20
+    }
+   }
+  }
+  RplComponent "{69E066C6C2217A05}" {
+  }
+  Hierarchy "{69E066C6C2217A07}" {
+  }
+ }
+ Flags 0x403 0
+ coords 0 0 0
+ {
+  GenericEntity {
+   ID "69E066C6C2217A52"
+   components {
+    ClimbingDataComponent "{69E066C6C2217AEA}" {
+     Enabled 1
+     CanClimbOver 0
+    }
+    MeshObject "{69E066C6C2217AED}" {
+     Object "{ABFF4032DBDA2229}Assets/wallBASE.xob"
+     Materials {
+      MaterialAssignClass "{69E066C6C2217AD0}" {
+       SourceMaterial "barricade_HESKO"
+       AssignedMaterial "{85EC220EA187370C}Assets/Data/barricade_HESKO_USSR.emat"
+      }
+     }
+     LODFactors {
+      1 1
+     }
+    }
+    RigidBody "{69E066C6C2217E71}" {
+     ResponseIndex "HugeDestructible"
+     ModelGeometry 1
+     Static 1
+    }
+    SCR_DestructionMultiPhaseComponent "{69E066C6C2217E73}" {
+     Enabled 0
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       HZDefault 1
+       "Kinetic multiplier" 0.01
+       "Fragmentation multiplier" 0.01
+       "Explosive multiplier" 1
+      }
+     }
+     m_fBaseHealth 1000
+     m_fForceToDamageScale 350
+     m_eMaterialSoundType BREAK_TENT
+    }
+    RplComponent "{69E066C6C2217E74}" {
+     Enabled 0
+    }
+    Hierarchy "{69E066C6C2217E77}" {
+    }
+   }
+   Flags 0x100000 0x3
+   coords 0 0 0
+  }
+ }
+}

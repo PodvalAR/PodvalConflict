@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D00E5FF674BBDF63}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/Hesco/USSR/OG_HescoSteppable_US_pd.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,124 @@
+GenericEntity {
+ ID "69DF08A787BF51D0"
+ components {
+  MeshObject "{69DF08A787B18B51}" {
+   Object "{1DD691498CAF7C7A}Assets/OG_NestvBASEv1.xob"
+   LODFactors {
+    0.01 2 1.5 1 1 1
+   }
+  }
+  RigidBody "{69DF08A787B18B5C}" {
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{69DF08A787B18B5D}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     BaseDamageMultiplier 0.3
+     MaxHealth 3.5
+     DamageReduction 50.5
+     DamageThreshold 0
+     "Collision multiplier" 1.1
+     "Melee multiplier" 1.1
+     "Explosive multiplier" 10.6
+    }
+   }
+   m_fBaseHealth 60477.938
+   m_fForceToDamageScale 350
+   m_fDamageThresholdMaximum 50000
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{69DF08A787B18B44}" {
+     m_Particle "{3707DBDD9371108B}Particles/Blasts/Blast_big_sand.ptc"
+     m_bDirectional 0
+    }
+   }
+   m_bDeleteAfterFinalPhase 0
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{69DF08A787B18B47}" {
+     m_fPhaseHealth 9191.189
+     m_PhaseModel "{1DD691498CAF7C7A}Assets/OG_NestvBASEv1.xob"
+    }
+   }
+   m_eMaterialSoundType BREAK_SANDBAG
+  }
+  RplComponent "{69DF08A787B18B4A}" {
+   Enabled 1
+  }
+  Hierarchy "{69DF08A787B18B4C}" {
+  }
+ }
+ Flags 0x403 0
+ coords 0 0 0
+ {
+  $grp GenericEntity : "{5DD9020BE477CB9C}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_1080rnd.et" {
+   {
+    ID "69DF08A787BEABC6"
+    components {
+     Hierarchy "{69DF08A787B18AAF}" {
+     }
+    }
+    coords 0.306 0.144 -1.237
+    angles 0 -91 -84.6
+   }
+   {
+    ID "69DF08A787BEABC7"
+    components {
+     Hierarchy "{69DF08A787B18AA8}" {
+     }
+    }
+    coords -0.036 0.035 -1.418
+   }
+   {
+    ID "69DF08A787BF51D6"
+    components {
+     Hierarchy "{69DF08A787B18AA3}" {
+     }
+    }
+    coords 0.445 0.035 -0.971
+    angles 0 12.2 0
+   }
+  }
+  $grp GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
+   {
+    ID "69DF08A787BEABC5"
+    components {
+     Hierarchy "{69DF08A787B18A93}" {
+     }
+    }
+    coords 0.721 1.307 0.575
+   }
+   {
+    ID "69DF08A787BEEF33"
+    coords 0.033 0.044 0.703
+    angles 0 -72.5 0
+   }
+  }
+  Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
+   ID "69DF08A787BE22A1"
+   components {
+    SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
+     m_fDist_Max 2
+     m_fDist_Min 1
+     m_fDist_Desired 1.5
+    }
+   }
+   coords 0.937 1.309 -0.006
+   angles 0 90 0
+  }
+  GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   ID "69DF08A787B18B66"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5EAEA75B0523F392}" {
+     m_bPassDamageToChildren 0
+    }
+    Hierarchy "{69DF08A787B18A84}" {
+    }
+   }
+   coords 0.736 1.237 -0.024
+   scale 0.75
+  }
+ }
+}

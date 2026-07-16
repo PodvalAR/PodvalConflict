@@ -1,0 +1,156 @@
+GenericEntity {
+ ID "69E066D928933C0A"
+ components {
+  RigidBody "{69E066D928933C18}" {
+   ResponseIndex "NoCollision"
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     LayerPreset "Interaction"
+     Extents 3 2 1.5
+    }
+   }
+   Static 1
+  }
+  SCR_CampaignBuildingCompositionComponent "{69E066D928933DA4}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{69E066D928933DA6}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_SANDBAG"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{69E066D928933DA0}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_SANDBAG"
+    m_eFlags 5
+   }
+  }
+  SCR_EditableEntityComponent "{69E066D928933DA2}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{69E066D928933DAC}" {
+    Name "Hesco Block"
+    m_Image "{33AE61972449325E}Pictures/BlockUS.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     THEME_MILITARY FACTION_US
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_S CONTENT_MODDED
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{69E066D928933DA9}" {
+      m_BudgetType CAMPAIGN
+      m_Value 80
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69E066D928933DA8}" {
+      m_BudgetType PROPS
+      m_Value 5
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 1283
+  }
+  SCR_EditorLinkComponent "{69E066D928933DB4}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{69E066D928933DB6}" {
+     m_Prefab "{60003C1D318818DA}Prefabs/OG_HescoBlock_USSR.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+  SCR_SlotCompositionComponent "{69E066D928933DB0}" {
+  }
+  ActionsManagerComponent "{69E066D928933DB3}" {
+   ActionContexts {
+    UserActionContext "{69E066D928933DBF}" {
+     ContextName "Disassembly"
+     Position PointInfo "{69E066D928933D8F}" {
+      Offset 0 0.5 0
+     }
+     Radius 1.5
+     "Display UI At Reference Point" 1
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{69E066D928933D88}" {
+     ParentContextList {
+      "Disassembly"
+     }
+     UIInfo UIInfo "{69E066D928933D8A}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly"
+     }
+     VisibilityRange 2
+     Duration 20
+    }
+   }
+  }
+  RplComponent "{69E066D928933D97}" {
+  }
+  Hierarchy "{69E066D928933D91}" {
+  }
+ }
+ Flags 0x403 0
+ coords -12.805 0 0
+ {
+  GenericEntity {
+   ID "69E066D928933C15"
+   components {
+    ClimbingDataComponent "{69E066D928933DF3}" {
+     Enabled 1
+     CanClimbOver 0
+    }
+    MeshObject "{69E066D928933DFF}" {
+     Object "{8A022BBBFBC00F2C}Assets/OG_HescoBlock.xob"
+     Materials {
+      MaterialAssignClass "{69E066D928933DFE}" {
+       SourceMaterial "barricade_HESKO"
+       AssignedMaterial "{85EC220EA187370C}Assets/Data/barricade_HESKO_USSR.emat"
+      }
+     }
+     LODFactors {
+      1 1
+     }
+    }
+    RigidBody "{69E066D928933DFB}" {
+     ResponseIndex "HugeDestructible"
+     ModelGeometry 1
+     Static 1
+    }
+    SCR_DestructionMultiPhaseComponent "{69E066D928933DC5}" {
+     Enabled 0
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       HZDefault 1
+       "Kinetic multiplier" 0.01
+       "Fragmentation multiplier" 0.01
+       "Explosive multiplier" 1
+      }
+     }
+     "Fall damage min speed" 3
+     "Fall damage max speed" 18
+     CollisionVelocityThreshold 10.2
+     "Heavy damage threshold" 70
+     m_fBaseHealth 60477.938
+     m_fForceToDamageScale 350
+     m_fDamageThresholdMaximum 50000
+     m_bDeleteAfterFinalPhase 0
+     m_aDamagePhases {
+      SCR_DamagePhaseData "{69E066D928933DC0}" {
+       m_fPhaseHealth 7536.77
+       m_PhaseModel "{0B6A86240B1DD25A}Assets/DirtMound_US.xob"
+      }
+     }
+     m_eMaterialSoundType BREAK_SANDBAG
+    }
+    RplComponent "{69E066D928933DC3}" {
+     Enabled 0
+    }
+    Hierarchy "{69E066D928933DC2}" {
+    }
+   }
+   Flags 0x100000 0x3
+   coords 0 0 0
+  }
+ }
+}

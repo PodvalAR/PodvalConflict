@@ -1,0 +1,149 @@
+GenericEntity {
+ ID "69E066C6DDD566D3"
+ components {
+  RigidBody "{69E066C6DDD48A4B}" {
+   ResponseIndex "NoCollision"
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     LayerPreset "Interaction"
+     Extents 8 4 8
+    }
+   }
+   Static 1
+  }
+  SCR_CampaignBuildingCompositionComponent "{69E066C6DDD48A56}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{69E066C6DDD48A5A}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_SANDBAG"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{69E066C6DDD48A58}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_SANDBAG"
+    m_eFlags 5
+   }
+  }
+  SCR_EditableEntityComponent "{69E066C6DDD48A59}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{69E066C6DDD48A5F}" {
+    Name "Hesco Nest with Net"
+    m_Image "{E469616CE669D1B5}Pictures/NestNetUS.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     THEME_MILITARY FACTION_US
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_S CONTENT_MODDED
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{69E066C6DDD48A62}" {
+      m_BudgetType CAMPAIGN
+      m_Value 350
+     }
+     SCR_EntityBudgetValue "{69E066C6DDD4B8F5}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69E066C6DDD4B8F7}" {
+      m_BudgetType PROPS
+      m_Value 20
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 1283
+  }
+  SCR_EditorLinkComponent "{69E066C6DDD4B8F6}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{69E066C6DDD4B8F0}" {
+     m_Prefab "{ED0AE3DFC435A6F2}Prefabs/OG_NestNetted_USSR.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+  SCR_SlotCompositionComponent "{69E066C6DDD4B8F2}" {
+  }
+  ActionsManagerComponent "{69E066C6DDD4B8FD}" {
+   ActionContexts {
+    UserActionContext "{69E066C6DDD4B8FA}" {
+     ContextName "Disassembly"
+     Position PointInfo "{69E066C6DDD4B8E4}" {
+      Offset 0 0.5 0
+     }
+     Radius 3
+     "Display UI At Reference Point" 1
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{69E066C6DDD4B8E1}" {
+     ParentContextList {
+      "Disassembly"
+     }
+     UIInfo UIInfo "{69E066C6DDD4B8E2}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly"
+     }
+     VisibilityRange 3
+     Duration 20
+    }
+   }
+  }
+  RplComponent "{69E066C6DDD4B8EC}" {
+  }
+  Hierarchy "{69E066C6DDD4B8EE}" {
+  }
+ }
+ Flags 0x403 0
+ coords -20.094 0 0
+ {
+  GenericEntity {
+   ID "69E066C6DDD48BBC"
+   components {
+    ClimbingDataComponent "{69E066C6DDD4B88F}" {
+     Enabled 1
+     CanClimbOver 0
+    }
+    MeshObject "{69E066C6DDD4B889}" {
+     Object "{1DD691498CAF7C7A}Assets/OG_NestvBASEv1.xob"
+     Materials {
+      MaterialAssignClass "{69E066C6DDD4B88B}" {
+       SourceMaterial "barricade_HESKO"
+       AssignedMaterial "{85EC220EA187370C}Assets/Data/barricade_HESKO_USSR.emat"
+      }
+     }
+     LODFactors {
+      0.01 2 1 1 0.5 0.5
+     }
+     PixelSizeScale 2
+    }
+    RigidBody "{69E066C6DDD4B88A}" {
+     ResponseIndex "HugeDestructible"
+     ModelGeometry 1
+     Static 1
+    }
+    SCR_DestructionMultiPhaseComponent "{69E066C6DDD4B8B5}" {
+     Enabled 0
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       HZDefault 1
+       "Kinetic multiplier" 0.01
+       "Fragmentation multiplier" 0.01
+       "Explosive multiplier" 1
+      }
+     }
+     m_fBaseHealth 1000
+     m_fForceToDamageScale 350
+     m_eMaterialSoundType BREAK_TENT
+    }
+    RplComponent "{69E066C6DDD4B8B6}" {
+     Enabled 0
+    }
+    Hierarchy "{69E066C6DDD4B8B1}" {
+    }
+   }
+   Flags 0x100000 0x3
+   coords 0 0 0
+  }
+ }
+}

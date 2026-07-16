@@ -1,0 +1,160 @@
+GenericEntity {
+ ID "69E05C4D46221E1C"
+ components {
+  RigidBody "{69E05C4D46221E61}" {
+   ResponseIndex "NoCollision"
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     LayerPreset "Interaction"
+     Extents 3 2 1.5
+    }
+   }
+   Static 1
+  }
+  SCR_CampaignBuildingCompositionComponent "{69E05C4D46221E75}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{69E05C4D46221E76}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_SANDBAG"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{69E05C4D46221E70}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_SANDBAG"
+    m_eFlags 5
+   }
+  }
+  SCR_EditableEntityComponent "{69E05C4D46221E72}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{69E05C4D46221E7D}" {
+    Name "Hesco Block"
+    m_Image "{33AE61972449325E}Pictures/BlockUS.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     THEME_MILITARY FACTION_USSR
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_S CONTENT_MODDED
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{69E05C4D46221E7E}" {
+      m_BudgetType CAMPAIGN
+      m_Value 80
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69E05C4D46221E79}" {
+      m_BudgetType PROPS
+      m_Value 5
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 1283
+  }
+  SCR_EditorLinkComponent "{69E05C4D46221E7B}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{69E05C4D46221E45}" {
+     m_Prefab "{3BCC4021C4A0F41A}Prefabs/OG_HescoBlock_US.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+  SCR_SlotCompositionComponent "{69E05C4D46221E44}" {
+  }
+  ActionsManagerComponent "{69E05C4D46221E47}" {
+   ActionContexts {
+    UserActionContext "{69E05C4D46221E40}" {
+     ContextName "Disassembly"
+     Position PointInfo "{69E05C4D46221E56}" {
+      Offset 0 0.5 0
+     }
+     Radius 1.5
+     "Display UI At Reference Point" 1
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{69E05C4D46221E52}" {
+     ParentContextList {
+      "Disassembly"
+     }
+     UIInfo UIInfo "{69E05C4D46221E5C}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly"
+     }
+     VisibilityRange 2
+     Duration 20
+    }
+   }
+  }
+  RplComponent "{69E05C4D46221E59}" {
+  }
+  Hierarchy "{69E05C4D46221E5B}" {
+  }
+ }
+ Flags 0x403 0
+ coords -10.642 0 0
+ {
+  GenericEntity {
+   ID "69E05C4D46221E1F"
+   components {
+    ClimbingDataComponent "{69E05C4D46221FBE}" {
+     Enabled 1
+     CanClimbOver 0
+    }
+    MeshObject "{69E05C4D46221FBB}" {
+     Object "{8A022BBBFBC00F2C}Assets/OG_HescoBlock.xob"
+     LODFactors {
+      1 1
+     }
+    }
+    RigidBody "{69E05C4D46221FBA}" {
+     ResponseIndex "HugeDestructible"
+     ModelGeometry 1
+     Static 1
+    }
+    SCR_DestructionMultiPhaseComponent "{69E05C4D46221F85}" {
+     Enabled 0
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       HZDefault 1
+       "Kinetic multiplier" 0.01
+       "Fragmentation multiplier" 0.01
+       "Explosive multiplier" 1
+      }
+     }
+     "Fall damage min speed" 3
+     "Fall damage max speed" 18
+     CollisionVelocityThreshold 10.2
+     "Heavy damage threshold" 70
+     m_fBaseHealth 60477.938
+     m_fForceToDamageScale 350
+     m_fDamageThresholdMaximum 50000
+     m_DestroySpawnObjects {
+      SCR_ParticleSpawnable "{69E05C4D46221F80}" {
+       m_Particle "{3707DBDD9371108B}Particles/Blasts/Blast_big_sand.ptc"
+       m_bDirectional 0
+      }
+     }
+     m_bDeleteAfterFinalPhase 0
+     m_aDamagePhases {
+      SCR_DamagePhaseData "{69E05C4D46221F8D}" {
+       m_fPhaseHealth 9191.189
+       m_PhaseModel "{8A022BBBFBC00F2C}Assets/OG_HescoBlock.xob"
+      }
+      SCR_DamagePhaseData "{69E05C4D46221F8C}" {
+       m_fPhaseHealth 7536.77
+       m_PhaseModel "{0B6A86240B1DD25A}Assets/DirtMound_US.xob"
+      }
+     }
+     m_eMaterialSoundType BREAK_SANDBAG
+    }
+    RplComponent "{69E05C4D46221F8F}" {
+     Enabled 0
+    }
+    Hierarchy "{69E05C4D46221F8E}" {
+    }
+   }
+   Flags 0x100000 0x3
+   coords 0 0 0
+  }
+ }
+}

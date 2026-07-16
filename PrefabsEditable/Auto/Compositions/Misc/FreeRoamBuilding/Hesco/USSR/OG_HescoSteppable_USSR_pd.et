@@ -1,0 +1,177 @@
+GenericEntity {
+ ID "69E05C4D77F33289"
+ components {
+  RigidBody "{69E05C4D77F33287}" {
+   ResponseIndex "NoCollision"
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     LayerPreset "Interaction"
+     Offset 0 0 -0.95
+     Extents 6 2 3
+    }
+   }
+   Static 1
+  }
+  SCR_CampaignBuildingCompositionComponent "{69E05C4D77F3329C}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{69E05C4D77F33290}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_CAMONET"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{69E05C4D77F33297}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_CAMONET"
+    m_eFlags 5
+   }
+  }
+  SCR_EditableEntityComponent "{69E05C4D77F33295}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{69E05C4D77F33D69}" {
+    Name "Hesco Wall Steppable"
+    Description "Stacked Hesco Blocks forming a wall and stairs to step on"
+    m_Image "{3B505358B0015970}Pictures/SteppableUS.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     THEME_MILITARY FACTION_USSR
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_L CONTENT_MODDED
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{69E05C4D77F33D6E}" {
+      m_BudgetType CAMPAIGN
+      m_Value 250
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69E05C4D77F33D6D}" {
+      m_BudgetType PROPS
+      m_Value 5
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+  }
+  SCR_EditorLinkComponent "{69E05C4D77F33D6C}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{69E05C4D77F33D61}" {
+     m_Prefab "{D6299D25745F6317}Prefabs/OG_HescoSteppable_US.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+  SCR_SlotCompositionComponent "{69E05C4D77F33D66}" {
+  }
+  ActionsManagerComponent "{69E05C4D77F33D64}" {
+   ActionContexts {
+    UserActionContext "{69E05C4D77F33D7A}" {
+     ContextName "Disassembly"
+     Position PointInfo "{69E05C4D77F33D70}" {
+      Offset 0 0.5 -0.8531
+     }
+     Radius 2
+     "Display UI At Reference Point" 1
+    }
+    UserActionContext "{69E05C4D77F33D76}" {
+     ContextName "DisassemblyL"
+     Position PointInfo "{69E05C4D77F33D75}" {
+      Offset -2.6774 0 -0.9144
+     }
+     Radius 2
+     Height 0
+     "Display UI At Reference Point" 1
+    }
+    UserActionContext "{69E05C4D77F33D74}" {
+     ContextName "DisassemblyR"
+     Position PointInfo "{69E05C4D77F33D4B}" {
+      Offset 2.6774 0 -0.9144
+     }
+     Radius 2
+     Height 0
+     "Display UI At Reference Point" 1
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{69E05C4D77F33D48}" {
+     ParentContextList {
+      "Disassembly"
+     }
+     UIInfo UIInfo "{69E05C4D77F33D4D}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly"
+     }
+     VisibilityRange 2.5
+     Duration 20
+    }
+    SCR_CampaignBuildingDisassemblyUserAction "{69E05C4D77F33D4C}" {
+     ParentContextList {
+      "DisassemblyL"
+     }
+     UIInfo UIInfo "{69E05C4D77F33D43}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly"
+     }
+     VisibilityRange 1
+     Duration 20
+    }
+    SCR_CampaignBuildingDisassemblyUserAction "{69E05C4D77F33D41}" {
+     ParentContextList {
+      "DisassemblyR"
+     }
+     UIInfo UIInfo "{69E05C4D77F3E6C9}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly"
+     }
+     VisibilityRange 1
+     Duration 20
+    }
+   }
+  }
+  RplComponent "{69E05C4D77F3E6D6}" {
+  }
+  Hierarchy "{69E05C4D77F3E6D4}" {
+  }
+ }
+ Flags 0x403 0
+ coords 0 0 0
+ {
+  GenericEntity {
+   ID "69E05C4D77F33288"
+   components {
+    ClimbingDataComponent "{69E05C4D77F3E6B9}" {
+     Enabled 1
+     CanClimbOver 0
+    }
+    MeshObject "{69E05C4D77F3E6BF}" {
+     Object "{EF7F2A9B79E86B7A}Assets/Steppable.xob"
+     LODFactors {
+      1 1
+     }
+    }
+    RigidBody "{69E05C4D77F3E6BE}" {
+     ResponseIndex "Normal"
+     ModelGeometry 1
+     Static 1
+    }
+    SCR_DestructionMultiPhaseComponent "{69E05C4D77F3E6BD}" {
+     Enabled 0
+     "Additional hit zones" {
+      SCR_HitZone Default {
+       HZDefault 1
+       "Kinetic multiplier" 0.01
+       "Fragmentation multiplier" 0.01
+       "Explosive multiplier" 1
+      }
+     }
+     m_fBaseHealth 1000
+     m_fForceToDamageScale 350
+     m_eMaterialSoundType BREAK_TENT
+    }
+    RplComponent "{69E05C4D77F3E681}" {
+     Enabled 0
+    }
+    Hierarchy "{69E05C4D77F3BD9C}" {
+    }
+   }
+   Flags 0x100000 0x3
+   coords 0 0 0
+  }
+ }
+}
