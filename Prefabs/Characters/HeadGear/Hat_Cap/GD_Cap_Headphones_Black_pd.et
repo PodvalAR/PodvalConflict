@@ -1,0 +1,22 @@
+GameEntity : "{665EEF29CC2C672A}Prefabs/Characters/HeadGear/Hat_TruckerCap_01/Hat_TruckerCap_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{2D8EBB12710DA33F}Assets/Characters/HeadGear/Hat_Cap/GD_Cap_Item.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{6196E6B24DFC8811}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96689DB8CC5}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96688AA6724}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{85CDA106B1C83F89}Assets/Characters/HeadGear/Hat_Cap/GD_Cap_Headphones.xob"
+   ItemModel "{2D8EBB12710DA33F}Assets/Characters/HeadGear/Hat_Cap/GD_Cap_Item.xob"
+  }
+ }
+ coords 1741.465 39 2941.96
+}
