@@ -1,8 +1,9 @@
-Vehicle : "{162B7A60442C5913}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/WithAist/GAZ_TIGR_v2_Unarmed_Recon_1L271.et" {
+Vehicle : "{2C9B4D8196812513}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed.et" {
  ID "BBCBA43A9778AE21"
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TF-Vehicle-Gaz233014 - #TF-Vehicle-Color-Camo (#TF-Vehicle-Weapon-Unarmed) (#TF_1L271_System_Name)"
     m_sFaction "USSR"
     m_aAutoLabels {
      FACTION_USSR SIZE_M VEHICLE_CAR
@@ -11,10 +12,84 @@ Vehicle : "{162B7A60442C5913}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/WithAist/GAZ_
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 740
      }
-     SCR_EntityBudgetValue "{69D91E5409C58C90}" {
+     SCR_EntityBudgetValue "{69F90680C89A3914}" {
       m_BudgetType RANK_SERGEANT
       m_Value 3
      }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62B233ED7C2615D2}" {
+     SlotTemplate InventoryStorageSlot Antenna {
+      Prefab "{E3FCB4B37F3C56B7}Prefabs/Weapons/Tripods/1L271/Parts/TF_1L271_Antenna_DeployablePart.et"
+     }
+    }
+    MultiSlotConfiguration "{62B233ED7C2615D3}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{3EAEC8508AF0BB84}Prefabs/Weapons/Tripods/1L271/Parts/TF_1L271_ARM_Item_v2.et"
+     }
+    }
+    MultiSlotConfiguration "{69F90682F426133B}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{48B1979BCDBEF1A8}Prefabs/Weapons/Tripods/1L271/Parts/TF_1L271_Cail_Item.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{69F90682F4261309}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{0E5D40D7A2248694}Prefabs/Weapons/Tripods/1L271/Parts/TF_1L271_Emitter_DeployablePart.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{69F90682F4261315}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{FA28042CB432DBE5}Prefabs/Weapons/Tripods/1L271/Parts/TF_1L271_Generator_Item.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{69F90682F4261314}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{669664ADB767376F}Prefabs/Weapons/Tripods/1L271/Parts/TF_1L271_MainBlock_DeployablePart.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{69F90682F4261316}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{BB05697F6B974F37}Prefabs/Weapons/Tripods/1L271/Parts/TF_1L271_Optic.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{69F90682F4261311}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{B5F50961A49607D7}Prefabs/Weapons/Tripods/1L271/Parts/TF_1L271_PowerUnit_Item.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{69F90682F4261310}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{C720E9ADBA1C519E}Prefabs/Weapons/Tripods/1L271/Parts/TF_1L271_SquareAdapter_Item.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{69F90682F4261313}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{109063DF7C98533C}Prefabs/Weapons/Tripods/1L271/Parts/TF_1L271_Tripod_DeployablePart.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{69F90682F4261312}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{69F90682F426131D}" {
+     SlotTemplate InventoryStorageSlot ARM {
+      Prefab "{C9FF359F0EAA8EEA}Prefabs/Items/Equipment/BallisticTable/TF_1L271_Manual.et"
+     }
+     NumSlots 2
     }
    }
   }

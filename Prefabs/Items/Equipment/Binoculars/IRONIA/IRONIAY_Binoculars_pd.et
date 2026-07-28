@@ -1,0 +1,182 @@
+GenericEntity : "{447D9C49127DE98B}Prefabs/Items/Equipment/Binoculars/Binoculars_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SignalsManagerComponent "{69F906803CFA726E}" {
+  }
+  SoundComponent "{69F906803CFA727E}" {
+   Enabled 0
+   Filenames {
+    "{7B70D867BC544F28}Sounds/Weapons/Soflam/soflam_sounds.acp"
+   }
+   DistanceManagement 0
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#LC-Ironiya_name"
+     Description "#LC_SOFLAM_Description"
+     Icon "{C64170F56414B3AE}UI/Textures/QuickMenu/Icons/binoculars_M22.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 3.2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 1000
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5D0CB09DD1352E60}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{69F906803CFA7241}" {
+       AnimGraph "{7DCC4BE582781B30}Assets/Items/Equipment/workspaces/Binoculars_M22.agr"
+       AnimInstance "{9E8042939B50CEEC}Assets/Items/Equipment/workspaces/M22_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     AllowInspection 1
+    }
+    CustomAttributes {
+     CharacterModifierAttributes "{5D0CB09DD1352E77}" {
+      SpeedLimit 2.5
+      ADSSpeedLimit 1
+     }
+     PreviewRenderAttributes "{5D0CB09DD1352E75}" {
+      CameraPreset Front
+      CameraOrbitAngles -15 30 0
+      CameraDistanceToItem 0.3
+      CameraOffset 0 -0.02 0
+      LodModel 0
+     }
+    }
+    CommonItemType "BINOCULARS"
+    m_Size SLOT_2x1
+    m_SlotType SLOT_GADGETS_STORAGE
+   }
+  }
+  MeshObject "{5D0CB09DD1352E70}" {
+   Object "{C3A5BC66BB965D00}Assets/Items/Equipment/Binoculars/Binoculars_Ironia/Binoculars_Ironia.xob"
+   Materials {
+    MaterialAssignClass "{69F906803CFA7249}" {
+     SourceMaterial "PIP_DISPLAY"
+     AssignedMaterial "{8797D88472608630}Assets/_SharedMaterials/Display_Material_MAGIC.emat"
+    }
+   }
+   PixelSizeScale 3
+  }
+  SCR_BinocularsComponent "{5D0CB09DD1352E43}" {
+   m_eAnimVariable M22
+  }
+  SCR_SoundDataComponent "{5B18D20ED0099A17}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D20930D9E274}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+    }
+   }
+  }
+  TF_2DOptics_Helper "{69F906803CFA7254}" {
+  }
+  TF_Irony_2DOptics "{5D0CB09DD1352E4A}" {
+   SightsPosition PointInfo "{69F906803CFA7250}" {
+    PivotID "sight_front"
+   }
+   SightsPointFront PointInfo "{69F906803CFA7252}" {
+    PivotID "sight_front"
+    Offset 0 0 0
+   }
+   SightsPointRear PointInfo "{69F906803CFA725D}" {
+    PivotID "sight_rear"
+    Offset 0 0 0
+   }
+   m_sReticleTexture "{83726B159494161A}UI/Textures/Sights/IRONY-M/IRONY_RETICLE.edds"
+   m_ReticleColor 1 1 1 1
+   m_fVignetteScale 0.968
+   m_fMisalignmentDampingSpeed 4
+   m_fRollScale 0
+   m_fMisalignmentScale 0
+   m_fVignetteMoveSpeed 5
+   m_fObjectiveFov 4
+   m_fObjectiveScale 0.88
+   m_fReticleAngularSize 5.625
+   m_fReticlePortion 0.94141
+   m_fReticleBaseZoom 7
+   m_fMagnification 12
+   m_OverlayLayout "{CD23CDAA345D3302}UI/layouts/Gadgets/IronyM/Ironiya_Hud.layout"
+  }
+  TF_Irony_BinocularComputer "{69F906803CFA725E}" {
+   Enabled 1
+   m_bIsVehicle 0
+   m_bSearchInSlots 0
+  }
+  TF_LASER_Spot "{69F906803CFA7259}" {
+   Enabled 1
+   m_PointInfo PointInfo "{69F906803CFA7258}" {
+   }
+   m_iDistance 10000
+   m_iOverrideCode 1000
+  }
+  BaseLoadoutClothComponent "{5D0CB09DD1352E5B}" {
+   Enabled 1
+   Animate 1
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{69F906803CFA73A7}" {
+     UIInfo SCR_ActionContextUIInfo "{69F906803CFA73A6}" {
+     }
+     ContextName "set"
+     Position PointInfo "{69F906803CFA73AA}" {
+      PivotID "point_2"
+      Angles 0 76.9135 0
+     }
+    }
+   }
+   additionalActions {
+    TF_LASER_Action_HiLoSlider "{69F906803CFA73B7}" {
+     ParentContextList {
+      "set"
+     }
+     UIInfo SCR_ActionUIInfo "{69F906803CFA73B6}" {
+      Name "#LC-Display-hi_lc"
+     }
+     Duration 1
+     CanAggregate 1
+     PerformPerFrame 1
+     "Sort Priority" 20
+     m_CodeMax 11
+     m_CustomName ""
+    }
+    TF_LASER_Action_HiLoSlider "{69F906803CFA73B0}" {
+     ParentContextList {
+      "set"
+     }
+     UIInfo SCR_ActionUIInfo "{69F906803CFA73B3}" {
+      Name "#LC-Display-lo_lc"
+     }
+     Duration 1
+     CanAggregate 1
+     PerformPerFrame 1
+     "Sort Priority" 30
+     m_eValue LO
+     m_CodeMax 11
+     m_CustomName ""
+    }
+    TF_LASER_Action_ApplyHiLo "{69F906803CFA73BC}" {
+     ParentContextList {
+      "set"
+     }
+     UIInfo SCR_ActionUIInfo "{69F906803CFA73BF}" {
+      Name "#LC-Code-info"
+     }
+     Duration 0.1
+     CanAggregate 1
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+ coords 179.869 1.851 18.131
+}
