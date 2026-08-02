@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{B40BFA1A43973320}Prefabs/Characters/Campaign/Final/INDFOR/FIA/Campaign_FIA_Player.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9F3A7D7943C278D1}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_base.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{9F182D27D51BEE0D}Prefabs/Characters/Uniforms/Shirt_flannel/flannel_shirt_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{65B7093231FBF67E}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_LightBrown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6886F65EFD8C03E2}" {
+     TargetStorage "Jacket/flannel_shirt_base.et"
+    }
+    ItemsInitConfigurationItem "{6960FDB42EE8B512}" {
+     TargetStorage "Pants/Pants_Trousers_01_LightBrown.et"
+    }
+    ItemsInitConfigurationItem "{6886F65EFDD5634E}" {
+     TargetStorage "Pants/Pants_Trousers_01_LightBrown.et"
+    }
+   }
+  }
+ }
+ coords 0 -0.632 0
+}

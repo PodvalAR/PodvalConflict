@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{68A64B9EACF29678}Prefabs/Characters/Uniforms/Shirt_Velocity_LongSleeve/Shirt_VelocityLong_Multicam_pd.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

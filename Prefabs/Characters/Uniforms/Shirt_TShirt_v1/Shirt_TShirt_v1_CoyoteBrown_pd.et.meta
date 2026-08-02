@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E1904AF6C1AA4359}Prefabs/Characters/Uniforms/Shirt_TShirt_v1/Shirt_TShirt_v1_CoyoteBrown_pd.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

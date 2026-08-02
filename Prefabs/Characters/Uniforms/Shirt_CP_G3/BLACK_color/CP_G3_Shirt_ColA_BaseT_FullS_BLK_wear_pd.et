@@ -1,0 +1,14 @@
+GenericEntity : "{FBDBF70EAF7C84E9}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/CP_G3_Shirt_ColA_BaseT_FullS_BLK_wear.et" {
+ ID "69573487D1E9C25A"
+ components {
+  SCR_ItemOutfitFactionComponent "{69D06A9D9ED0B8C1}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{69D06A9D9084B217}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{69D06A9D96C693EA}" {
+      m_AffiliatedFactionKey "FIA"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,82 @@
+GameEntity : "{B89432A8B5F489E5}Prefabs/Characters/Core/Uniform_Base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{A2C58B33A4C27F54}Assets/Characters/Uniforms/Pants_CryeG3/CryeG3_Trousers_item.xob"
+   Materials {
+    MaterialAssignClass "{6A029EB62EEB3AF5}" {
+     SourceMaterial "cryeg3trousers"
+     AssignedMaterial "{8C02E76544E13E2D}Assets/Characters/Uniforms/Pants_CryeG3/Data/cryeg3trousers_RussianMC.emat"
+    }
+   }
+   PixelSizeScale 3
+  }
+  SCR_ItemOutfitFactionComponent "{6A029EB62EEB3AFF}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6A029EB62EEB3AFA}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6A029EB62EEB3AC4}" {
+      m_AffiliatedFactionKey "USSR"
+     }
+    }
+   }
+  }
+  SCR_SoundDataComponent "{5B18D20B7AC00DA6}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{727E913C87275968}Sounds/Items/_SharedData/PickUp/Items_PickUp_Uniform_Zipper.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{727E913C87275968}Sounds/Items/_SharedData/PickUp/Items_PickUp_Uniform_Zipper.acp"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "G3 Trousers Russian Multicam"
+     Description "#AR-Uniform_BDU_Trousers_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.6
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      CameraOffset 0 0.05 0
+      PreviewWornModel 1
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 1600
+   MaxItemSize 10 10 10
+   m_fMaxWeight 10
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   AreaType LoadoutPantsArea "{6A029EB62EEB3AC8}" {
+   }
+   WornModel "{9A08C29B3A4B6A13}Assets/Characters/Uniforms/Pants_CryeG3/CryeG3_Trousers.xob"
+   WornMaterialsOverride {
+    "{8C02E76544E13E2D}Assets/Characters/Uniforms/Pants_CryeG3/Data/cryeg3trousers_RussianMC.emat"
+   }
+   ItemModel "{A2C58B33A4C27F54}Assets/Characters/Uniforms/Pants_CryeG3/CryeG3_Trousers_item.xob"
+   ItemMaterialsOverride {
+    "{8C02E76544E13E2D}Assets/Characters/Uniforms/Pants_CryeG3/Data/cryeg3trousers_RussianMC.emat"
+   }
+   SoundInt 510
+  }
+  ActionsManagerComponent "{5104869D194C6245}" {
+   ActionContexts {
+    UserActionContext "{5104869D194C624D}" {
+     Position PointInfo "{5104869D194C6273}" {
+      Offset 0 0.05 0
+     }
+    }
+   }
+  }
+ }
+ coords 1214.84 39.081 2840.303
+}

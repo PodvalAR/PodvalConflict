@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6C0033471486DA46}Prefabs/Characters/Uniforms/Shirt_Crye_Rolled/Shirt_Crye_Rolled_CADPAT_Arid_pd.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
