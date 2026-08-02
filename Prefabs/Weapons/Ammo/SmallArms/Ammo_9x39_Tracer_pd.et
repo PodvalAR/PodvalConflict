@@ -1,0 +1,23 @@
+Projectile : "{2F007929B7F8399F}Prefabs/Weapons/Ammo/SmallArms/Ammo_9x39_AP_SP6.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 883
+   InitSpeedVariation 10
+   DispersionMultiplier 1.9
+   Mass 0.00323
+   BallisticTableConfig "{0B1562B127AF6116}Configs/Weapons/AIBallisiticTables/SmallArms/AIBT_545x39_Tracer_7T3.conf"
+   AirDrag 0.000004
+   Diameter 5.72
+   Length 25.32
+   MushroomingDamageMultiplier 0.2
+   TumblingDamageMultiplier 0.2
+   TumblingDecelerationCurve {
+    0 0 1 1
+   }
+   PenetrationDepth 3.6
+   PenetrationSpeed 708
+  }
+ }
+ ProjectileModel "{D807332FCA58B894}Assets/Weapons/Ammo/Tracers/Tracer_red.xob"
+}

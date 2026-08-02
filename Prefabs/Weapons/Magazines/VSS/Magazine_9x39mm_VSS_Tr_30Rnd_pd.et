@@ -1,0 +1,26 @@
+GenericEntity : "{599E3B20688CF495}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_eAmmoTypeFlags TRACER
+   }
+   MaxAmmo 30
+   AmmoConfig "{020D94B94AE518F3}Configs/Weapons/Ammo/Ammo_9x39_pd.conf"
+   AmmoMapping + {
+    0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{8949C90BAAEB267F}Assets/Weapons/Magazines/VAL_Magazine_Pulm_30rnd/VAL_Magazine_Pulm_30rnd.xob"
+  }
+ }
+ coords 192.298 51.805 2446.552
+ angles 0 0 -90
+}
