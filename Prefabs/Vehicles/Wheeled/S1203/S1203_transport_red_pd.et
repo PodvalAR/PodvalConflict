@@ -1,0 +1,16 @@
+Vehicle : "{11A28C90DB40318D}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_red.et" {
+ ID "65D3E713C5F169B7"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "FIA"
+    m_aAutoLabels {
+     FACTION_FIA SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "FIA"
+  }
+ }
+}

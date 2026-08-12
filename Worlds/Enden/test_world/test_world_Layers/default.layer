@@ -1,0 +1,86 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
+     NavmeshFile "{A07353FE17EB2C49}worlds/MP/Navmeshes/CTI_Campaign_Eden.nmn"
+     NavmeshFileOveride {
+      "{93FBCF7454B2AB08}worlds/MP/Navmeshes/CTI_Campaign_Montignac.nmn"
+     }
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" {
+     NavmeshFile "{3D08F0F26F771347}worlds/MP/Navmeshes/CTI_Campaign_Eden_vehicles.nmn"
+     NavmeshFileOveride {
+      "{0EB726364CF0D796}worlds/MP/Navmeshes/CTI_Campaign_Montignac_vehicles.nmn"
+     }
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFileOveride {
+      "{85FA4A53E03038B9}worlds/MP/Navmeshes/CTI_Campaign_Montignac_LowRes.nmn"
+     }
+    }
+   }
+  }
+ }
+ coords 3439.901 54.883 3791.217
+}
+RadioManagerEntity {
+ coords 1170.481 11.577 5881.201
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4883.428 42.451 4225.503
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_CacheManagerComponent "{691E6E472CBA6978}" {
+   m_iAmount 2
+   m_sTerrainConfig "{DCAFE5508C135F96}Configs/Campaign/CampaignCachePool/CampaignCachePool_Montignac.conf"
+  }
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{5D349E3E90D4315E}" {
+    m_RightColumn SCR_WelcomeScreenIntroductionContent "{5D349E3E89289BE9}" {
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{5D349E3F6FF705DE}" {
+       m_sContentImage "{744DEEECF650BF7C}UI/Textures/FieldManual/MPModes/Conflict/Images/Conflict_CaptureHold.edds"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1096.785 2.815 6091.496
+ m_iControlPointsThreshold 3
+ m_fVictoryTimer 360
+ m_bSpawnRandomCaches 1
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 1132.286 8.907 5898.674
+}
+SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 1092.253 2.841 6089.911
+}
+ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
+ coords 1088.444 2.729 6076.787
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{606C9C9107205CE1}" {
+ }
+}
+SCR_MapLocator {
+ coords 1120.564 9.394 5911.278
+ m_WorldDirections SCR_MapLocationQuadHint "{606C9C9A800B5EE6}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ }
+}
+BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 1085.036 2.717 6065.238
+}
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 1135.75 10.61 5909.709
+}

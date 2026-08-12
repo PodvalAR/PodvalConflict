@@ -1,0 +1,214 @@
+GenericEntity : "{0C97A65A7FC44EFC}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I01_FIA_01.et" {
+ coords 4785.469 175.171 6947.485
+ angles 0 -17.995 0
+}
+GenericEntity : "{1A9D75D98DC825E7}Prefabs/Compositions/Locations/Eden/SupplyCache_Provins_FIA_01.et" {
+ coords 5486.487 96.127 6087.396
+}
+GenericEntity : "{1CA1A82176D652AD}Prefabs/Compositions/Locations/Eden/SupplyCache_EntreDeux_FIA_01.et" {
+ coords 5766.788 221.968 7035.573
+}
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 3721.154 80.215 6639.497
+  angles -1.781 -95.639 0.176
+ }
+ {
+  coords 5988.677 218.082 7170.29
+  angles -2.893 126.053 -2.104
+ }
+ {
+  coords 4712.156 161.573 6981.843
+  angles -0.387 -153.716 2.802
+ }
+}
+$grp GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ {
+  coords 5571 88.403 5858.812
+  angles 0 -72 0
+ }
+ {
+  coords 5818.638 219.563 7125.285
+  angles 0 22.692 0
+ }
+ {
+  coords 4643.65 160.739 6938.673
+  angles 0 57 0
+ }
+ {
+  coords 4935.817 172.087 6978.302
+  angles 0 -45.78 0
+ }
+ {
+  coords 4117.552 39.048 7731.178
+  angles 0 36.365 0
+ }
+ {
+  coords 2952.552 78.418 6555.573
+  angles 0 56.884 0
+ }
+}
+GenericEntity : "{458D1E40FD79C36D}Prefabs/Compositions/Locations/Eden/SupplyCache_Montignac_FIA_01.et" {
+ coords 4773.455 164.342 7094.566
+}
+$grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ {
+  coords 3733.501 80.043 6626.582
+  angles 2.63 -1.693 -1.866
+  {
+   GenericEntity {
+    ID "5D45393876460D01"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aEncapsulators {
+       SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+        m_aActions {
+         SCR_ResourceEncapsulatorActionChangeGain "{5DE296D4D87F56EC}" {
+          m_fResourceGainTickrate 1800
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6006.911 217.068 7184.899
+  angles 2.92 -125.3 -2.066
+  {
+   GenericEntity {
+    ID "5D45393876460D01"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aEncapsulators {
+       SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+        m_aActions {
+         SCR_ResourceEncapsulatorActionChangeGain "{5DE296D4D87F56EC}" {
+          m_fResourceGainTickrate 1800
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4718.662 161.924 6974.782
+  angles -1.676 -59.674 1.093
+  {
+   GenericEntity {
+    ID "5D45393876460D01"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aEncapsulators {
+       SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+        m_aActions {
+         SCR_ResourceEncapsulatorActionChangeGain "{5DE296D4D87F56EC}" {
+          m_fResourceGainTickrate 1800
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{52F4E50D3A7C45C3}Prefabs/Compositions/Misc/SubCompositions/Building/Villa_E_2I01_police_FIA_01.et" {
+ coords 4815.31 175.218 7062.226
+ angles 0 61.818 0
+}
+GenericEntity : "{8950F273E5D8657D}Prefabs/Compositions/Locations/Eden/SupplyCache_Gravette_FIA_01.et" {
+ coords 4120.761 35.406 7796.203
+}
+$grp GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
+ {
+  coords 5509.417 95.521 6024.074
+  angles 0 118.393 0
+ }
+ {
+  coords 5848.346 212.957 7024.426
+  angles 0 25.687 0
+ }
+ {
+  coords 4858.032 163.852 7116.543
+  angles 0 -120.389 0
+ }
+}
+$grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ {
+  coords 3718.975 79.509 6626.574
+  angles 1.038 4.678 -1.711
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aEncapsulators {
+       SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+        m_aActions {
+         SCR_ResourceEncapsulatorActionChangeGain "{5DE296D4D87F56EC}" {
+          m_fResourceGainTickrate 1800
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6000.722 217.362 7196.6
+  angles 0.257 -146.046 -1.984
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aEncapsulators {
+       SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+        m_aActions {
+         SCR_ResourceEncapsulatorActionChangeGain "{5DE296D4D87F56EC}" {
+          m_fResourceGainTickrate 1800
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4725.035 162.007 6981.6
+  angles -1.997 -59.857 -0.125
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    components {
+     SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+      m_aEncapsulators {
+       SCR_ResourceEncapsulator "{5DAD1D48DACE9DE8}" {
+        m_aActions {
+         SCR_ResourceEncapsulatorActionChangeGain "{5DE296D4D87F56EC}" {
+          m_fResourceGainTickrate 1800
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{CF3D13B37917CEA7}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_03_FIA_01.et" {
+ coords 5570.69 91.956 5976.786
+ angles 0 3.377 0
+}

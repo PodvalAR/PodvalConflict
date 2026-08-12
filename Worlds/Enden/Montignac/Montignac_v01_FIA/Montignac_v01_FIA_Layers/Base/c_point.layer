@@ -1,0 +1,125 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ Cemetery {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 25
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 125
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-Campaign_MapLocation_Cemetery"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Cemetery-UC"
+    m_sMapLocationName "LocationCemetery"
+   }
+  }
+  coords 4750.492 163.752 7298.774
+  angles 0 89.983 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ FootballField {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 30
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 125
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-Campaign_MapLocation_FarmComplex"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_FarmComplex-UC"
+    m_sMapLocationName "LocationFarmComplex"
+   }
+  }
+  coords 5148.744 176.495 7068.936
+  angles 0 -53.553 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Industrial {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 40
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 125
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-Campaign_MapLocation_Industrial"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Industrial-UC"
+    m_sMapLocationName "LocationIndustrial"
+   }
+  }
+  coords 4513.509 153.75 6886.442
+  angles 0 -177.14 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}

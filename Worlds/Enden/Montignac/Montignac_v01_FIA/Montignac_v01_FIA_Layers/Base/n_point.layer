@@ -1,0 +1,182 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ EntreDeux {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1050
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_EntreDeux"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_EntreDeux-UC"
+    m_sMapLocationName "LocationEntreDeux"
+   }
+  }
+  coords 5660.145 217.853 7105.606
+  angles 0 12.641 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Farm {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1170
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_Arland_MapLocation_Farm"
+    m_sBaseNameUpper "#AR-Campaign_Arland_MapLocation_Farm-UC"
+    m_sMapLocationName "LocationFarm"
+   }
+  }
+  coords 5685.031 133.519 6572.756
+  angles 0 -174.499 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ FieldBase {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 898.3
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_PinewoodLake"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_PinewoodLake-UC"
+    m_sMapLocationName "LocationFieldBase"
+   }
+  }
+  coords 4900.437 67.061 6241.634
+  angles 0 -13.047 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ Lacourt {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1017
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Lacourt"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Lacourt-UC"
+    m_sMapLocationName "LocationLacourt"
+   }
+  }
+  coords 3915.913 104.301 6253.087
+  angles 0 55.668 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ TillersFind {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1100
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_TillersFind"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_TillersFind-UC"
+    m_sMapLocationName "LocationTillersFind"
+   }
+  }
+  coords 3824.467 64.214 6949.131
+  angles 0 46.667 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}
