@@ -1,0 +1,159 @@
+GenericEntity {
+ ID "6A0EA7028224BC3F"
+ components {
+  SignalsManagerComponent "{6A0EA7028224BC03}" {
+  }
+  SoundComponent "{6A0EA7028224BC0A}" {
+   Filenames {
+    "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp" "{27E5FEBCE92BE40B}Sounds/Weapons/_SharedData/Melee/Weapons_Melee.acp"
+   }
+  }
+  InventoryItemComponent "{6A0EA7028224BC14}" {
+   Attributes SCR_ItemAttributeCollection "{6A0EA7028224BC16}" {
+    ItemDisplayName UIInfo "{6A0EA7028224BC11}" {
+     Name "#Shield-name"
+     Description "#Shield-desc"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A0EA7028224BC1C}" {
+     Weight 12
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 6500
+     DimensionScaler 1
+     RestingUP Forward
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 -0.53
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6A0EA7028224BC19}" {
+     IkSettings {
+      ItemIKSettings "{6A0EA7028224BC1B}" {
+       MovementSpeedRange 0 1
+       IkSettingsStand 0x7 0
+       IkSettingsCrouch 0x7 0
+       IkSettingsProne 0x7 0
+      }
+      ItemIKSettings "{6A0EA7028224BC1A}" {
+       Lowered 1
+       MovementSpeedRange 0 0
+       IkSettingsStand 0x6 0
+      }
+      ItemIKSettings "{6A0EA7028224BC64}" {
+       MovementSpeedRange 0 0
+      }
+      ItemIKSettings "{6A0EA7028224BC67}" {
+       MovementSpeedRange 1 2.5
+       IkSettingsStand 0x7 0
+       IkSettingsCrouch 0x7 0
+       IkSettingsProne 0x6 0
+      }
+     }
+     AnimationInstance "{03B1A08AF058BC01}Anims/workspaces/player/player_main_shield.asi"
+     AnimationIKPose "{B19491C984F3910B}Anims/p_shield_IK.anm"
+     AnimIKPoseCrouchOverride "{FC5FCF6CCCE5BC39}Anims/p_shield_IK_crouch.anm"
+     OverrideDefaultIkBonesBlend 1
+     AnimIkposeBlendDuration 0.03
+    }
+    CustomAttributes {
+     CharacterModifierAttributes "{6A0EA7028224BC63}" {
+      StanceLimits 0.05 1
+      SpeedLimit 1.6
+      ADSSpeedLimit 1
+      SpeedLimitHighready 1
+      AllowGadgetUse 0
+      AllowJumping 0
+     }
+     HolsteredItemAttributes "{6A0EA7028224BC6D}" {
+      LinearOffset 0 0 0
+      AngularOffset 0 0 0
+      HiddenHolstered 1
+     }
+     PreviewRenderAttributes "{6A0EA7028224BC5C}" {
+      CameraDistanceToItem 1.1
+      CameraOffset 0 -0.05 0
+      FOV 60
+      AspectRatio 1
+      PreviewWornModel 1
+      PreviewModel "{D4F69313F77ECFE6}Assets/shield_worn.xob"
+      AnimationInstance "{0308F80E99F1C62E}Anims/workspaces/player/player_inventory_shield.asi"
+     }
+    }
+    m_Size SLOT_2x2
+   }
+  }
+  MeshObject "{6A0EA7028224BC58}" {
+   Object "{9CD6EC5861ECC3E2}Assets/shield_base.xob"
+  }
+  RigidBody "{6A0EA7028224BC5A}" {
+   SimState None
+   ResponseIndex "Normal"
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{6A0EA7028224BDA4}" {
+   m_fDamage 90
+   m_fRange 0.85
+   m_fAccuracy 0.65
+  }
+  SlotManagerComponent "{6A0EA7028224BDA7}" {
+   Slots {
+    EntitySlotInfo glass {
+     PivotID "Shield_root"
+     Offset 0 0 0
+     Angles -90 0 0
+     Prefab "{C49CF4E7109488E7}Prefabs/Shield_glass.et"
+     InheritParentSkeleton 1
+     DeactivatePhysicsOnAtaching 0
+    }
+   }
+  }
+  WeaponComponent "{6A0EA7028224BDA2}" {
+   useAimingType None
+   AllowedRaise "Only raised"
+   UIInfo WeaponUIInfo "{6A0EA7028224BDAD}" {
+    Name "#Shield-name"
+    Description "#Shield-desc"
+    Icon "{71F7069410DC291A}Assets/shield_icon.edds"
+    m_bShowWeaponName 1
+   }
+   WeaponSlotType "primary"
+  }
+  ActionsManagerComponent "{6A0EA7028224BDAF}" {
+   ActionContexts {
+    UserActionContext "{6A0EA7028224BDA9}" {
+     ContextName "default"
+     Position PointInfo "{6A0EA7028224BDA8}" {
+     }
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{6A0EA7028224BDB5}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6A0EA7028224BDB0}" {
+      Name "#AR-Inventory_Pickup"
+     }
+    }
+    SCR_EquipWeaponAction "{6A0EA7028224BDB3}" {
+     ParentContextList {
+      "default"
+     }
+    }
+    SCR_EquipWeaponHolsterAction "{6A0EA7028224BDB2}" {
+     ParentContextList {
+      "default"
+     }
+    }
+   }
+  }
+  NwkPhysicsMovementComponent "{6A0EA7028224BDBF}" {
+  }
+  RplComponent "{6A0EA7028224BDBE}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6A0EA7028224BDB8}" {
+  }
+ }
+ coords 192.835 52.112 2432.336
+}
