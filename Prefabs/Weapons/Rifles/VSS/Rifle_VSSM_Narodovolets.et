@@ -1,3 +1,14 @@
 GenericEntity : "{28A934FF46B5DEB2}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM_Narodovolets.et" {
  ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{65D96648AA0F185B}" {
+   Slots {
+    EntitySlotInfo Dustcover {
+    }
+    EntitySlotInfo Buttstock {
+    }
+   }
+  }
+ }
+ coords 0 0 0.011
 }

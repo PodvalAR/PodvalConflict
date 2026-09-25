@@ -12,7 +12,8 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_iRadius 65
    }
   }
-  coords 1076.644 198.412 2405.236
+  coords 3120.844 187.916 1981.07
+  angles 0 -107.973 0
  }
  {
   components {
@@ -27,7 +28,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_iRadius 65
    }
   }
-  coords 1072.838 207.498 2269.025
-  angles 0 95.313 0
+  coords 9943.389 212.876 4453.052
+  angles 0 -5.066 0
  }
 }

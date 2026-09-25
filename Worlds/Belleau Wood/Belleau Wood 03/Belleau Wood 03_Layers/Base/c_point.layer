@@ -1,0 +1,37 @@
+GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
+ components {
+  SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+  SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+   m_iRadius 300
+  }
+ }
+ coords 9743.153 125.732 9177.146
+ angles 0 -0.849 0
+ {
+  GenericEntity {
+   ID "622086ACB9D1E3B2"
+   components {
+    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "622086ACBB849B49"
+   components {
+    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

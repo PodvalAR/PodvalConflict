@@ -36,6 +36,9 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
   SCR_PlayerSpawnPointManagerComponent "{68F6CAE64ED4B671}" {
    m_eDeployableSpawnPointBudgetType NONE
   }
+  SCR_XPHandlerComponent "{68F6CAE64ECA0601}" {
+   m_sXPRewardsConfig "{EBE5C74129D4D279}Configs/Campaign/PD_CampaignXPRewards.conf"
+  }
  }
  coords 6525.786 323.705 1051.999
  m_iControlPointsThreshold 5

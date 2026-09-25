@@ -1,0 +1,401 @@
+$grp GenericEntity : "{01969A28078FCA69}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_02.et" {
+ {
+  coords 10059.392 123.913 9228.774
+ }
+ {
+  coords 9658.631 121.594 9285.227
+ }
+ {
+  coords 9692.152 124.327 9229.896
+ }
+ {
+  coords 9991.317 121.327 9239.357
+ }
+ {
+  coords 9718.485 122.127 9234.599
+ }
+ {
+  coords 9873.822 127.094 9105.19
+ }
+ {
+  coords 9819.689 127.678 9109.532
+ }
+ {
+  coords 9810.93 121.052 9247.103
+  angles 0 12.503 0
+ }
+ {
+  coords 9667.632 122.251 9230.149
+ }
+}
+GenericEntity : "{10BC0DF4C149DECC}Prefabs/Compositions/Misc/SubCompositions/Decorations/PalletPile_Stacked_01.et" {
+ coords 9718.474 122.035 9235.771
+ angles 0 0 0
+}
+GenericEntity : "{14225F5BB48F0C00}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_base.et" {
+ coords 9808.04 125.212 9150.842
+ angles 0 16.779 0
+}
+GenericEntity : "{157E18D526C3A7E6}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_02.et" {
+ coords 9711.685 127.694 9139.81
+ angles 0 -39.714 0
+}
+GenericEntity : "{1BC3916A53D0F668}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_US_03.et" {
+ coords 9717.492 122 9236.325
+}
+GenericEntity : "{207B5E830AB77CB8}Prefabs/Compositions/Misc/SubCompositions/Decorations/CardboardBox_MRE_US_01.et" {
+ coords 9717.815 122.08 9235.484
+}
+$grp GenericEntity : "{248CBAD8E0E6FC6E}Prefabs/Compositions/Misc/SubCompositions/Barrel_Filled_02.et" {
+ {
+  coords 10059.46 123.95 9229.828
+  angles 0 0 0
+ }
+ {
+  coords 9692.861 124.374 9229.037
+  angles 0 0 0
+ }
+}
+GenericEntity : "{2DB15E662002730D}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/Dst/BenchStreet_01_dst_01_yellow_red.et" {
+ coords 9873.23 126.715 9108.186
+ angles 0 100.921 0
+}
+SCR_DestructibleEntity : "{33C0565C5FE1ED74}Prefabs/Props/Civilian/BenchStreet/BenchStreet_02.et" {
+ coords 9872.818 127.128 9105.779
+ angles 0 -94.234 0
+}
+$grp GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
+ {
+  coords 9693.472 124.404 9230.052
+  angles 0 0 0
+ }
+ {
+  coords 9924.03 121.205 9239.699
+  angles 0 64.293 0
+ }
+ {
+  coords 9712.976 122.282 9234.557
+  angles 0 0 0
+ }
+ {
+  coords 9715.057 128.096 9138.919
+  angles 0 0 0
+ }
+ {
+  coords 9814.709 128.149 9113.929
+  angles 0 0 0
+ }
+ {
+  coords 9811.581 121.054 9242.048
+  angles 0 86.455 0
+ }
+ {
+  coords 9667.96 122.284 9228.926
+  angles 0 0 0
+ }
+}
+$grp GenericEntity : "{37303CD6D6B5B42D}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbageTireStack_01.et" {
+ {
+  coords 10034.172 125.219 9143.354
+ }
+ {
+  coords 9547.947 121.101 9129.008
+ }
+ {
+  coords 9799.039 128.344 9106.863
+ }
+ {
+  coords 9711.525 134.96 9067.217
+ }
+}
+$grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
+ {
+  coords 10034.503 125.623 9135.834
+  angles 0 72.349 0
+ }
+ {
+  coords 10058.566 123.688 9225.373
+  angles 0 88.592 0
+ }
+ {
+  coords 9635.038 121.494 9312.906
+  angles 0 -49.851 0
+ }
+ {
+  coords 9997.536 121.388 9234.067
+  angles 0 65.471 0
+ }
+ {
+  coords 9703.631 125.933 9189.896
+  angles 0 63.001 0
+ }
+ {
+  coords 9816.682 127.834 9111.599
+  angles 0 12.877 0
+ }
+ {
+  coords 9810.438 121.051 9242.058
+  angles 0 -104.82 0
+ }
+ {
+  coords 9679.997 121.878 9233.933
+  angles 0 -107.342 0
+ }
+}
+GenericEntity : "{4176B677A9F9A7E8}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_04.et" {
+ coords 9710.506 135.135 9064.764
+ angles 0 100.705 0
+}
+GenericEntity : "{48D88E385C227340}Prefabs/Compositions/Misc/SubCompositions/Barrel_Filled_01.et" {
+ coords 9873.677 126.811 9107.394
+ angles 0 0 0
+}
+GenericEntity : "{4A34979DC19CA9ED}Prefabs/Props/Construction/ConcreteMixer_01.et" {
+ coords 9811.867 124.519 9157.76
+}
+$grp GenericEntity : "{518D949FF287064B}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_Stack_01.et" {
+ {
+  coords 10035.29 125.355 9143.423
+ }
+ {
+  coords 9546.254 121.535 9125.632
+ }
+}
+$grp GenericEntity : "{52C98B37CA6F1306}Prefabs/Compositions/Misc/SubCompositions/Tire_M15A2_pile_01.et" {
+ {
+  coords 9547.298 121.012 9129.397
+  angles 0 144.247 0
+ }
+ {
+  coords 9635.955 121.497 9312.052
+ }
+}
+GenericEntity : "{57FB5E487EC91D63}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_02.et" {
+ coords 9703.449 125.162 9197.429
+ angles 0 92.041 0
+}
+$grp GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
+ {
+  coords 10035.494 125.538 9138.292
+  angles 0 -139.409 0
+ }
+ {
+  coords 9544.932 121.189 9126.061
+  angles 0 32.879 0
+ }
+ {
+  coords 9799.069 128.344 9105.219
+  angles 0 -81.543 0
+ }
+}
+GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Large.et" {
+ coords 9808.782 124.769 9156.302
+}
+GenericEntity : "{630C2872BB87F44F}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Short_Pile.et" {
+ coords 9807.059 125.01 9154.215
+}
+GenericEntity : "{792A2C359A0728C8}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_01.et" {
+ coords 9710.529 127.613 9141.061
+ angles 0 -58.662 0
+}
+$grp GenericEntity : "{811C18BEC8B8B245}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_green.et" {
+ {
+  coords 9873.7 126.668 9109.965
+  angles 0 117.039 40.813
+ }
+ {
+  coords 9873.148 127.156 9107.087
+  angles 5.784 90.123 86.034
+ }
+}
+$grp GenericEntity : "{85C8E30402BF24D5}Prefabs/Compositions/Misc/SubCompositions/Tire_Ural4320_pile_01.et" {
+ {
+  coords 10033.353 125.382 9141.286
+  angles 0 0 0
+ }
+ {
+  coords 10060.343 123.865 9227.666
+  angles 0 0 0
+ }
+}
+GenericEntity : "{8D3CBF3A91BE18C9}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/BenchStreet_01_Base.et" {
+ coords 9872.344 126.829 9107.232
+ angles 0 -51.301 0
+}
+GenericEntity : "{A1AA6AAF5F88D859}Prefabs/Compositions/Misc/SubCompositions/Garbage/Garbage_Vehicle_01.et" {
+ coords 9714.861 121.986 9236.091
+}
+GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+ coords 9810.664 124.309 9157.31
+}
+$grp GenericEntity : "{AA3F295D8E086A6D}Prefabs/Compositions/Misc/SubCompositions/TireStack_M939A1_02.et" {
+ {
+  coords 10034.25 125.296 9144.329
+ }
+ {
+  coords 9549.028 121.336 9128.427
+ }
+ {
+  coords 9798.286 128.344 9106.471
+ }
+}
+GenericEntity : "{B26712B1722C8A08}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_03.et" {
+ coords 9541.684 120.673 9129.994
+ angles 0 -142.012 6.522
+}
+GenericEntity : "{B44BBBE082275ACD}Prefabs/Compositions/Misc/SubCompositions/WoodenBoxCluttered_04.et" {
+ coords 9637.18 121.494 9313.391
+}
+GenericEntity : "{BB9DFC7232860128}Prefabs/Props/Construction/BrickPile/BrickPileOld_01_Large.et" {
+ coords 9810.38 124.514 9158.733
+ angles 0 -31.817 0
+}
+$grp GenericEntity : "{C529E6E1AE272891}Prefabs/Compositions/Misc/SubCompositions/Barrel_Cluttered_01.et" {
+ {
+  coords 9713.967 122.152 9235.502
+ }
+ {
+  coords 9679.041 121.922 9233.323
+ }
+}
+$grp GenericEntity : "{C560A827907650D2}Prefabs/Compositions/Misc/SubCompositions/Tire_M939A1_pile_01.et" {
+ {
+  coords 10034.466 125.35 9142.204
+ }
+ {
+  coords 10057.508 123.527 9220.381
+ }
+ {
+  coords 9542.749 120.98 9127.137
+ }
+ {
+  coords 9540.461 120.588 9129.717
+ }
+ {
+  coords 9634.984 121.497 9310.849
+ }
+ {
+  coords 9713.14 127.776 9139.147
+ }
+ {
+  coords 9798.738 128.343 9102.095
+ }
+}
+$grp GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
+ {
+  coords 9710.257 127.613 9142.612
+ }
+ {
+  coords 9717.064 128.494 9139.104
+ }
+}
+$grp GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
+ {
+  coords 10057.152 123.659 9221.315
+ }
+ {
+  coords 10036.107 125.597 9136.885
+ }
+ {
+  coords 9658.672 121.682 9271.451
+ }
+ {
+  coords 9992.159 121.287 9237.938
+ }
+ {
+  coords 9712.032 122.035 9235.207
+ }
+ {
+  coords 9873.21 126.423 9110.564
+ }
+ {
+  coords 9709.798 134.857 9068.155
+  angles 0 -150.952 0
+ }
+ {
+  coords 9810.317 121.021 9245.955
+  angles 0 87.333 0
+ }
+ {
+  coords 9679.254 121.866 9234.523
+  angles 0 -51.862 0
+ }
+}
+GenericEntity : "{DB17133F11B2B8C5}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Short.et" {
+ coords 9811.316 124.71 9156.179
+ angles 0 -59.159 0
+}
+$grp GenericEntity : "{E432A2B14E69DA5E}Prefabs/Compositions/Misc/SubCompositions/CableReelWooden_Cluttered_01.et" {
+ {
+  coords 10060.841 123.862 9229.323
+  angles 0 0 0
+ }
+ {
+  coords 10035.65 125.627 9135.546
+  angles 0 0 0
+ }
+ {
+  coords 9540.817 120.331 9133.761
+  angles 0 0 0
+ }
+ {
+  coords 9640.56 121.498 9313.886
+  angles 0 0 0
+ }
+ {
+  coords 9923.833 121.153 9237.945
+  angles 0 0 0
+ }
+ {
+  coords 9717.189 122.24 9234.426
+  angles 0 0 0
+ }
+ {
+  coords 9820.3 127.543 9111.441
+  angles 0 0 0
+ }
+ {
+  coords 9811.582 121.127 9240.05
+  angles 0 0 0
+ }
+ {
+  coords 9680.301 121.633 9240.488
+  angles 0 0 0
+ }
+}
+GenericEntity : "{E641FDA9C7D9AA72}Prefabs/Props/Construction/WoodHolder_01.et" {
+ coords 9813.278 124.48 9157.987
+ angles 0 -75.066 0
+}
+$grp GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {
+ {
+  coords 9637.503 121.497 9312.561
+  angles 0 0 0
+ }
+ {
+  coords 9679.061 121.775 9236.803
+  angles 0 0 0
+ }
+}
+$grp GenericEntity : "{F58AEB566CB4369A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_01.et" {
+ {
+  coords 10031.727 125.173 9142.674
+  angles 0 41.919 0
+ }
+ {
+  coords 9539.867 120.188 9135.236
+ }
+ {
+  coords 9638.855 121.497 9313.801
+ }
+ {
+  coords 9799.016 128.344 9103.582
+ }
+ {
+  coords 9712.041 135.155 9064.814
+  angles 0 -26.766 0
+ }
+ {
+  coords 9680.306 121.696 9238.491
+ }
+}

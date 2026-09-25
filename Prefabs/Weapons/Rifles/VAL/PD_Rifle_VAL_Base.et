@@ -1,0 +1,47 @@
+GenericEntity : "{F25D16BD5F748372}Prefabs/Weapons/Rifles/VAL/Rifle_VAL_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   LODFactors {
+    1 1 1 1 1
+   }
+  }
+  SlotManagerComponent "{689B495D05E3752D}" {
+   Slots {
+    EntitySlotInfo Dovetail {
+    }
+    EntitySlotInfo Dustcover {
+     Prefab "{9C5CC723D7F3598C}Prefabs/Weapons/Attachments/Receivers/VSS_Platform/VSSM_Dustcover.et"
+    }
+    EntitySlotInfo Handguard {
+     PivotID "slot_handguard"
+     Prefab "{FDACBB9AD6F464CA}Prefabs/Weapons/Attachments/Handguards/VSS_Platform/Handguard_VSS_RIS.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6A4A58FB4E186AB8}" {
+     AttachmentSlot InventoryStorageSlot optic {
+      PivotID "w_root"
+      Offset 0 0.0949 0
+      ChildPivotID "snap_weapon"
+      Prefab "{D8147F3F740C29DF}Prefabs/Weapons/Attachments/Optics/Dedal_Narodovolec/Dedal_Narodovolec.et"
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{6A4A58FB6834ADB3}" {
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsSwitchSkip 1
+    }
+    SuppressorComponent "{689B495D05E3752A}" {
+     AttachmentSlot InventoryStorageSlot "{65D9102500CC7849}" {
+      InspectionWidgetOffset 0 0 0
+     }
+    }
+   }
+  }
+ }
+ coords 0 -0.004 0
+ angles 0 48.5 0
+}

@@ -78,9 +78,33 @@ SCR_MapLocator {
  m_WorldDirections SCR_MapLocationQuadHint "{606C9C9A800B5EE6}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
  }
 }
+GenericEntity : "{28A934FF46B5DEB3}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM_Narodovolets.et" {
+ coords 4947.821 2.188 3866.505
+}
 BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
  coords 1085.036 2.717 6065.238
 }
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
  coords 1135.75 10.61 5909.709
+}
+$grp GenericEntity : "{6A4554B5EEED0690}Prefabs/Weapons/Rifles/VAL/PD_Rifle_VAL_Base.et" {
+ {
+  coords 4948.05 2.187 3866.552
+  angles 0 0 0
+ }
+ {
+  components {
+   WeaponComponent "{CFBAA4B706BA66E8}" {
+    components {
+     AttachmentSlotComponent "{689B495D05E3752A}" {
+      AttachmentSlot InventoryStorageSlot "{65D9102500CC7849}" {
+       Offset 0 0.0947 0.0293
+      }
+     }
+    }
+   }
+  }
+  coords 4948.05 2.187 3866.552
+  angles 0 0 0
+ }
 }

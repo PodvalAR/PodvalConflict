@@ -25,8 +25,53 @@ RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
 }
 SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  components {
+  RHS_AdditionalGameModeSettingsComponent "{61AE627E9607513B}" {
+   m_CallInSupportsConfig SCR_CallInSupportContainerConfig "{621B2B44550E77F5}" {
+    m_aCallIns {
+     SCR_CallInSupportContainer "{613B10C78ECB03E7}" {
+      m_eRequiredRank CAPTAIN
+      m_iMinNumberOfSquadMembers 1
+     }
+     SCR_CallInSupportContainer "{613B10C78D6ED9B3}" {
+      m_iMinNumberOfSquadMembers 1
+     }
+     SCR_CallInSupportContainer "{613B10C7889A9423}" {
+      m_eRequiredRank CAPTAIN
+      m_iMinNumberOfSquadMembers 1
+     }
+     SCR_CallInSupportContainer "{613B10C789A6B276}" {
+      m_iMinNumberOfSquadMembers 1
+     }
+     SCR_CallInSupportContainer "{624ED09013D608AA}" {
+      m_eRequiredRank CAPTAIN
+      m_iMinNumberOfSquadMembers 1
+     }
+     SCR_CallInSupportContainer "{624ED090108265B6}" {
+      m_eRequiredRank CAPTAIN
+      m_iMinNumberOfSquadMembers 1
+     }
+     SCR_CallInSupportContainer "{624ED0900E163700}" {
+      m_iMinNumberOfSquadMembers 1
+     }
+     SCR_CallInSupportContainer "{624ED0900F1BAFE1}" {
+      m_iMinNumberOfSquadMembers 1
+     }
+     SCR_CallInSupportContainer "{625128CEE7B354FA}" {
+      m_eRequiredRank CAPTAIN
+      m_iMinNumberOfSquadMembers 1
+     }
+     SCR_CallInSupportContainer "{625128CEE70F67FD}" {
+      m_eRequiredRank CAPTAIN
+      m_iMinNumberOfSquadMembers 1
+     }
+    }
+   }
+  }
   SCR_PlayerSpawnPointManagerComponent "{68F6CAE64ED4B671}" {
    m_eDeployableSpawnPointBudgetType NONE
+  }
+  SCR_XPHandlerComponent "{68F6CAE64ECA0601}" {
+   m_sXPRewardsConfig "{EBE5C74129D4D279}Configs/Campaign/PD_CampaignXPRewards.conf"
   }
  }
  coords 9902.211 5.428 1604.263

@@ -1,0 +1,376 @@
+Vehicle : "{1B8EB269EECA2DF9}Prefabs/Vehicles/Wheeled/LAV25/LAV25_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   Filenames {
+    "{A60881C12A7AAE18}Sounds/Vehicles/Wheeled/LAV25/Vehicles_LAV25_Animations.acp" "{295ECF25C4C37A02}Sounds/Vehicles/Wheeled/LAV25/Vehicles_LAV25_Engine.acp" "{B992B5065A62F9CA}Sounds/Vehicles/_SharedData/Crashes/APC/Vehicles_Crashes_APC.acp" "{F2DF21A0D60453B0}Sounds/Vehicles/Wheeled/LAV25/Vehicles_LAV25_Dampers.acp" "{CD6B23DB170F28F0}Vehicles_K17_Horn_fured.acp" "{BA8A5BD290F5FB34}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction.acp" "{EB2A9FCC4A07E073}Sounds/Vehicles/Wheeled/LAV25/Vehicles_LAV25_Rain.acp" "{F1030E91E4B33E24}Sounds/Vehicles/_SharedData/WaterInteractions/Vehicles_WaterInteractions.acp" "{9DD9C6279F4489B4}Sounds/SupportStations/SupportStations_Vehicles.acp" "{F41C3D53A2B69D85}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction_Fires.acp"
+   }
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6A3AD6C820718987}" {
+     SourceMaterial "LAV25_body_exterior"
+     AssignedMaterial "{CF3BAB5F51D2E3A6}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_body_exterior_MOD.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "LAV-25A2 (Olive)"
+    m_Image "{EB19778A054DF54D}lav_25a2_g.edds"
+    m_aAutoLabels {
+     FACTION_RHS_USAF SIZE_M FACTION_US SIZE_S VEHICLE_TRUCK
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2500
+     }
+    }
+   }
+  }
+  SCR_ResourceComponent "{60488A9A9E1F8B08}" {
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{6A3AD6C820718995}" {
+     m_sDebugName "Encapsulator - LAV25"
+     m_eResourceRights ALL
+     m_ContainerQueue SCR_ResourceEncapsulatorContainerQueue "{6A3AD6C820718990}" {
+      m_StoragePolicies {
+       SCR_ResourceEncapsulatorStoragePolicyGeneric "{6A3AD6C820718992}" {
+        m_StorageQueue SCR_ResourceEncapsulatorContainerStorageQueue "{6A3AD6C82071899C}" {
+        }
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeDecay "{6A3AD6C82071899E}" {
+       m_fResourceDecay 0
+       m_fResourceDecayTickrate 0
+       m_fResourceDecayTimeout 0
+      }
+      SCR_ResourceEncapsulatorActionChangeGain "{6A3AD6C82071899B}" {
+       m_fResourceGain 0
+       m_fResourceGainTickrate 0
+       m_fResourceGainTimeout 0
+      }
+      SCR_ResourceEncapsulatorActionChangeOnEmptyBehavior "{6A3AD6C8207189E5}" {
+       m_eOnEmptyBehavior HIDE
+      }
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{6A3AD6C8207189E7}" {
+       m_fResourceValueCurrent 0
+      }
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6A3AD6C8207189E3}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Prefab "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A3AD6C8207189EE}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+  SCR_VehicleBuoyancyComponent "{5ECC936F0C77E390}" {
+   BuoyancyDepthOffset 1.2
+   ThurstForward 4
+   ThurstReverse 4
+   SpeedToSteering 4
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     MaxPower 250
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{C20E548D350D1903}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_rhs_MOD_G.et"
+    }
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{504A9F8FBE57A983}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_left_01_MOD.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{504A9F8FBE57A983}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_left_01_MOD.et"
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Prefab "{504A9F8FBE57A983}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_left_01_MOD.et"
+    }
+    SCR_WheelSlotInfo Wheel_L04 {
+     Prefab "{504A9F8FBE57A983}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_left_01_MOD.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{EAD07C6B72FE908E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_right_01_MOD.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{EAD07C6B72FE908E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_right_01_MOD.et"
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Prefab "{EAD07C6B72FE908E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_right_01_MOD.et"
+    }
+    SCR_WheelSlotInfo Wheel_R04 {
+     Prefab "{EAD07C6B72FE908E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_right_01_MOD.et"
+    }
+    RegisteringComponentSlotInfo Extra_Wheel {
+     Offset -1.1915 1.5978 -2.1866
+     Angles 0 0 35
+     MergePhysics 1
+     Prefab "{504A9F8FBE57A983}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_left_01_MOD.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo gas_mount {
+     Offset 1.1987 1.4568 -2.3432
+     Angles 1.4235 180 34.9747
+     MergePhysics 1
+     Prefab "{2B479D7BAB206031}Prefabs/Vehicles/Turrets/gas_mount.et"
+    }
+    EntitySlotInfo SupplyStorage_01 {
+     Offset -1.6929 1.3371 1.2481
+     Angles 0 180 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{EDCA519C9344D4ED}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_camonet_L_Vehicle_MOD.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo SupplyStorage_02 {
+     Offset 1.7665 1.3619 0.7011
+     Angles -2.4961 0 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{EDCA519C9344D4ED}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_camonet_L_Vehicle_MOD.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     Offset -1.6929 1.3371 -0.0931
+     Angles 0 180 0
+     MergePhysics 1
+     Prefab "{EDCA519C9344D4ED}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_camonet_L_Vehicle_MOD.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    EntitySlotInfo SupplyStorage_04 {
+     Offset 1.7665 1.4388 -1.0623
+     MergePhysics 1
+     Prefab "{EDCA519C9344D4ED}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_camonet_L_Vehicle_MOD.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_06 {
+     Offset 0.5498 1.371 3.0562
+     Angles -23.1296 3.9619 5.0255
+     MergePhysics 1
+     Prefab "{8A7E1664DACCAD76}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle_MOD.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    EntitySlotInfo SupplyStorage_07 {
+     Offset 0.201 1.3994 3.0925
+     Angles -23.1296 3.9619 5.0255
+     MergePhysics 1
+     Enabled 1
+     Prefab "{8A7E1664DACCAD76}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle_MOD.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo SupplyStorage_08 {
+     Offset 0.5993 1.6108 2.469
+     Angles -23.1296 3.9619 5.0255
+     MergePhysics 1
+     Enabled 1
+     Prefab "{8A7E1664DACCAD76}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle_MOD.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo SupplyStorage_09 {
+     Offset 0.2506 1.6389 2.5052
+     Angles -23.1296 3.9619 5.0255
+     MergePhysics 1
+     Enabled 1
+     Prefab "{8A7E1664DACCAD76}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle_MOD.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo Backpack_left1 {
+     Offset -1.3403 0.2905 -0.7447
+     Angles -18.9339 90 0
+     MergePhysics 1
+     Enabled 0
+     Prefab "{2F8A3F40FF365802}Prefabs/Vehicles/Turrets/backpack_proplav.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+    }
+    RegisteringComponentSlotInfo Backpack_left2 {
+     Offset -1.3403 0.2905 -1.1323
+     Angles -18.9339 90 0
+     MergePhysics 1
+     Enabled 0
+     Prefab "{2F8A3F40FF365802}Prefabs/Vehicles/Turrets/backpack_proplav.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+    }
+    RegisteringComponentSlotInfo holder_left1 {
+     Offset -0.9254 1.1374 1.1537
+     Angles -1.802 -90 0
+     MergePhysics 1
+     Prefab "{8A19F13BF11740E4}deco5_lav25_MOD.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo holder_left2 {
+     Offset -0.9232 0.972 -1.3976
+     Angles -88.8769 90 -180
+     MergePhysics 1
+     Prefab "{200AF401DB829FEB}deco6_lav25_MOD.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo holder_right1 {
+     Offset 0.456 1.6376 -1.3967
+     Angles 18.722 -90 0
+     MergePhysics 1
+     Prefab "{0CB06D31C078F97F}deco8_lav25_MOD.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo front_rope {
+     Offset 0.5715 1.3598 3.0536
+     Angles -30 0 8.5601
+     Enabled 0
+     Prefab "{33D5102FA67E1B46}Prefabs/Props/Naval/FishingRope_01.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo holder1 {
+     Offset 0.3994 0.9652 2.463
+     Angles 2.2453 -91.4042 0.4361
+     Prefab "{A740E9B4A2DA6339}Prefabs/Props/Military/Misc/GroundCrew_01_Trolley/Parts/deco1_lav25_MOD.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo holder2 {
+     Offset 0.3279 0.7216 3.0648
+     Angles 2.2453 -91.4042 0.4361
+     Prefab "{CDC61C97AF55326C}Prefabs/Props/Military/Misc/GroundCrew_01_Trolley/Parts/deco2_lav25_MOD.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo GrillArmorL01 {
+     MergePhysics 1
+     Prefab "{7DFCF9A360408C2E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Armor/GrillArmorL01.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo GrillArmorL02 {
+     MergePhysics 1
+     Prefab "{11A8CD43DC840300}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Armor/GrillArmorL02.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo GrillArmorL03 {
+     MergePhysics 1
+     Prefab "{F43481BAD061946B}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Armor/GrillArmorL03.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo GrillArmorL04 {
+     MergePhysics 1
+     Prefab "{44B2C5D9BBB05E44}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Armor/GrillArmorL04.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo GrillArmorR01 {
+     MergePhysics 1
+     Prefab "{B28C22EEB0E38D6E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Armor/GrillArmorR01.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo GrillArmorR02 {
+     MergePhysics 1
+     Prefab "{DED8160E0C270240}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Armor/GrillArmorR02.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo GrillArmorR03 {
+     MergePhysics 1
+     Prefab "{3B445AF700C2952B}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Armor/GrillArmorR03.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo GrillArmorR04 {
+     MergePhysics 1
+     Prefab "{06707FCF75AE1C1C}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Armor/GrillArmorR04.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo GrillArmorR05 {
+     MergePhysics 1
+     Prefab "{E3EC3336794B8B77}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Armor/GrillArmorR05.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    EntitySlotInfo BacknumDecal1 {
+     PivotID "v_back_door_R"
+     Offset -0.4741 -0.4923 -0.018
+     Angles 0 -90 -180
+     MergePhysics 1
+     Prefab "{DDDB588AEA428C1F}Prefabs/Vehicles/Shared/decal_vehicle_group1_small_MOD1.et"
+    }
+    EntitySlotInfo BacknumDecal2 {
+     PivotID "v_back_door_R"
+     Offset -0.3629 -0.4923 -0.018
+     Angles 0 -90 -180
+     MergePhysics 1
+     Prefab "{BF4A485A781D4B66}Prefabs/Vehicles/Shared/decal_vehicle_group1_small_MOD2.et"
+    }
+    EntitySlotInfo BacknumDecal3 {
+     PivotID "v_back_door_R"
+     Offset -0.2644 -0.4923 -0.018
+     Angles 0 -90 -180
+     MergePhysics 1
+     Prefab "{5AD604A374F8DC0D}Prefabs/Vehicles/Shared/decal_vehicle_group1_small_MOD3.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{62826121E45368E1}" {
+     Position PointInfo "{62826121D86A9A3A}" {
+      Offset 0 1.2494 3.4655
+     }
+     Radius 0.3
+    }
+    UserActionContext "{58F8DC79D5A23FCF}" {
+     Radius 0.6
+    }
+    UserActionContext "{6A3AD6C8207189CA}" {
+     ContextName "periscope_driver_m01"
+     Position PointInfo "{6A3AD6C8207189D4}" {
+      Offset -0.4226 1.7257 1.8931
+      Angles -15 -180 0
+     }
+    }
+    UserActionContext "{6A3AD6C8207189DD}" {
+     ContextName "periscope_driver_l01"
+     Position PointInfo "{6A3AD6C8207189DF}" {
+      Offset -0.6426 1.7261 1.8584
+      Angles -15 135 0
+     }
+    }
+    UserActionContext "{6A3AD6C8207189D8}" {
+     ContextName "periscope_driver_r01"
+     Position PointInfo "{6A3AD6C8207189DB}" {
+      Offset -0.1994 1.7313 1.848
+      Angles -15 -135 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_ResourceEntityRefundAction "{5D5EC6128E6342C0}" {
+    }
+   }
+  }
+ }
+ coords -0.508 0 0
+}

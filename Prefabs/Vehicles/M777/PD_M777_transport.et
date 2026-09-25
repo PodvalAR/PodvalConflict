@@ -1,0 +1,393 @@
+Vehicle : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  BaseLightManagerComponent "{51E210F17D2534F7}" {
+   Enabled 0
+  }
+  BaseRadioComponent "{51EAE034EF047EFA}" {
+   Enabled 0
+  }
+  ChimeraAIPathfindingComponent "{5676B7807269CA5B}" {
+   Enabled 0
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Object "{2A40FD65A98D64BA}Models/Weapons/Howitzers/M777/Retexture/M777_retexture_for_vehicle.xob"
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 3000
+   MasslessInertia 0 0 0
+   CenterOfMass 0 0.266 1.341
+   LinearDamping 0.011
+   AngularDamping 0.011
+  }
+  SCR_AIVehicleUsageComponent "{60E4E37C467714E8}" {
+   Enabled 0
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   Enabled 1
+  }
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   Enabled 0
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   Enabled 1
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_M777_Name"
+    Icon "{224F9F424E6A2836}Images/Icons/EditableEntity_Vehicle_Artillery.edds"
+    m_Image "{A73E629DAD3FFBA9}Images/m777_transport.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     FACTION_US SIZE_M VEHICLE_TRUCK FACTION_US
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 3000
+     }
+     SCR_EntityBudgetValue "{6A72E87A9BD99238}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{5A5EA70BB60AE091}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{6A72E87ADA82FBF9}" {
+   Enabled 0
+   m_EntityType VEHICLE
+   m_UIInfo SCR_EditableVehicleUIInfo "{6A72E87ADA82FBCC}" {
+    Name "#AR-Vehicle_M777_Name"
+    Icon "{5F6834E9954ABAC4}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Mortar.edds"
+    m_Image "{A73E629DAD3FFBA9}Images/m777_transport.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     FACTION_US SIZE_M VEHICLE_CAR
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6A72E87ADA82FBC9}" {
+     }
+     SCR_EntityBudgetValue "{6A72E87ADA82FBC8}" {
+      m_BudgetType CAMPAIGN
+      m_Value 800
+     }
+     SCR_EntityBudgetValue "{6A72E87ADA82FBCB}" {
+      m_BudgetType COOLDOWN
+      m_Value 1
+     }
+    }
+    m_aOccupantFillCompartmentTypes {
+     PILOT CARGO
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{6A72E87ADA82FBCA}" {
+     }
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{6A72E87ADA82FBD5}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 5
+  }
+  SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+   Enabled 1
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   Enabled 1
+  }
+  SCR_MotorExhaustEffectGeneralComponent "{2122A7495115BD4B}" {
+   Enabled 0
+  }
+  SCR_ResourceComponent "{5D82E3BA6C4795F8}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+   Enabled 0
+  }
+  SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
+   Enabled 0
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584C42C773FDFBF}" {
+      m_sWreckModel "{FFEF48D95EB4495F}Models/Weapons/Howitzers/M777/Destroyed/m777_destructed_full.xob"
+     }
+    }
+   }
+   m_fMaxSharedDamageDistance 1.9
+   m_vFrontalImpact 0 0.621 3.469
+   m_fVehicleDestroyDamage 8000
+   m_fVehicleSpeedDestroy 100
+  }
+  TOFTS_GunIdentityComponent "{6A72E87ADA82FBDF}" {
+  }
+  TOFTS_HowitzerModeComponent "{6A72E87ADA82FBDE}" {
+   m_rSwapTargetPrefab "{54838E573DCDC027}Prefabs/Weapons/Howitzers/M777/M777_Howitzer.et"
+   m_fTransitionDuration 0
+   m_bIsVehicleVariant 1
+   m_vSpawnOffset 0 0 0
+   m_fYawOffsetDeg 0
+   m_sSpawnedAnimVariableName "UnfoldState"
+  }
+  TOFTS_TowingComponent "{689F15F04073475D}" {
+   m_bCanTow 0
+   m_bUseAutoPositions 0
+   m_vTowPointOffset 0 0.3 8
+   m_bShowDebug 0
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Axles {
+     Axle "{4D8B26DF957A8E1C}" {
+      TorqueShare 0.1
+      HasHandbrake 1
+      Differential Differential Diff_01 {
+       Type Open
+      }
+      Suspension Suspension "{4D8B26DFF8859A7B}" {
+       MaxSteeringAngle 28
+       SpringRate 150
+       CompressionDamper 6000
+       RelaxationDamper 9500
+       MaxTravelUp 0.3
+       MaxTravelDown 0.18
+      }
+      Wheel Wheel "{4D8B26DFFE211745}" {
+       Radius 0.4
+       HandbrakeTorqueFactor 1
+      }
+     }
+     Axle "{4D8B26DF8CF2F3D8}" {
+      TorqueShare 1
+      HasHandbrake 0
+      Differential Differential Diff_02 {
+       Type Open
+      }
+      WheelPositions {
+       WheelPosition Wheel_L02 {
+        PivotID "v_wheel_L01"
+       }
+       WheelPosition Wheel_R02 {
+        PivotID "v_wheel_R01"
+       }
+      }
+     }
+    }
+    InertiaOverride 9714.354 9929.607 1755.923
+   }
+  }
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   Enabled 1
+   components {
+    ControllersManagerComponent "{20FB66C5C1BE9DA0}" {
+     Enabled 1
+    }
+    SCR_BaseHUDComponent "{37C2676694790BC7}" {
+     Enabled 1
+    }
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+     Enabled 1
+    }
+   }
+  }
+  ChimeraAIVehicleControlComponent "{61C2E46781A66E82}" {
+   Enabled 0
+   components {
+    AICarMovementComponent "{61C2E46796C28D80}" {
+     Enabled 0
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Bench {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Window_front {
+     Enabled 0
+    }
+    SCR_WheelSlotInfo Wheel_L01 {
+     Offset -0.0239 0 0
+     Prefab "{5E47559D695B79F0}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_left_01.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Enabled 0
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Offset 0.0175 0 0
+     Angles 0 0 0
+     Prefab "{7BCAA3685FB686A6}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_right_01.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Wheel_Spare_01 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_03 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_02 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_01 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Canvas {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_05 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_06 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_07 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_08 {
+     Enabled 0
+    }
+   }
+  }
+  SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{50AB795D70E9CFFE}" {
+     Position PointInfo "{50AB795F5F29B0F9}" {
+      PivotID "v_wheel_R01"
+      Offset 0.2244 0 0
+      Angles 0 0 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{5916C584C78BB0E8}" {
+     Position PointInfo "{5916C584BE9F6BED}" {
+      Offset 0 1.2242 -1.5428
+     }
+    }
+    UserActionContext "{5DC6838C47C0CE40}" {
+     Position PointInfo "{5DC6838C5FC39714}" {
+      Offset 0 0.1991 3.6878
+     }
+    }
+    UserActionContext "{6A72E87ADA82FB33}" {
+     ContextName "tow"
+     Position PointInfo "{6A72E87ADA82FB3D}" {
+      Offset 0 0.1727 8.0195
+     }
+    }
+    UserActionContext "{6A72E87ADA82FB3C}" {
+     ContextName "pack"
+     Position PointInfo "{6A72E87ADA82FB3F}" {
+      PivotID "v_wheel_L01"
+      Offset -0.2268 0 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_RefuelAtSupportStationAction "{5B02B547EDCF6F99}" {
+    }
+    SCR_ResourceEntityRefundAction "{5D5EC6128E6342C0}" {
+     ParentContextList {
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5B02B547E8F16AF2}" {
+     ParentContextList {
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5E20D2E3B055B082}" {
+     ParentContextList {
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5E1CB6DF63753AD9}" {
+     ParentContextList {
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5E3ACC1CF6F95044}" {
+     ParentContextList {
+     }
+    }
+    SCR_ToggleHandbrakeAction "{60DC8885D52C4097}" {
+     ParentContextList +{
+     }
+    }
+    SCR_ToggleHandbrakeAction "{60DE778F7045386D}" {
+     ParentContextList +{
+     }
+    }
+    SCR_ResourceContainerVehicleLoadAction "{5DAD751A3D2FE182}" {
+     ParentContextList {
+     }
+    }
+    SCR_ResourceContainerVehicleUnloadAction "{5DAD751A3BF8492E}" {
+     ParentContextList {
+     }
+    }
+    SCR_EngineAction "{56B3068BA1D0AA82}" {
+     ParentContextList {
+     }
+    }
+    SCR_EngineAction "{56B3068BA61547D4}" {
+     ParentContextList {
+     }
+    }
+    SCR_OpenVehicleStorageAction "{5916C584E6D473D6}" {
+     ParentContextList {
+     }
+    }
+    TOFTS_TowAttachAction "{6A72E87ADA82FB76}" {
+     ParentContextList {
+      "tow"
+     }
+     UIInfo SCR_ActionUIInfo "{6A72E87ADA82FB70}" {
+      Name "Attach to vehicle"
+     }
+     m_fSearchRange 10
+    }
+    TOFTS_TowDetachAction "{6A72E87ADA82FB73}" {
+     ParentContextList {
+      "tow"
+     }
+     UIInfo SCR_ActionUIInfo "{6A72E87ADA82FB72}" {
+      Name "Detach from vehicle"
+     }
+    }
+    TOFTS_HowitzerUnfoldAction "{6A72E87ADA82FB7D}" {
+     ParentContextList {
+      "pack"
+     }
+     UIInfo SCR_ActionUIInfo "{6A72E87ADA82FB7C}" {
+      Name "Unpack"
+     }
+     ActionTitle "Unpack"
+     Duration 3
+    }
+   }
+  }
+  NwkCarMovementComponent "{5D6CA5AFEC980F35}" {
+   Enabled 1
+  }
+ }
+ coords 126.385 1.655 128.159
+}

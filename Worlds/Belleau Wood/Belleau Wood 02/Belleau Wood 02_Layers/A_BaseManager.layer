@@ -33,7 +33,6 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
   }
  }
  coords 6009.944 138.701 6021.412
- m_iControlPointsThreshold 5
  m_iQuickSuppliesReplenishThreshold 100
  m_iRegularSuppliesIncome 5
  m_iRegularSuppliesIncomeBase 5

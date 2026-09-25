@@ -1,0 +1,203 @@
+GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{63088881A0D3311A}" : "{B35795373E565FE7}Prefabs/Editor/Components/SlotFlatSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_SupplyStorage_S_USSR_01_Name"
+    Icon "{2BB9FACCC5A47EEB}UI/Imagesets/Conflict/services-icons-bw.imageset"
+    IconSetName "SupplyDepot"
+    m_Image "{ACD358880EC12A7C}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_USSR_01.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     ENTITYTYPE_COMPOSITION SLOT_FLAT_SMALL TRAIT_SUPPLYSTORAGE_LARGE TRAIT_SERVICE SERVICE_SUPPLY_STORAGE
+    }
+    m_aAutoLabels {
+     FACTION_USSR
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6A26B4788E40A0B0}" {
+      m_BudgetType CAMPAIGN
+      m_Value 175
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6A26B4788E40A084}" {
+      m_BudgetType SYSTEMS
+      m_Value 2
+     }
+     SCR_EntityBudgetValue "{6A26B4788E40A087}" {
+      m_BudgetType PROPS
+      m_Value 12
+     }
+    }
+    m_SlotPrefab "{7FD4E6A668B4537A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotFLatSmall.et"
+   }
+  }
+  SCR_EditorLinkComponent "{6A26B4788E40A083}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{6A26B4788E40A08C}" {
+     m_Prefab "{5DCDDE1CF7AD24DD}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Decorations/E_PalletPile_Stacked_01.et"
+     m_vPosition -6.441 0 -3.188
+     m_vAngles 0 -7 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A08F}" {
+     m_Prefab "{554800421B589152}PrefabsEditable/Auto/Props/Industrial/Pallets/E_MarsBox_01_white.et"
+     m_vPosition -7.398 0 1.267
+     m_vAngles 0 2.319 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A08E}" {
+     m_Prefab "{F922F6F1895F41E4}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Folded_Soviet.et"
+     m_vPosition -7.44 0.125 1.272
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A089}" {
+     m_Prefab "{5B376CF0D41777AC}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed_old.et"
+     m_vPosition -6.147 0 0.245
+     m_vAngles 0 -11.182 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A088}" {
+     m_Prefab "{5B376CF0D41777AC}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed_old.et"
+     m_vPosition -6.879 0 0.095
+     m_vAngles 0 -87.649 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A094}" {
+     m_Prefab "{5B376CF0D41777AC}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed_old.et"
+     m_vPosition -6.528 0 0.959
+     m_vAngles 0 -60.109 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A097}" {
+     m_Prefab "{5B376CF0D41777AC}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed_old.et"
+     m_vPosition -6.156 0 1.648
+     m_vAngles 0 15.223 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A096}" {
+     m_Prefab "{DCF98C52604D3EE2}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/Slotted/E_Storage_Supplies_Containers_USSR_04.et"
+     m_vPosition -2.585 0.001 -1.13
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A091}" {
+     m_Prefab "{E1721BBF5A1ABD24}PrefabsEditable/Auto/Props/Military/Fortification/E_BarbedTape_Coil.et"
+     m_vPosition -6.419 0 -0.808
+     m_vAngles 0 -2.806 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A098}" {
+     m_Prefab "{E1721BBF5A1ABD24}PrefabsEditable/Auto/Props/Military/Fortification/E_BarbedTape_Coil.et"
+     m_vPosition -6.403 0 -1.967
+     m_vAngles 0 -87.961 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A09A}" {
+     m_Prefab "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et"
+     m_vPosition -7.584 0 1.195
+     m_vAngles 0 -172.005 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A0E5}" {
+     m_Prefab "{0F7EEA8F88BC7323}PrefabsEditable/Auto/Structures/Signs/Military/Supplies/E_Sign_SupplyStorage_Supplies_USSR_01.et"
+     m_vPosition -3.244 0.008 2.904
+     m_vAngles 0.672 5.24 -1.037
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A26B4788E40A0E4}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition 0.481 0 1.63
+     m_vAngles 0 -87.832 0
+     m_fScale 1
+    }
+   }
+  }
+  ActionsManagerComponent "{5D66ED1096104FD8}" {
+   ActionContexts {
+    UserActionContext "{5D66ED108A2039E0}" {
+     Position PointInfo "{5D66ED10814F45E4}" {
+      Offset -1.9193 1.2263 -0.7402
+     }
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "62EACD0CC8BFE731"
+   Flags 0x100000 0x3
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFE73A"
+   Flags 0x100000 0x80403
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFE73D"
+   Flags 0x100000 0x403
+   {
+    GenericEntity {
+     ID "62F4A41DAC20435A"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "62F4A41DAC20AB94"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "62F4A41DAC20AB9A"
+     Flags 0x100000 0x403
+    }
+   }
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFE73E"
+   Flags 0x100000 0x3
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFF740"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFF742"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFF743"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFF744"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFF745"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFF749"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFF74E"
+   Flags 0x100000 0x403
+   {
+    GenericEntity {
+     ID "5D1ED92C8FCFAAB4"
+     Flags 0x100000 0x403
+    }
+   }
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFF75F"
+   Flags 0x100000 0x80403
+  }
+  GenericEntity {
+   ID "62F6990BC66B8E9E"
+   Flags 0x100000 0x403
+  }
+ }
+}

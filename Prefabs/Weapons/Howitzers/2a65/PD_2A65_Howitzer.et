@@ -1,0 +1,938 @@
+Turret : "{3AC992844B908F5D}Prefabs/Weapons/Howitzers/Base_Artillery.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSoundComponent "{6A72A0BCEC5AEAA6}" {
+   Enabled 1
+   Filenames {
+    "{EBA95822D69CB82F}Sounds/Weapons/Howitzers/M777/Weapons_Artillery_M777_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{41C92CBFF9314316}Sounds/Weapons/Howitzers/M777/Weapons_Artillery_M777_Shot.acp" "{1B4D2E3FE51ABC31}Sounds/Weapons/_SharedData/CSW/Weapons_CSW_Deploy.acp" "{B08A9DA4B9C6CF31}Sounds/Weapons/Howitzers/M777/Loading/Weapons_Artillery_M777_Loading.acp"
+   }
+   DistanceManagement 0
+   IncludeInactive 1
+   SoundPoints {
+    SoundPointInfo w_root {
+     PivotID "w_root"
+     Offset 0 0.2253 1.029
+    }
+   }
+  }
+  LongRangeSoundComponent "{6A72A0BCEC5AEA8F}" {
+   SoundDataName "Weapons_Artillery_M777_Shot"
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{C54787595874F27E}model/2a65model.xob"
+   BoundingBox AABBBoundingVolume "{6A72A0BCEC5AEA80}" {
+    Mins -2.268 0 -2.654
+    Maxs 2.242 5.624 8.121
+   }
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   Active Active
+   Mass 3000
+   Static 0
+  }
+  ProcAnimComponent "{6A72A0BCEC5AEA87}" {
+   Enabled 0
+  }
+  SCR_AIStaticArtilleryVehicleUsageComponent "{6198B1F775D79BED}" {
+   m_sAmmoHighExplosive "{AB37DA35FBCA2605}Prefabs/Weapons/Ammo/2A65 HE/2a65_152_Shell_152MM_HE.et"
+   m_eVehicleType STATIC_ARTILLERY
+   m_bCanBePiloted 0
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6118810DA1BBEA8D}" {
+     EntryPositionInfo PointInfo "{6118810DA99E8636}" {
+      PivotID "w_cannon_rotate"
+      Offset -0.3431 1.6861 -0.7243
+      Angles -90 0 0
+     }
+     ExitPositionInfo PointInfo "{6118810DAAFA7FB3}" {
+      PivotID "w_cannon_rotate"
+      Offset -0.3431 1.6861 -0.7243
+      Angles -90 0 0
+     }
+     StanceChangeOnExit "No change"
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{6A72A0BCEC5AEA91}" {
+      ParentContextList {
+       "sight"
+      }
+      UIInfo SCR_ActionUIInfo "{6A72A0BCEC5AEA93}" {
+       Name "#AR-UserAction_MortarAim"
+       Icon "{77DC267E0B210FCC}UI/Textures/UserActions/getinturretaction.edds"
+       m_sIconName "veh_gunner"
+      }
+      "Sort Priority" 1
+     }
+     GetOutAction SCR_GetOutAction "{6A72A0BCEC5AEA94}" {
+      UIInfo SCR_ActionUIInfo "{6A72A0BCEC5AEA97}" {
+       Name "#AR-UserAction_GetOut"
+       m_sIconName "getOutCommand"
+      }
+     }
+     JumpOutAction SCR_JumpOutAction "{6A72A0BCEC5AEAE9}" {
+      UIInfo SCR_ActionUIInfo "{6A72A0BCEC5A8419}" {
+       Name "#AR-Keybind_Eject"
+       m_sIconName "getOutCommand"
+      }
+      "Sort Priority" 1
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{6A72A0BCEC5A841B}" {
+      ParentContextList {
+       "default"
+      }
+      Duration 0.5
+     }
+     AdditionalActions {
+      TOFTS_GetInGunnerAction "{6A72A0BCEC5A841D}" {
+       ParentContextList {
+       }
+       UIInfo SCR_ActionUIInfo "{6A72A0BCEC5A841C}" {
+        Name "#AR-UserAction_MortarAim"
+        Icon "{77DC267E0B210FCC}UI/Textures/UserActions/getinturretaction.edds"
+        m_sIconName "veh_gunner"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{6A72A0BCEC5A8416}" {
+      }
+      SCR_RemoveCasualtyUserAction "{6A72A0BCEC5A8408}" {
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "w_cannon_rotate"
+      Offset -0.3431 1.6861 -0.7243
+      Angles -90 180 180
+      SyncAnims 1
+     }
+     ForcedFreeLook 1
+     EjectUnconsciousAndDeadCharacters 1
+     CharacterHasCollision 1
+     SeatType 5
+     DoorInfoList +{
+     }
+     RestrictedItemTypes {
+      "BINOCULARS" "AMMO_MORTAR" "COMPASS"
+     }
+     AllowAiming 1
+     SidestepRayZOffset -0.2
+     CharacterWeaponHandling 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6A72A0BCEC5A8400}" {
+      m_sDefaultOccupantPrefab "{86E565387A634103}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Regular/Campaign_USSR_Player_MortarCrew.et"
+     }
+     m_fFreelookAimLimitOverrideDown -60
+     m_fFreelookAimLimitOverrideLeft -95
+     m_fFreelookAimLimitOverrideRight 60
+     m_vFreelookCameraNeckOffsetScale 0.5 0 0
+     m_fFreelookCameraNeckFollowTraverse 0
+    }
+   }
+  }
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
+     m_aHandlers {
+      SCR_InfoDisplaySlotHandler "{6A72A0BCEC5A8406}" {
+      }
+     }
+     m_sInterfaceSettingName "m_bShowWeaponInfo"
+     m_sCompartmentName "TurretCompartment"
+    }
+    SCR_MortarInfo "{60C2FC7821C6E18B}" {
+     InfoDisplays {
+      SCR_MortarAzimuthDisplay "{60DEAB9C0F58EA52}" {
+       m_fMils 6400
+      }
+      SCR_MortarElevationDisplay "{60DEAB9DDA1BC0E8}" {
+       m_LayoutPath "{624089FD20D3F2BA}UI/layouts/HUD/MortarInfo/WeaponElevationInfo.layout"
+       m_sParentSlot "m_Elevation"
+       m_bAdaptiveOpacity 0
+       m_eShow IN_ADS
+       m_fMils 6400
+       m_aPaddingWidgetNames +{
+       }
+       m_aHalfPaddingWidgetNames +{
+       }
+      }
+      SCR_BallisticTableDisplay "{60F2FA4DBC3CE379}" {
+       m_bIsEnabled 0
+      }
+     }
+     m_LayoutPath "{A4E55F8F1768865F}UI/layouts/HUD/MortarInfo/MortarInfo.layout"
+     m_eShow IN_ADS
+     m_fMils 6400
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{51ACD09C524A7924}" {
+   "Additional hit zones" {
+    SCR_VehicleHitZone Turret {
+     ColliderNames {
+      "UCX_VC_w_root"
+     }
+     IgnoreExplosions 0
+     BaseDamageMultiplier 1
+     DamageReduction 1
+     "Collision multiplier" 0.8
+     "Melee multiplier" 0.1
+     "Kinetic multiplier" 0.875
+     "Fragmentation multiplier" 0.187
+     "Explosive multiplier" 0.89
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{60AAF83A13B1AFB5}" {
+      }
+     }
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584FE5A9F48BA15}" {
+      m_sWreckModel "{CB75ACFE9E17B8A4}model/2a65wreck.xob"
+      m_iWreckDelay 250
+      m_bAllowHideWreck 0
+      m_bDeleteAfterParentDestroyed 0
+      m_bDeleteAfterDestroyed 0
+     }
+     m_sDestructionSoundEvent "SOUND_VEHICLE_DESTRUCTION"
+     m_sDestructionParticle "{5B42FC054E231C28}Particles/Vehicle/Vehicle_explosion_small_01.ptc"
+     m_eHitZoneGroup HULL
+    }
+   }
+   m_fBaseHealth 10000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{62389B7FB3A10867}" {
+     m_vOffsetPosition 0 0.655 0.339
+     m_vOffsetRotation -44.708 0 0
+     m_ModelPrefabs {
+      "{CB75ACFE9E17B8A4}model/2a65wreck.xob"
+     }
+    }
+    SCR_DebrisSpawnable "{6318DDB62738B5C9}" {
+     m_vOffsetPosition 0 0 0
+     m_vOffsetRotation 0 0 0
+     m_ModelPrefabs {
+      "{CB75ACFE9E17B8A4}model/2a65wreck.xob"
+     }
+     m_eMaterialSoundType METAL_HEAVY
+    }
+    SCR_DebrisSpawnable "{6318DDB625239667}" {
+     m_ModelPrefabs {
+     }
+    }
+   }
+   m_bDeleteAfterFinalPhase 0
+  }
+  SCR_EditableEntityComponent "{688AADE4B66BA0B6}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   Enabled 0
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_2a65_Howitzer_Name"
+    Icon "{224F9F424E6A2836}Images/Icons/EditableEntity_Vehicle_Artillery.edds"
+    m_Image "{29521C410F189BEA}Images/m777.edds"
+    m_aAuthoredLabels {
+     CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     FACTION_USSR ENTITYTYPE_OBJECT SIZE_M
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{6A72A0BCEC5A8429}" {
+   m_EntityType VEHICLE
+   m_UIInfo SCR_EditableVehicleUIInfo "{6A72A0BCEC5A842B}" {
+    Name "#AR-EditableEntity_2a65_Howitzer_Name"
+    Icon "{224F9F424E6A2836}Images/Icons/EditableEntity_Vehicle_Artillery.edds"
+    m_Image "{6056D542C9A1CEC9}Images/2a65_mini.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     FACTION_USSR ENTITYTYPE_VEHICLE TRAIT_MORTAR SERVICE_MORTAR CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     THEME_MILITARY SIZE_M FACTION_USSR VEHICLE_TRUCK
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6A72A0BCEC5A842C}" {
+      m_BudgetType CAMPAIGN
+      m_Value 200
+     }
+     SCR_EntityBudgetValue "{6A72A0BCEC5A842E}" {
+      m_BudgetType VEHICLES
+      m_Value 1
+     }
+    }
+    m_aOccupantFillCompartmentTypes {
+     TURRET
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{6A72A0BCEC5A8420}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 773
+  }
+  SCR_MultiPartDeployableItemComponent "{6A72A0BCEC5A8424}" {
+   Enabled 0
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   components {
+    AITurretAimingComponent "{5549077A3C06B25E}" {
+     AimingPIDMaxErrorIntegral 0.07
+     AimingBasePIDMaxErrorIntegral 0.3
+    }
+   }
+   DrawDebugInfo 0
+   LimitsHoriz -15 15
+   LimitsVert 0 71.7
+   TurretUnconsciousPosition 500 500
+  }
+  SCR_UniversalInventoryStorageComponent "{6A72A0BCEC5A84DB}" {
+   Attributes SCR_ItemAttributeCollection "{6A72A0BCEC5A84D2}" {
+    ItemDisplayName WeaponUIInfo "{6A72A0BCEC5A84D5}" {
+     Name "mołtał"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A72A0BCEC5A84C9}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A72A0BCEC5A84CB}" {
+      CameraPreset Left
+      PreviewPrefab "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et"
+     }
+    }
+    m_SlotType SLOT_WEAPONS_STORAGE
+    m_bDraggable 0
+    m_bVisible 0
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 15000
+   MaxItemSize 15 15 15
+  }
+  SCR_VehicleFactionAffiliationComponent "{5CF87D14630BD7E0}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{5D9CCCF200B90084}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{60D0E9D9B9C21035}" {
+    CommonItemType "AMMO"
+    m_Size SLOT_2x1
+    m_SlotType SLOT_ANY
+    m_bDraggable 0
+   }
+  }
+  SCR_WeaponBlastComponent "{6262C5CDEA485E69}" {
+   m_aBlastEffects {
+    SCR_WeaponBlastEffect "{6A72A0BCEC5A84C0}" {
+     m_fDamageValue 3
+     m_aDistanceDamageFalloff {
+      0 1 0.305 0.958 0.569 0.255 1 0
+     }
+     m_aAngleDamageFalloff {
+      0 0 0.01 0.88 1 1
+     }
+    }
+   }
+   m_BlastOrigin PointInfo "{6262C5CDE9890356}" {
+    PivotID "context_fire"
+    Offset 0 -0.7223 0.0005
+   }
+  }
+  TOFTS_AIArtilleryFireComponent "{6A72A0BCEC5A84C2}" {
+   Enabled 0
+   m_rShellPrefab "{AB37DA35FBCA2605}Prefabs/Weapons/Ammo/2A65 HE/2a65_152_Shell_152MM_HE.et"
+   m_aPropellantPrefabs {
+    "{983BE9B5EA98D44D}Prefabs/Weapons/Ammo/Propellant/2a65_Charge_1.et" "{F46FDD55565C5B63}Prefabs/Weapons/Ammo/Propellant/2a65_Charge_2.et" "{11F391AC5AB9CC08}Prefabs/Weapons/Ammo/Propellant/2a65_Charge_3.et" "{2CC7B4942FD5453F}Prefabs/Weapons/Ammo/Propellant/2a65_Charge_4.et" "{C95BF86D2330D254}Prefabs/Weapons/Ammo/Propellant/2a65_Charge_5.et"
+   }
+   m_afMaxRanges {
+    1500 2547 3636 4553 5321
+   }
+   m_fShellLoadDelay 3
+   m_fPropellantLoadDelay 2
+   m_fReloadDelay 4
+   m_fTickInterval 1
+   m_fMinEngageRange 100
+  }
+  TOFTS_FireControlComponent "{6A72A0BCEC5A84C4}" {
+   m_fWindRangeScale 1
+   m_sDebugTargetName "DFCS_TARGET"
+  }
+  TOFTS_GunIdentityComponent "{6A72A0BCEC5A84C7}" {
+  }
+  TOFTS_HowitzerChamberComponent "{6A72A0BCEC5A84F9}" {
+  }
+  TOFTS_HowitzerModeComponent "{6A72A0BCEC5A84FB}" {
+   m_rSwapTargetPrefab "{620522E0AD79FAEB}Prefabs/Vehicles/2a65/2a65_transport.et"
+   m_fTransitionDuration 6.5
+   m_vSpawnOffset 0 0 0
+   m_bAlignToGround 0
+   m_sSpawnedAnimVariableName "UnfoldState"
+  }
+  TOFTS_HowitzerTurnComponent "{689CFD29B1227487}" {
+   m_fFoldDuration 3.3
+  }
+  TOFTS_MuzzleBlastEffectComponent "{6A72A0BCEC5A84FD}" {
+   m_sRingSoundEvent "SOUND_TINNITUS"
+   m_rGroundEffect "{07DC99325624CAAA}Particles/Blasts/Blast_small_dirt.ptc"
+  }
+  BaseFlattenGrassComponent "{5E48930C12E53B02}" {
+   ParametersCollection {
+    FlattenGrassParametersObject "{6124671087131336}" {
+     SizeX 5
+     SizeZ 8
+    }
+   }
+   DefaultCollection -1
+  }
+  TurretComponent "{5CF87D146CDE4A81}" {
+   components {
+    SCR_2DSightsComponent "{5CF87D1B9209EB97}" {
+     SightsPosition PointInfo "{5D16730CB3C2E76A}" {
+      PivotID "w_sight"
+      Offset 0 0 0
+      Angles 0 0 0
+     }
+     SightsRanges {
+      SightRangeInfo "{5DA8F84F46CDE1B7}" {
+       Range 100 1
+      }
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{6A72A0BCEC5A84F5}" {
+      m_fBaseZoom 2.5
+     }
+     SightsPointFront PointInfo "{5D5727E699F2D223}" {
+      PivotID "w_sight"
+      Offset 0 0 0.0998
+     }
+     SightsPointRear PointInfo "{5D5727E6CD23E22F}" {
+      PivotID "w_sight"
+      Offset 0 0 -0.1285
+     }
+     SoundInt 10005
+     m_sReticleTexture "{6111EA6B45BCA0A7}UI/Textures/Sights/M64A1/Reticle_M64A1_UI.edds"
+     m_sReticleGlowTexture "{6111EA6B45BCA0A7}UI/Textures/Sights/M64A1/Reticle_M64A1_UI.edds"
+     m_bHasIllumination 1
+     m_bShouldHideParentObject 0
+     m_bShouldHideParentCharacter 1
+     m_fRollScale 1
+     m_fObjectiveFov 9
+     m_fReticleAngularSize 10
+     m_fReticlePortion 0.9082
+     m_fReticleBaseZoom 1.5
+     m_fMagnification 2.5
+    }
+   }
+   InitAiming 0 0
+   AimingMaxSpeed 1 1
+   AimingSpeedControls 1 1
+   missileWeaponLink BaseMissileWeaponLinkClass "{6A72A0BCEC5A84EB}" {
+   }
+   ikTargets {
+    AnimationIKTargetInfo "{6A72A0BCEC5A84EE}" {
+     PositionInfo PointInfo "{6A72A0BCEC5A84E0}" {
+      PivotID "wheel_1_handle"
+      Offset 0 0 -0.0015
+      Angles 0 0 90
+     }
+    }
+    AnimationIKTargetInfo "{6A72A0BCEC5A84E2}" {
+     PositionInfo PointInfo "{6A72A0BCEC5A84E5}" {
+      PivotID "w_sight"
+      Offset 0.0096 -0.1362 -0.4005
+     }
+    }
+   }
+   TurretSpeed 3 3
+  }
+  SlotManagerComponent "{68851C06524317EB}" {
+   Slots {
+    EntitySlotInfo w_round_slot {
+     PivotID "w_round_follow"
+     Offset -0.005 0.0447 -0.0981
+     Angles 0 0 0
+    }
+    EntitySlotInfo w_propellant_slot {
+     PivotID "w_charge_follow"
+     Offset -0.005 0.0143 -0.0034
+     Angles 0 180 0
+    }
+    SCR_WheelSlotInfo WHEEL_L01 {
+     PivotID "v_wheel_L01"
+     Offset -0.1076 0 0
+     MergePhysics 1
+     Prefab "{94941DDEA5CB2569}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/2A65_wheel_L.et"
+     RegisterDamage 1
+     m_iWheelIndex 0
+    }
+    SCR_WheelSlotInfo WHEEL_R01 {
+     PivotID "v_wheel_R01"
+     Offset 0.1086 0 0
+     Angles 0 180 0
+     MergePhysics 1
+     Prefab "{94941DDEA5CB2569}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/2A65_wheel_L.et"
+     RegisterDamage 1
+     m_iWheelIndex 1
+    }
+    EntitySlotInfo w_sled_shell_slot {
+     PivotID "w_round_follow"
+     Offset 0.0048 0 0
+    }
+    EntitySlotInfo w_lanyard_slot {
+     PivotID "w_root"
+     Offset -0.3787 1.6014 0
+     Angles 0 90 -90
+    }
+    EntitySlotInfo GND {
+     PivotID "w_cannon_rotate"
+     Offset -0.00001 0 -0.4414
+     Angles -90 180 180
+     InheritParentSkeleton 1
+    }
+    EntitySlotInfo AGD {
+     PivotID "w_cannon_rotate"
+     Offset 0.00001 0 -0.4414
+     Angles -90 180 180
+     InheritParentSkeleton 1
+    }
+   }
+  }
+  WeaponComponent "{5D56B131A6921887}" {
+   components {
+    M2A65_ArtilleryMuzzle "{68833715A7AC4049}" {
+     components {
+      CaseEjectingEffectComponent "{6A72A0BCEC5A849E}" {
+       ParticleEffect "{B0F1669C3ABA6C26}Particles/Weapon/Casing_1522a65.ptc"
+       EnabledOnDedicatedServer 1
+       EffectPosition EntitySlotInfo s {
+        PivotID "w_cannon_orient"
+        Offset 0 0 -0.5117
+        Angles 0 180 -90
+       }
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{68833715AFC1CC1D}" {
+       ParticleEffect "{395F6B53A4BA1999}Particles/Weapon/Muzzle_M777_Howitzer.ptc"
+       EnabledOnDedicatedServer 1
+       EffectPosition EntitySlotInfo EntitySlotInfo {
+        PivotID "context_fire"
+        Offset 0 -0.3972 0
+        Angles 0 -90 0
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{6A72A0BCEC5A8493}" {
+       PivotID "w_cannon_orient"
+       Offset 0 0 7.2324
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{6A72A0BCEC5A8495}" {
+       PivotID "w_cannon_orient"
+       Offset 0 0 1.8866
+       Angles 0 0 0
+      }
+     }
+     ChamberedAmmo 1
+     FireModes {
+      BaseFireMode "{688337121572F825}" {
+       MaxBurst -1
+       RoundsPerMinute 700
+       ManualAction 0
+      }
+     }
+     MagazineWell M2A65_MagazineWellArtillery152mm "{688337110D12620B}" {
+     }
+     DispersionDiameter 0.1
+     DispersionRange 48
+     WeaponAimModifiers {
+      SCR_RecoilForceAimModifier "{6A72A0BCEC5A848B}" {
+       m_vRotationOffset 0.11 0.22 0
+       m_bCheckRestingSurfaceDensity 1
+      }
+     }
+     ReloadDuration 0
+     OutOfADSWhileReloading 0
+     ProjectilePosition InventoryStorageSlot InventoryStorageSlot {
+      PivotID "w_cannon_orient"
+      Offset 0 0 1.9959
+      Angles 0 0 0
+      Enabled 0
+      Prefab "{AB37DA35FBCA2605}Prefabs/Weapons/Ammo/2A65 HE/2a65_152_Shell_152MM_HE.et"
+      DisablePhysicsInteraction 1
+     }
+     AmmoTemplate "{AB37DA35FBCA2605}Prefabs/Weapons/Ammo/2A65 HE/2a65_152_Shell_152MM_HE.et"
+     InitialAmmo 0
+     "Fire Delay" 0
+     m_sFireActionName ""
+     m_sFirePowerSignalName "ChargeStrength"
+     m_LoaderPosition PointInfo "{6883371261B7E672}" {
+      PivotID "w_cannon_rotate"
+      Offset -0.004 2.5623 -0.6721
+      Angles -90 0 0
+     }
+     m_LoaderPositionLeft PointInfo "{688337126D37927B}" {
+      PivotID "w_cannon_rotate"
+      Offset -0.004 2.5623 -0.6721
+      Angles -90 0 0
+     }
+     m_fFireDelayAfterLoad 5
+     m_PropellantLoaderPosition PointInfo "{6A72A0BCEC5A8480}" {
+      PivotID "w_cannon_rotate"
+      Offset -0.2758 2.4384 -0.6721
+      Angles -90 0 0
+     }
+     m_FirePosition PointInfo "{6A72A0BCEC5A84BE}" {
+      PivotID "w_cannon_rotate"
+      Offset -0.3431 1.6861 -0.7243
+      Angles -90 0 0
+     }
+     m_fPropellantRamCorrectionY 0.12
+     m_fPropellantRamCorrectionZ 0.23
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass "{6A72A0BCEC5A84B3}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   WeaponType MachineGun
+   UIInfo WeaponUIInfo "{6A72A0BCEC5A84B4}" {
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{6A72A0BCEC5A84A9}" {
+    }
+   }
+   BeActiveWhenInitWithoutParent 1
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   Enabled 1
+   SignalsSourceAccess SignalsSourceAccessClass "{6A72A0BCEC5A84AA}" {
+   }
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{60D0E9DB069E3C1C}" {
+     Position PointInfo "{5D16732A2C5AB707}" {
+      PivotID "w_round_slot"
+      Offset 0 -0.4474 0.3598
+      Angles 0 0 0
+     }
+     Radius 0.3
+     Omnidirectional 1
+    }
+    UserActionContext "{60D0E9DB74356E76}" {
+     Position PointInfo "{5D5727EBCC92A590}" {
+      PivotID "wheel_1_jnt"
+      Angles -31.9013 69.3798 91.0912
+     }
+    }
+    UserActionContext "{6A72A0BCEC5A84A3}" {
+     ContextName "ram"
+     Position PointInfo "{6A72A0BCEC5A84A2}" {
+      PivotID "w_round_slot"
+      Offset -0.4463 -0.1884 -0.1634
+      Angles 0 0 0
+     }
+     Radius 0.3
+     Omnidirectional 1
+    }
+    UserActionContext "{6A72A0BCEC5A84A5}" {
+     ContextName "fire"
+     Position PointInfo "{6A72A0BCEC5A84A7}" {
+      PivotID "w_cannon_rotate"
+      Offset -0.2953 1.1784 0.6583
+      Angles 41.203 -90 0
+     }
+     Radius 0.2
+     Omnidirectional 0
+     VisibilityAngle 60
+    }
+    UserActionContext "{6A72A0BCEC5A8559}" {
+     ContextName "azimuth"
+     Position PointInfo "{6A72A0BCEC5A8558}" {
+      PivotID "wheel_2_jnt"
+     }
+    }
+    UserActionContext "{6A72A0BCEC5A855B}" {
+     ContextName "pack"
+     Position PointInfo "{6A72A0BCEC5A855D}" {
+      PivotID "v_wheel_L01"
+      Offset -0.2268 0 0
+     }
+    }
+    UserActionContext "{6A72A0BCEC5A855F}" {
+     ContextName "load_propellant"
+     Position PointInfo "{6A72A0BCEC5A855E}" {
+      PivotID "w_cannon_orient"
+      Offset 0.0026 -0.0104 -0.4769
+      Angles 0 180 90
+     }
+    }
+    UserActionContext "{6A72A0BCEC5A8550}" {
+     ContextName "travel"
+     Position PointInfo "{6A72A0BCEC5A8553}" {
+      PivotID "w_cannon"
+      Offset 0.0001 0.0061 6.7903
+     }
+     Radius 0.6
+    }
+    UserActionContext "{6A72A0BCEC5A8555}" {
+     ContextName "chamber_action"
+     Position PointInfo "{6A72A0BCEC5A8557}" {
+      PivotID "w_cannon"
+      Offset 0.1268 0.283 -0.5732
+      Angles 0 180 0
+     }
+     Radius 0.2
+    }
+    UserActionContext "{6A72A0BCEC5A8549}" {
+     ContextName "sled"
+     Position PointInfo "{6A72A0BCEC5A8548}" {
+      PivotID "w_cannon"
+      Offset 0.4562 0.1505 0.0478
+      Angles 0 180 0
+     }
+     Radius 0.2
+    }
+    UserActionContext "{6A72A0BCEC5A854A}" {
+     ContextName "gnd_btn_on"
+     Position PointInfo "{6A72A0BCEC5A854C}" {
+      PivotID "w_sight"
+      Offset 0.055 -0.217 -0.3575
+     }
+    }
+    UserActionContext "{6A72A0BCEC5A854F}" {
+     ContextName "agd_btn_on"
+     Position PointInfo "{6A72A0BCEC5A854E}" {
+      PivotID "w_sight"
+      Offset 1.3202 -0.4924 -0.2294
+     }
+    }
+    UserActionContext "{6A72A0BCEC5A8541}" {
+     ContextName "fdc_link"
+     Position PointInfo "{6A72A0BCEC5A8543}" {
+      PivotID "w_root"
+      Offset 0 0 1.1386
+     }
+     Radius 5
+    }
+   }
+   additionalActions {
+    SCR_MortarShootAction "{6A72A0BCEC5A8544}" {
+     ParentContextList {
+     }
+    }
+    SCR_MortarShootAction "{6A72A0BCEC5A8547}" {
+     ParentContextList {
+     }
+     UIInfo SCR_ActionUIInfo "{6A72A0BCEC5A8578}" {
+      Name "Fire artillery"
+     }
+    }
+    SCR_DeployMultiPartInventoryItemAction "{6A72A0BCEC5A857B}" {
+     ParentContextList {
+     }
+    }
+    TOFTS_ArtilleryLoadAction "{6A72A0BCEC5A857D}" {
+     ParentContextList {
+      "muzzle_right"
+     }
+     UIInfo SCR_ActionUIInfo "{6A72A0BCEC5A857C}" {
+      Name "Load into chamber"
+      m_sIconName "drop"
+     }
+     ActionTitle "Load artillery"
+    }
+    M2A65_ArtilleryShootAction "{6A72A0BCEC5A857E}" {
+     ParentContextList {
+      "fire"
+     }
+     UIInfo SCR_ActionUIInfo "{6A72A0BCEC5A8571}" {
+      Name "Fire artillery"
+      m_sIconName "drop"
+     }
+     ActionTitle "Fire artillery"
+     m_bPerformFromTheLeftSide 1
+     m_bCheckIfTurretIsEmpty 1
+    }
+    TOFTS_HowitzerFoldAction "{6A72A0BCEC5A8570}" {
+     ParentContextList {
+      "pack"
+     }
+     UIInfo SCR_ActionUIInfo "{6A72A0BCEC5A8573}" {
+      Name "Pack"
+     }
+     ActionTitle "Pack"
+     Duration 3
+    }
+    M2A65_LoadPropellantAction "{6A72A0BCEC5A8572}" {
+     ParentContextList {
+      "chamber_action"
+     }
+     UIInfo UIInfo "{6A72A0BCEC5A8575}" {
+      Name "Load propellant"
+     }
+     ActionTitle "Load propellant"
+     VisibilityRange 0.5
+     Duration 1
+    }
+    TOFTS_HowitzerTurnFoldAction "{6A72A0BCEC5A8576}" {
+     ParentContextList {
+      "travel"
+     }
+     UIInfo UIInfo "{6A72A0BCEC5A8569}" {
+      Name "Fold Howitzer for Laying"
+     }
+     Duration 1
+    }
+    TOFTS_HowitzerTurnAction "{6A72A0BCEC5A856A}" {
+     ParentContextList {
+      "travel"
+     }
+     UIInfo UIInfo "{6A72A0BCEC5A856C}" {
+      Name "Turn left"
+     }
+     Duration 36
+     PerformPerFrame 0
+     m_bClockwise 0
+    }
+    TOFTS_HowitzerTurnAction "{6A72A0BCEC5A856E}" {
+     ParentContextList {
+      "travel"
+     }
+     UIInfo UIInfo "{6A72A0BCEC5A8560}" {
+      Name "Turn right"
+     }
+     Duration 36
+     PerformPerFrame 0
+    }
+    M2A65_BreechToggleAction "{6A72A0BCEC5A8508}" {
+     ParentContextList {
+      "chamber_action"
+     }
+     "Sort Priority" 5
+    }
+    M2A65_SledToggleAction "{6A72A0BCEC5A850A}" {
+     ParentContextList {
+      "sled"
+     }
+    }
+    M2A65_RamShellAction "{6A72A0BCEC5A850C}" {
+     ParentContextList {
+      "ram"
+     }
+     Duration 1
+     "Sort Priority" 5
+    }
+    TOFTS_ArtilleryDisplayPowerAction "{6A72A0BCEC5A850E}" {
+     ParentContextList {
+      ""
+     }
+    }
+    TOFTS_ArtilleryDisplayPowerAction "{6A72A0BCEC5A8501}" {
+     ParentContextList {
+      ""
+     }
+     m_bForAgd 1
+    }
+    TOFTS_ArtilleryDisplayPageAction "{6A72A0BCEC5A8503}" {
+     ParentContextList {
+      ""
+     }
+    }
+    TOFTS_ArtilleryDisplayPageAction "{6A72A0BCEC5A8502}" {
+     ParentContextList {
+      ""
+     }
+     m_bForAgd 1
+    }
+    TOFTS_FDCLinkGunAction "{6A72A0BCEC5A8505}" {
+     ParentContextList {
+      ""
+     }
+     Duration 2
+    }
+    TOFTS_DebugFireMissionAction "{6A72A0BCEC5A8504}" {
+     ParentContextList {
+      ""
+     }
+    }
+    TOFTS_DebugTabletEntryAction "{6A72A0BCEC5A8506}" {
+     ParentContextList {
+      ""
+     }
+    }
+    TOFTS_DebugWindSweepAction "{6A72A0BCEC5A8539}" {
+     ParentContextList {
+      ""
+     }
+    }
+    TOFTS_DebugSetWindAction "{6A72A0BCEC5A8538}" {
+     ParentContextList {
+      ""
+     }
+     m_fWindSpeedMs 0
+    }
+    TOFTS_DebugSetWindAction "{6A72A0BCEC5A853B}" {
+     ParentContextList {
+      ""
+     }
+     m_fWindSpeedMs 15
+    }
+    M2A65_DebugFireAction "{6A72A0BCEC5A853E}" {
+     ParentContextList {
+      ""
+     }
+     m_bInstantFire 0
+    }
+    TOFTS_DebugFireAction "{6A72A0BCEC5A8530}" {
+     ParentContextList {
+     }
+     m_iChargeConfigIndex 1
+    }
+    TOFTS_DebugFireAction "{6A72A0BCEC5A8533}" {
+     ParentContextList {
+     }
+     m_iChargeConfigIndex 2
+    }
+    TOFTS_DebugFireAction "{6A72A0BCEC5A8535}" {
+     ParentContextList {
+     }
+     m_iChargeConfigIndex 3
+    }
+    TOFTS_DebugFireAction "{6A72A0BCEC5A8537}" {
+     ParentContextList {
+     }
+     m_iChargeConfigIndex 4
+    }
+    TOFTS_DebugFireFlareAction "{6A72A0BCEC5A8529}" {
+     ParentContextList {
+      ""
+     }
+     m_iChargeConfigIndex 0
+    }
+    TOFTS_DumpBallisticAction "{6A72A0BCEC5A852B}" {
+     ParentContextList {
+     }
+    }
+   }
+  }
+  TOFTS_ArtilleryAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimGraph "{C416EFE8F321235E}Anm/Workspace/2a65.agr"
+   AnimInstance "{65AAFBE8C24CA24B}Anm/Workspace/2a65_weapon.asi"
+   AnimVariables {
+    AnimationVariable "{6A72A0BCEC5A852F}" {
+     VariableName "AimX"
+     SignalName "AimTurnTurret"
+    }
+   }
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{6A72A0BCEC5A8520}" {
+    AnimGraph "{C416EFE8F321235E}Anm/Workspace/2a65.agr"
+    AnimInstance "{9EF46AD95A4DC6A7}Anm/Workspace/2a65_player.asi"
+    BindingName "Vehicle"
+   }
+   BindWithInjection 1
+   AutoCommandBind 1
+   AutoVariablesBind 1
+  }
+ }
+ coords 131.089 1 130.53
+}

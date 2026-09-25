@@ -1,0 +1,20 @@
+GenericEntity : "{E8B6339148792C0E}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E5CB307E5F9C3C9}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     ENTITYTYPE_COMPOSITION SLOT_FLAT_SMALL TRAIT_SUPPLYSTORAGE_SMALL TRAIT_FORTIFICATION SERVICE_SUPPLY_STORAGE
+    }
+   }
+  }
+  ActionsManagerComponent "{5D66ED1096104FD8}" {
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{66F87AAA0DDFF5C3}" {
+     Duration 0
+    }
+   }
+  }
+ }
+}

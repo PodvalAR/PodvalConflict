@@ -1,0 +1,68 @@
+SCR_ChimeraCharacter : "{6A6F62AD8C5D22E5}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_TF_US_BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponManagerComponent "{5C9CA676383262FD}" {
+   DefaultWeaponIndex 0
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AutomaticRifleman"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    IconSetName ""
+    m_Image "{7FCF518781CA82AD}UI/Textures/EditorPreviews/Characters/BLUFOR/TF_US/Character_TF_US_AR.edds"
+    m_sFaction "TF_US"
+    m_aAuthoredLabels + {
+     TRAIT_SUPPRESSIVE
+    }
+    m_aAutoLabels {
+     SIZE_M ROLE_MACHINEGUNNER
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{290C6108C3B81DF8}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_MC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{D4873CD6F2CBA98E}Prefabs/Characters/Vests/Vest_IMTV/TF_Vest_IMTV_Base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5CBBDE9220657F3B}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{35ECC3915B80E10D}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_IMTV_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A62A59A2659E434}" {
+     TargetStorage "Vest/Pouches_IMTV_MG.et/MG_Pouch1/Pouch_Eagle_Ind_AP_SAW200_MS.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A62A59A2659E408}" {
+     TargetStorage "Vest/Pouches_IMTV_MG.et/MG_Pouch2/Pouch_Eagle_Ind_AP_SAW200_MS.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A62A59A2659E40A}" {
+     TargetStorage "Vest/Pouches_IMTV_MG.et/Grenade_Pouch1/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

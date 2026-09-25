@@ -1,0 +1,33 @@
+GameEntity : "{35E1283039FF0748}Prefabs/Characters/Armbands/Dual/Armband_Dual_Blue.et" {
+ ID "61E43A54A15F05C3"
+ components {
+  InventoryItemComponent "{61E43A54A15F05DC}" {
+   Attributes SCR_ItemAttributeCollection "{61E43A54A15F05D0}" {
+    ItemDisplayName SCR_InventoryUIInfo "{61E43A54A15F05EC}" {
+     Name "#WCS-Armband_Dual_Name - #AR-Faction_US"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{6A50C178EE04509B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6A50C178EE0450EE}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6A50C178EE0450EB}" {
+      m_AffiliatedFactionKey "US"
+      m_iOutfitFactionValue 50
+     }
+    }
+   }
+  }
+  WCS_FactionAffiliatedEquipmentComponent "{6A50C178EE0450F7}" {
+   AffiliatedFaction "US"
+  }
+  BaseLoadoutClothComponent "{61E43A54A15F050E}" {
+   WornMaterialsOverride {
+    "{83114490F3E9D90D}Assets/Characters/Armbands/01/Data/Colors/armband_orange.emat"
+   }
+   ItemMaterialsOverride {
+    "{83114490F3E9D90D}Assets/Characters/Armbands/01/Data/Colors/armband_orange.emat"
+   }
+  }
+ }
+}

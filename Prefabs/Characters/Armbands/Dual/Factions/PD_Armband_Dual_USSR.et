@@ -1,0 +1,25 @@
+GameEntity : "{02DA689195AFAB9A}Prefabs/Characters/Armbands/Dual/Armband_Dual_Red.et" {
+ ID "61E43A54A15F05C3"
+ components {
+  InventoryItemComponent "{61E43A54A15F05DC}" {
+   Attributes SCR_ItemAttributeCollection "{61E43A54A15F05D0}" {
+    ItemDisplayName SCR_InventoryUIInfo "{61E43A54A15F05EC}" {
+     Name "#WCS-Armband_Dual_Name - #AR-Faction_USSR"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{6A50C167F0D3EF20}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6A50C167F0D3EF32}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6A50C167F0D3EF3E}" {
+      m_AffiliatedFactionKey "USSR"
+      m_iOutfitFactionValue 50
+     }
+    }
+   }
+  }
+  WCS_FactionAffiliatedEquipmentComponent "{6A50C167F0D3EF3B}" {
+   AffiliatedFaction "USSR"
+  }
+ }
+}

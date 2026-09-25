@@ -38,6 +38,9 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
    m_eDeployableSpawnPointBudgetType NONE
    m_iDeployableSpawnPointTicketAmount 50
   }
+  SCR_XPHandlerComponent "{68F6CAE64ECA0601}" {
+   m_sXPRewardsConfig "{EBE5C74129D4D279}Configs/Campaign/PD_CampaignXPRewards.conf"
+  }
  }
  coords 4092.514 24.599 4098.058
  m_iControlPointsThreshold 5

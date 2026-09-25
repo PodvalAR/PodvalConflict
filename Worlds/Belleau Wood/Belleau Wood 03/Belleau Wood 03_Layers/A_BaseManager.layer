@@ -1,0 +1,59 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 4060.712 148.474 4581.784
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6018.256 130.329 6018.774
+}
+SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
+ coords 6017.735 130.387 6018.128
+ Factions {
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aStartingVehicles {
+    "{3277F8B1FA06A2BD}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et"
+    "{3277F8B1FA06A2BD}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_USAF.et"
+    "{26540C659F802A66}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Woodland.et"
+    "{26540C659F802A66}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Woodland.et"
+   }
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   m_iFactionRadioFrequency 45000
+  }
+ }
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 5137.349 148.617 4079.526
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 5154.035 148.769 4089.266
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_PlayerSpawnPointManagerComponent "{68F6CAE64ED4B671}" {
+   m_eDeployableSpawnPointBudgetType NONE
+  }
+ }
+ coords 6018.331 130.273 6018.216
+ m_iControlPointsThreshold 1
+ m_iQuickSuppliesReplenishThreshold 100
+ m_iRegularSuppliesIncome 25
+ m_iRegularSuppliesIncomeBase 5
+ m_fAcceptableDistanceBetweenFactionHQs 4000
+ m_fPreferredDistanceBetweenFactionHQs 6000
+ {
+  SCR_EditorSettingsEntity {
+   ID "68F6CAE64ED4C85D"
+   coords 0 0 0
+  }
+ }
+}
+SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
+ coords 6018.639 130.328 6019.971
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{68E33847EAA07831}" {
+   m_sLoadoutResource "{D12A748951DA5352}Prefabs/Characters/Campaign/RHS/Conflict/Variants/forest/Campaign_US_forest_Player_1.et"
+  }
+  SCR_FactionPlayerLoadout "{68E33847EAA0782F}" {
+   m_sLoadoutResource "{208647DB054C74B2}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Forest/Campaign_RF_forest_Player_1.et"
+  }
+ }
+}

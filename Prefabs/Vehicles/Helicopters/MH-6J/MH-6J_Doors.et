@@ -94,7 +94,7 @@ Vehicle : "{0C60B2AA442AE5CA}Prefabs/Vehicles/Helicopters/MH-6J/MH-6J_Doors_Base
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 1500
+      m_Value 800
      }
      SCR_EntityBudgetValue "{6946A51316578A3B}" {
       m_BudgetType RANK_LIEUTENANT

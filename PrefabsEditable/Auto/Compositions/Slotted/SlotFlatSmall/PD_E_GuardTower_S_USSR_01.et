@@ -1,0 +1,166 @@
+GenericEntity : "{DFBF655559915333}Prefabs/Compositions/Slotted/SlotFlatSmall/GuardTower_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{65EC746B561DD86F}" : "{B35795373E565FE7}Prefabs/Editor/Components/SlotFlatSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_GuardTower_01_Name"
+    m_Image "{8576B19CEAA9C52F}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatSmall/E_GuardTower_S_USSR_01.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     ENTITYTYPE_COMPOSITION SLOT_FLAT_SMALL TRAIT_FORTIFICATION FACTION_FIA
+    }
+    m_aAutoLabels {
+     FACTION_USSR
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6A248BECB9FA606B}" {
+      m_BudgetType CAMPAIGN
+      m_Value 240
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6A248BECB9FA607E}" {
+      m_BudgetType SYSTEMS
+      m_Value 2
+     }
+     SCR_EntityBudgetValue "{6A248BECB9FA6078}" {
+      m_BudgetType PROPS
+      m_Value 22
+     }
+    }
+   }
+   m_Flags 132419
+  }
+  SCR_EditorLinkComponent "{6A248BECB9FA6077}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{6A248BECB9FA6070}" {
+     m_Prefab "{B4FE2CA8ADB74E6D}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Fortifications/E_SandBag_Tower_S_USSR_01.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A248BECB9FA6073}" {
+     m_Prefab "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et"
+     m_vPosition 0.907 0.708 3.903
+     m_vAngles 0 95.021 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{6A248BECB9FA678D}" {
+     m_Prefab "{308E000E2051D357}PrefabsEditable/Auto/Systems/SpawnPoints/E_SpawnPosition.et"
+     m_vPosition -0.746 0.41 2.567
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "65E0A0A838A90978"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "65E0A0A838A9097B"
+   Flags 0x100000 0
+   {
+    GameEntity {
+     ID "65E0A0A9C612C63C"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C611B612"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C611B613"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C611B6EC"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C611C191"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C611C192"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C6121C36"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C6124170"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C6124173"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C6128B81"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C6128B8F"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C612C638"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C612C639"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C612C63A"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C612C63B"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C612C63E"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0A9C612C63F"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0A9C611C197"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0A9C6121C37"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0A9C6128B80"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0A9C6128B84"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0A9C612C621"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0A9C612C622"
+     Flags 0x100000 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "65E0A0A8BDB0F096"
+   Flags 0x100000 0
+  }
+ }
+}
